@@ -1,0 +1,132 @@
+// SASS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home
+//   width: $icon-home-width
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites
+$dribbble4-name: 'dribbble4'
+$dribbble4-x: 0px
+$dribbble4-y: 0px
+$dribbble4-offset-x: 0px
+$dribbble4-offset-y: 0px
+$dribbble4-width: 35px
+$dribbble4-height: 35px
+$dribbble4-total-width: 109px
+$dribbble4-total-height: 72px
+$dribbble4-image: 'sprite_social.png'
+$dribbble4: (0px, 0px, 0px, 0px, 35px, 35px, 109px, 72px, 'sprite_social.png', 'dribbble4', )
+$facebook25-name: 'facebook25'
+$facebook25-x: 37px
+$facebook25-y: 0px
+$facebook25-offset-x: -37px
+$facebook25-offset-y: 0px
+$facebook25-width: 35px
+$facebook25-height: 35px
+$facebook25-total-width: 109px
+$facebook25-total-height: 72px
+$facebook25-image: 'sprite_social.png'
+$facebook25: (37px, 0px, -37px, 0px, 35px, 35px, 109px, 72px, 'sprite_social.png', 'facebook25', )
+$google26-name: 'google26'
+$google26-x: 0px
+$google26-y: 37px
+$google26-offset-x: 0px
+$google26-offset-y: -37px
+$google26-width: 35px
+$google26-height: 35px
+$google26-total-width: 109px
+$google26-total-height: 72px
+$google26-image: 'sprite_social.png'
+$google26: (0px, 37px, 0px, -37px, 35px, 35px, 109px, 72px, 'sprite_social.png', 'google26', )
+$instagram3-name: 'instagram3'
+$instagram3-x: 37px
+$instagram3-y: 37px
+$instagram3-offset-x: -37px
+$instagram3-offset-y: -37px
+$instagram3-width: 35px
+$instagram3-height: 35px
+$instagram3-total-width: 109px
+$instagram3-total-height: 72px
+$instagram3-image: 'sprite_social.png'
+$instagram3: (37px, 37px, -37px, -37px, 35px, 35px, 109px, 72px, 'sprite_social.png', 'instagram3', )
+$twitter16-name: 'twitter16'
+$twitter16-x: 74px
+$twitter16-y: 0px
+$twitter16-offset-x: -74px
+$twitter16-offset-y: 0px
+$twitter16-width: 35px
+$twitter16-height: 35px
+$twitter16-total-width: 109px
+$twitter16-total-height: 72px
+$twitter16-image: 'sprite_social.png'
+$twitter16: (74px, 0px, -74px, 0px, 35px, 35px, 109px, 72px, 'sprite_social.png', 'twitter16', )
+$youtube13-name: 'youtube13'
+$youtube13-x: 74px
+$youtube13-y: 37px
+$youtube13-offset-x: -74px
+$youtube13-offset-y: -37px
+$youtube13-width: 35px
+$youtube13-height: 35px
+$youtube13-total-width: 109px
+$youtube13-total-height: 72px
+$youtube13-image: 'sprite_social.png'
+$youtube13: (74px, 37px, -74px, -37px, 35px, 35px, 109px, 72px, 'sprite_social.png', 'youtube13', )
+$spritesheet-width: 109px
+$spritesheet-height: 72px
+$spritesheet-image: 'sprite_social.png'
+$spritesheet-sprites: ($dribbble4, $facebook25, $google26, $instagram3, $twitter16, $youtube13, )
+$spritesheet: (109px, 72px, 'sprite_social.png', $spritesheet-sprites, )
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home
+//   @include sprite-width($icon-home)
+//
+// .icon-email
+//   @include sprite($icon-email)
+//
+// Example usage in HTML:
+//   `display: block` sprite:
+//   <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//   // CSS
+//   .icon {
+//     display: inline-block;
+//   }
+//
+//   // HTML
+//   <i class="icon icon-home"></i>
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SASS
+//
+// @include sprites($spritesheet-sprites)
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)
