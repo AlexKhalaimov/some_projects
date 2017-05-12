@@ -1,82 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <h1>Привет! Здесь расположены примеры моих работ:</h1>
-        <p>Все  работы - одностраничные макеты сайтов.</p>
-    <div class="container">
-        <figure>
-        <a href="https://alexkhalaimov.github.io/some_projects/project_1/index.html"> <img src="img/project_1.jpg" alt="">
-        <figcaption> <span>Project 1</span> </figcaption></a>
-        </figure>
-        <div class="description">
-            <h2 class="accordion-style">Краткое описание</h2>
-            <ul>
-                <li>Макет выбран из бесплатного сервиса</li>
-                <li>В качестве картинок персонала - котики из CatApi</li>
-            </ul>
+    <div class="container-fluid">
+        <h1 class="h1 text-center">Привет! Здесь расположены примеры моих работ:</h1>
+        <h3 class="h3 text-center">Все работы - одностраничные макеты сайтов.</h3>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <figure class="text-center">
+                    <a class="thumbnail" href="https://alexkhalaimov.github.io/some_projects/project_1/index.html"> <img class="img-responsive img-thumbnail" src="img/project_1.jpg" alt="">
+                        <figcaption class="text-center"> <span >Project 1</span> </figcaption>
+                    </a>
+                </figure>
+                <div class="description">
+                    <h2 class="accordion-style text-center h2">Краткое описание</h2>
+                    <ul>
+                        <li>Макет выбран из бесплатного сервиса</li>
+                        <li>В качестве картинок персонала - котики из CatApi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <figure class="text-center">
+                    <a class="thumbnail" href="https://alexkhalaimov.github.io/some_projects/project_2/index.html"><img class="img-responsive img-thumbnail" src="img/project_2.jpg" alt="">
+                        <figcaption class="text-center"> <span >Project 2</span> </figcaption>
+                    </a>
+                </figure>
+                <div class="description">
+                    <h2 class="accordion-style text-center h2">Краткое описание</h2>
+                    <ul>
+                        <li>Пиксельная точность для Chrome latest</li>
+                        <li>Верстка responsive (для моб девайсов)</li>
+                        <li>Подключены нестандартные шрифты</li>
+                        <li>Использован препроцессор SASS</li>
+                        <li>Использован сборщик Gulp</li>
+                        <li>Слайдеры макета сделаны без JS (только CSS)</li>
+                        <li>В нижней части макета есть блок картинок с заголовком "Discover holiday activity ideas".Они расположены с помощью плагина Masonry</li>
+                        <li>Картинки взяты с помощью ajax-запроса с сервиса Pixabay</li>
+                        <li>После блока картинок есть поле поиска. При введении в поле текста и нажатии кнопки "Search partners" отправляется запрос на получение картинок с сервиса, и картинки заменяются на новые, соответствующие нашему запросу. В качестве
+                            текста для каждой картинки используется поле word из ответа сервера</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <figure class="text-center">
+                    <a class="thumbnail" href="https://alexkhalaimov.github.io/some_projects/project_3/index.html"> <img class="img-responsive img-thumbnail" src="img/project_3.jpg" alt="">
+                        <figcaption class="text-center"> <span >Project 3</span> </figcaption>
+                    </a>
+                </figure>
+                <div class="description">
+                    <h2 class="accordion-style text-center h2">Краткое описание </h2>
+                    <ul>
+                        <li>В данном макете использован слайдер с помощью JQuery</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <figure class="text-center">
+                    <a class="thumbnail" href="https://alexkhalaimov.github.io/some_projects/project_4/index.html"><img class="img-responsive img-thumbnail" src="img/project_4.jpg" alt="">
+                        <figcaption class="text-center"> <span >Project 4</span> </figcaption>
+                    </a>
+                </figure>
+                <div class="description">
+                    <h2 class="accordion-style text-center h2">Краткое описание</h2>
+                    <ul>
+                        <li>Самый первый проект :)</li>
+                        <li>Нет JS только HTML&amp;CSS</li>
+                        <li>Верстка респонсив</li>
+                        <li>Кроссбраузерность - IE 8</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
         </div>
-    </div>
-    <div class="container">
-        <figure>
-        <a href="https://alexkhalaimov.github.io/some_projects/project_2/index.html"><img src="img/project_2.jpg" alt="">
-        <figcaption> <span>Project 2</span> </figcaption></a>
-        </figure>
-        <div class="description">
-            <h2 class="accordion-style">Краткое описание</h2>
-            <ul>
-                <li>Пиксельная точность для Chrome latest</li>
-                <li>Верстка responsive (для моб девайсов)</li>
-                <li>Подключены нестандартные шрифты</li>
-                <li>Использован препроцессор SASS</li>
-                <li>Использован сборщик Gulp</li>
-                <li>Слайдеры макета сделаны без JS (только CSS)</li>
-                <li>В нижней части макета есть блок картинок с заголовком "Discover holiday activity ideas".Они расположены с помощью плагина Masonry</li>
-                <li>Картинки взяты с помощью ajax-запроса с сервиса Pixabay</li>
-                <li>После блока картинок есть поле поиска. При введении в поле текста и нажатии кнопки "Search partners" отправляется запрос на получение картинок с сервиса, и  картинки заменяются на новые, соответствующие нашему запросу.  В качестве текста для каждой картинки используется поле word из ответа сервера</li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <figure>
-        <a href="https://alexkhalaimov.github.io/some_projects/project_3/index.html"> <img src="img/project_3.jpg" alt="">
-        <figcaption> <span>Project 3</span> </figcaption></a>
-        </figure>
-        <div class="description">
-            <h2 class="accordion-style">Краткое описание</h2>
-            <ul>
-                <li>В данном макете использован слайдер с помощью JQuery</li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <figure>
-        <a href="https://alexkhalaimov.github.io/some_projects/project_4/index.html"><img src="img/project_4.jpg" alt="">
-        <figcaption> <span>Project 4</span> </figcaption></a>
-        </figure>
-        <div class="description">
-            <h2 class="accordion-style">Краткое описание</h2>
-            <ul>
-                <li>Самый первый проект :)</li>
-                <li>Нет JS только HTML&amp;CSS</li>
-                <li>Верстка респонсив</li>
-                <li>Кроссбраузерность - IE 8</li>
-            </ul>
-        </div>
-    </div>
 
 
 
     </div>
 
 </body>
+
 </html>
