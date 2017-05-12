@@ -46,6 +46,7 @@ a:hover{
     /*list-style: none;*/
 }
 .description h2{
+    margin: 0 auto;
     width: 320px;
     text-align: center;
     cursor: pointer;
