@@ -980,3 +980,11 @@ header {
     .contact-form button {
       min-width: initial;
       max-width: none;} }
+@media screen and (max-width: 320px){
+    .wrapper-button {
+      width: 280px;
+      height: 83px; }
+      .top-button{
+          height: 29px;
+      }
+}
