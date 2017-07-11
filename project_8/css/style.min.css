@@ -901,8 +901,9 @@ header {
   .footer-location p {
     font-size: 17px; }
     .footer-location p::before {
-      -webkit-background-size: 45% 45%;
-              background-size: 45%; } }
+        width: 22px;
+      -webkit-background-size: 90% 90%;
+              background-size: 90%; } }
 
 @media screen and (max-width: 400px) {
   .wrapper-phone_num {
@@ -921,6 +922,9 @@ header {
     .wrapper-button .top-button {
       height: 30px;
       width: 115px; }
+      .section4{
+          height: 600px;
+      }
   .section4-header {
       line-height: 37px;
     font-size: 37px; }
@@ -930,7 +934,9 @@ header {
       line-height: 27px;
     font-size: 27px; }
   .section5-img {
-    width: 29%; } }
+    width: 29%; }
+ .footer-main{
+    padding: 6rem 5px 0;} }
 
 @media screen and (max-width: 350px) {
   .section5 {
