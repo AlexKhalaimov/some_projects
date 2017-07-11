@@ -917,6 +917,9 @@ header {
     .header-img-container{
         width: 300px;
     }
+    .section1{
+        padding: 0;
+    }
     .wrapper-section1{
         padding: 0;
     }
