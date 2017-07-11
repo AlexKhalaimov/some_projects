@@ -910,6 +910,12 @@ header {
     width: 100%; }
   .header-phone {
     width: 25px; }
+    .header-bottom{
+        padding: 0;
+    }
+    .header-img-container{
+        width: 300px;
+    }
   .section2-text-header {
     font-size: 23px;
     line-height: 23px;
@@ -939,9 +945,18 @@ header {
     padding: 6rem 5px 0;} }
 
 @media screen and (max-width: 350px) {
+    header{
+        padding: 0 5px;
+    }
+    .section2{
+        padding: 0 5px;
+    }
+    .section4{
+        padding: 0 5px;
+    }
   .section5 {
     height: 530rem;
-    padding: 0 5rem 0; }
+    padding: 0 5px 0; }
   .section5-header p {
       line-height: 24px;
     font-size: 24px; }
