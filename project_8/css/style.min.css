@@ -913,8 +913,12 @@ header {
     .header-bottom{
         padding: 0;
     }
+
     .header-img-container{
         width: 300px;
+    }
+    .wrapper-section1{
+        padding: 0;
     }
   .section2-text-header {
     font-size: 23px;
