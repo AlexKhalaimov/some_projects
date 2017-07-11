@@ -879,6 +879,8 @@ header {
     .section2-text-bottom::before {
       line-height: 21px;
       font-size: 56px; }
+ .section4 {
+    height: 520px;}
   .section5 {
     height: 318rem; }
   .section5-header p {
@@ -937,9 +939,16 @@ header {
   .section5-header p {
       line-height: 24px;
     font-size: 24px; }
+ .footer-form, .section3-form{
+        width: 90%;
+        margin: auto;}
   .contact-form {
-    min-width: 300px; }
+      width: 100%;
+    min-width: initial;
+    max-width: inherit;}
     .contact-form input {
-      min-width: 300px; }
+      min-width: initial;
+      max-width: none;}
     .contact-form button {
-      min-width: 300px; } }
+      min-width: initial;
+      max-width: none;} }
