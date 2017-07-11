@@ -630,6 +630,9 @@ header {
     font-size: 20px; }
   .phone_num a {
     font-size: 21px; }
+    .header-phone{
+        width: 25px;
+    }
   .section1-main-text p:first-child {
     font-size: 20px;
     line-height: 20px; }
@@ -724,7 +727,10 @@ header {
     float: none;
     margin: auto;
     text-align: center;
-    width: 32%; }
+    width: 100%; }
+    .container{
+        display: inline-block;
+    }
   .header-text-main p:last-child {
     background-color: transparent; }
   .header-phone {
@@ -857,7 +863,7 @@ header {
 
 @media screen and (max-width: 500px) {
   .wrapper-phone_num {
-    width: 48%; }
+    width: 100%; }
   .section2 {
     height: 340px; }
   .wrapper-section2-text {
@@ -898,7 +904,7 @@ header {
 
 @media screen and (max-width: 400px) {
   .wrapper-phone_num {
-    width: 58%; }
+    width: 100%; }
   .header-phone {
     width: 25px; }
   .section2-text-header {
