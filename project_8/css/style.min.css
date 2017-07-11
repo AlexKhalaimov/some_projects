@@ -28,9 +28,6 @@
 @font-face {
   font-family: 'Open Sans Extrabold';
   src: url("../fonts/Open_Sans_Extrabold.ttf"); }
-@font-face {
-  font-family: 'Open Sans Extrabold';
-  src: url("../fonts/Open_Sans_Extrabold.eot"); }
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -260,9 +257,7 @@ header {
   font-family: "WinSoft Pro Medium";
   font-size: 21.8rem;
   font-weight: 500;
-  /*line-height: 7.5rem;*/
-  line-height: 75px;
- }
+  line-height: 7.5rem; }
 
 /*----------------------- END SECTION 2 STYLES ------------------------------*/
 /*----------------------- SECTION 3 STYLES ------------------------------*/
@@ -291,20 +286,13 @@ header {
     margin-bottom: 2rem;
     height: 8rem; }
   .contact-form input {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     border: 1px solid #02c9ee;
     width: 100%;
     background-color: transparent;
-    color: #646464;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	padding:0 10px;
-	}
+    color: #646464; }
   .contact-form button {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
     margin: auto;
     border: none;
     outline: none;
@@ -314,23 +302,17 @@ header {
     color: white;
     width: 25%; }
   .contact-form input::-webkit-input-placeholder {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     color: #646464;
     text-align: center; }
   .contact-form input:-moz-placeholder {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
     color: #646464;
     text-align: center; }
   .contact-form input::-moz-placeholder {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
     color: #646464;
     text-align: center; }
   .contact-form input:-ms-input-placeholder {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
     color: #646464;
     text-align: center; }
   .contact-form input:-moz-placeholder, .contact-form input::-moz-placeholder {
@@ -345,8 +327,6 @@ header {
   margin: auto;
   height: 163px; }
   .wrapper-button .top-button {
-      font-family: 'Miriam Libre', sans-serif;
-      font-weight: 700;
     position: absolute;
     bottom: 0;
     margin: auto;
@@ -381,7 +361,7 @@ header {
 
 .section4-header {
   font-size: 13.5rem;
-  line-height: 7.2rem;
+  line-height: 60px;
   margin: 0px 0 8rem; }
 
 .section4-main-text {
@@ -483,6 +463,8 @@ header {
   font-size: 3.6rem;
   width: 67rem; }
   .bottom-form input {
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     color: #fff; }
   .bottom-form button {
     margin: auto;
@@ -493,15 +475,24 @@ header {
     background-color: #fff;
     cursor: pointer; }
   .bottom-form input::-webkit-input-placeholder {
+    font-size: 36px;
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     color: #fff;
     text-align: center; }
   .bottom-form input:-moz-placeholder {
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     color: #fff;
     text-align: center; }
   .bottom-form input::-moz-placeholder {
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     color: #fff;
     text-align: center; }
   .bottom-form input:-ms-input-placeholder {
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 700;
     color: #fff;
     text-align: center; }
 
@@ -834,7 +825,10 @@ header {
 
 @media screen and (max-width: 600px) {
   .wrapper-phone_num {
-    width: 38%; }
+    width: 100%; }
+    .container{
+        display: inline-block;
+    }
   .section2 {
     padding: 0 25px; }
   .section2-main-text {
@@ -851,6 +845,7 @@ header {
   .section5 {
     height: 265rem; }
   .section5-header p {
+      line-height: 36px;
     font-size: 36px; }
   .list-item p {
     font-size: 18px;
@@ -881,6 +876,7 @@ header {
   .section5 {
     height: 318rem; }
   .section5-header p {
+    line-height: 30px;
     font-size: 30px; }
   .list-item p {
     font-size: 17px; }
@@ -918,19 +914,22 @@ header {
       height: 30px;
       width: 115px; }
   .section4-header {
+      line-height: 37px;
     font-size: 37px; }
   .section5 {
     height: 410rem; }
   .section5-header p {
+      line-height: 27px;
     font-size: 27px; }
   .section5-img {
-    width: 30%; } }
+    width: 29%; } }
 
 @media screen and (max-width: 350px) {
   .section5 {
-    height: 480rem;
+    height: 530rem;
     padding: 0 5rem 0; }
   .section5-header p {
+      line-height: 24px;
     font-size: 24px; }
   .contact-form {
     min-width: 300px; }
