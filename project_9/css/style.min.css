@@ -595,6 +595,13 @@ footer {
     width: 65%; } }
 
 @media screen and (max-width: 375px) {
+  header{
+    padding: 0;
+  }
+  .header-text{
+    width: 96%;
+    margin: auto;
+  }
   .container {
     margin-bottom: 5rem; }
   .wrapper-section2 {
