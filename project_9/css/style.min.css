@@ -229,9 +229,9 @@ figure {
 /*------------------------ BEGIN SECTION 3 STYLES ------------------------*/
 .wrapper-section3 {
   background: url(../img/bg-bottom.jpg) top center no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  height: 71rem;
+  -webkit-background-size: contain;
+          background-size: contain;
+  height: 75rem;
   padding-top: 3rem; }
 
 .section3-list {
@@ -241,7 +241,7 @@ figure {
   -webkit-border-radius: 35px;
           border-radius: 35px;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   padding: 5rem 0; }
 
 .wrapper-text {
