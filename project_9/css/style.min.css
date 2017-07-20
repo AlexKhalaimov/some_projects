@@ -229,8 +229,8 @@ figure {
 /*------------------------ BEGIN SECTION 3 STYLES ------------------------*/
 .wrapper-section3 {
   background: url(../img/bg-bottom.jpg) top center no-repeat;
-  -webkit-background-size: contain;
-          background-size: contain;
+  -webkit-background-size: cover;
+          background-size: cover;
   height: 71rem;
   padding-top: 3rem; }
 
