@@ -689,7 +689,7 @@ footer {
   header {
     padding: 0; }
   .header-text {
-    min-width: 300px;
+    min-width: 285px;
     min-height: 70px;
     margin: auto; }
     .header-text span:first-child {
