@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Miriam+Libre:400,700&subset=hebrew,latin-ext");
+@font-face {
+  font-family: 'Adobe Hebrew Regular';
+  src: url("../fonts/adobe-hebrew-regular.eot");
+  src: local("тШ║"), url("../fonts/adobe-hebrew-regular.otf"), url("../fonts/adobe-hebrew-regular.woff") format("woff"), url("../fonts/adobe-hebrew-regular.ttf") format("truetype"), url("../fonts/adobe-hebrew-regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Miriam Libre';
+  src: url("../fonts/MiriamLibre-Regular.eot"); }
+
+@font-face {
+  font-family: 'Adobe Hebrew Regular';
+  src: url("../fonts/adobe-hebrew-regular.otf"); }
+
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: "Miriam Libre", "Arial", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  max-width: 1920px;
+  height: auto;
+  background: url(../img/bg.jpg) top center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  margin: 0 auto; }
+
+.logo {
+  width: 22%;
+  margin: 0 auto 27px;
+  text-align: center; }
+  .logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto; }
+
+section {
+  width: 68.75%;
+  margin: 0 auto 60px;
+  padding: 60px 50px 45px;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+header {
+  margin: 0 auto 50px;
+  text-align: center; }
+  header h1 {
+    color: white;
+    font-size: 43px;
+    font-size: 2.6875rem;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 auto; }
+    header h1 p {
+      font-family: "Miriam Libre", "Arial", sans-serif;
+      margin: 0 auto; }
+
+form .input-container {
+  text-align: center;
+  margin-bottom: 30px; }
+
+form input:not([type="checkbox"]) {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  width: 30.30303%;
+  height: 52px;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 30px;
+  background-color: white;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ededed), to(#d4d4d4));
+  background-image: -webkit-linear-gradient(bottom, #ededed 0%, #d4d4d4 100%);
+  background-image: -o-linear-gradient(bottom, #ededed 0%, #d4d4d4 100%);
+  background-image: linear-gradient(to top, #ededed 0%, #d4d4d4 100%);
+  border: 6px solid white;
+  border: 6px solid rgba(255, 255, 255, 0.35);
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.16);
+          box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.16);
+  outline: none; }
+
+form input + input {
+  margin-right: 10px; }
+
+form input::-webkit-input-placeholder {
+  font-family: "Miriam Libre", "Arial", sans-serif;
+  color: #3c3c3c;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 34px; }
+
+form input:-moz-placeholder {
+  font-family: "Miriam Libre", "Arial", sans-serif;
+  color: #3c3c3c;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 34px; }
+
+form input::-moz-placeholder {
+  font-family: "Miriam Libre", "Arial", sans-serif;
+  color: #3c3c3c;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 34px; }
+
+form input:-ms-input-placeholder {
+  font-family: "Miriam Libre", "Arial", sans-serif;
+  color: #3c3c3c;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 34px; }
+
+form input:-moz-placeholder, form input::-moz-placeholder {
+  opacity: 1; }
+
+form button {
+  width: 30.30303%;
+  height: 52px;
+  display: block;
+  margin: 0 auto 35px;
+  background-color: white;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffa800), color-stop(50%, #fc0));
+  background-image: -webkit-linear-gradient(bottom, #ffa800 0%, #fc0 50%);
+  background-image: -o-linear-gradient(bottom, #ffa800 0%, #fc0 50%);
+  background-image: linear-gradient(to top, #ffa800 0%, #fc0 50%);
+  border: 6px solid #ff7800;
+  border: 6px solid rgba(255, 120, 0, 0.35);
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.16);
+          box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.16);
+  color: white;
+  font-family: "Miriam Libre", "Arial", sans-serif;
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 34px;
+  cursor: pointer;
+  outline: none; }
+
+form input[type="checkbox"] {
+  display: none; }
+
+form input[type="checkbox"] + label {
+  color: white;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 34px;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+form input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px 0 10px;
+  background-position: -40px 0px;
+  background-image: url(../img/sprite/sprite.png);
+  background-repeat: no-repeat;
+  vertical-align: middle; }
+
+form input[type="checkbox"]:checked + label::before {
+  background-position: 0px 0px; }
+
+.wrapper-link {
+  margin: 0 auto;
+  padding-bottom: 25px;
+  text-align: center; }
+  .wrapper-link a {
+    text-align: center; }
+  .wrapper-link span {
+    color: white;
+    font-family: "Adobe Hebrew Regular";
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 400; }
+  .wrapper-link .text-top, .wrapper-link .text-bottom, .wrapper-link .logo-web {
+    display: inline-block;
+    vertical-align: middle; }
+  .wrapper-link .logo-web {
+    margin: 0 20px; }
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  html {
+    font-size: 10px; }
+  .logo {
+    width: 32%;
+    margin-bottom: 30px; }
+  section {
+    width: 85.75%;
+    margin: 0 auto 20px;
+    padding: 15px 0px; }
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 20px; }
+    header h1 p:first-child {
+      margin-bottom: 15px; }
+  form input:not([type="checkbox"]) {
+    display: block;
+    margin: 0 auto 15px;
+    width: auto; }
+  form button {
+    width: 218px; } }
+
+@media screen and (min-width: 451px) and (max-width: 767px) {
+  html {
+    font-size: 12px; }
+  .logo {
+    width: 38%;
+    margin-bottom: 30px; }
+  section {
+    width: 85.75%;
+    margin: 0 auto 20px;
+    padding: 15px 0px; }
+  header h1 {
+    font-size: 1.7rem;
+    line-height: 20px; }
+    header h1 p:first-child {
+      margin-bottom: 15px; }
+  form input:not([type="checkbox"]) {
+    display: block;
+    margin: 0 auto 15px;
+    width: auto; }
+  form button {
+    width: 218px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1034px) {
+  html {
+    font-size: 14px; }
+  .logo {
+    width: 22%; }
+  section {
+    width: 90%;
+    padding: 40px 0; }
+  header h1 {
+    font-size: 2.5rem;
+    line-height: 20px; }
+    header h1 p:first-child {
+      margin-bottom: 15px; }
+  form input:not([type="checkbox"]) {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    width: 218px; }
+  form input:first-child {
+    margin-right: 0px; }
+  form button {
+    width: 218px; } }
