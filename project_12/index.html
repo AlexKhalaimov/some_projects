@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+    <link type="text/css" href="libs/mmenu/jquery.mmenu.all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js" charset="utf-8"></script>
+	<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/mmenu/jquery.mmenu.all.js"></script>
+    <script src="js/my_script.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header__wrapper d-flex">
+                            <div class="header__logo logo">
+                                <a href="#" class="header__link logo__link"><img src="img/logo.png" alt="logo" class="logo__img"></a>
+                            </div>
+                            <div class="header__container d-flex">
+                                <div class="header__shedule">
+                                    <p class="header__text">с 9 до 21:00 <br> без выходных</p>
+                                </div>
+                                <div class="header__address">
+                                    <p class="header__text">Украина Г. Киев, <br> ул. Покотило, 1</p>
+                                </div>
+                                <div class="header__contacts">
+                                    <div class="header__mail">
+                                        <a href="mailto:tir.tranzit.ua@gmail.com" class="header__link">tir.tranzit.ua@gmail.com</a>
+                                    </div>
+                                    <div class="header__phone">
+                                        <ul class="phone__list">
+                                            <li class="phone__item ">
+                                                <a href="tel:+380673335833" class="phone__link header__link">+38 (067) 333 58 33</a>
+                                                <ul class="phone__sublist ">
+                                                    <li class="phone__subitem "><a href="tel:+380976266277" class="phone__link header__link">+38 (097) 626 62 77</a></li>
+                                                    <li class="phone__subitem "><a href="tel:+380933532271" class="phone__link header__link">+38 (093) 353 22 71</a></li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button type="button" name="mobile-callback" class="mobile__callback button_green">Заказать звонок</button>
+                                <div class="header__search">
+                                    <form action="#" class="header__form top-form">
+                                        <button type="submit" name="submit" class="top-form__submit"></button>
+                                        <input type="text" name="user_search" value="" class="top-form__input" placeholder="Поиск">
+                                    </form>
+                                </div>
+                                <div class="header__language">
+                                    <div class="header__lang header__lang_ru header__lang_selected"><span>RU</span></div>
+                                    <div class="header__lang header__lang_eng header__lang_hidden"><span>EN</span></div>
+                                </div>
+                                <a href="#mobile-menu" class="mobile__button" id="mobile__button"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="nav-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav class="nav">
+                            <div class="nav-container d-flex">
+                                <ul class="nav__list d-flex">
+                                    <li class="nav__item dropdown">
+                                        <a href="#" class="nav__link nav__link_chevron">Перевозки</a>
+                                        <ul class="nav__sublist dropdown-menu">
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Международные перевозки </a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Грузоперевозки по Украине</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Перевозка стандартных грузов</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Перевозка сборных грузов</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Негабаритные перевозки</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Перевозка опасных грузов</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Перевозка скоропортящихся грузов</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Перевозка личных вещей</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav__item dropdown">
+                                        <a href="#" class="nav__link nav__link_chevron">Услуги</a>
+                                        <ul class="nav__sublist dropdown-menu">
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Таможенно-брокерские услуги</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Услуги экспорта/импорта</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Аренда Спецтехники</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Услуги Складирования</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav__item dropdown">
+                                        <a href="#" class="nav__link nav__link_chevron">О компании</a>
+                                        <ul class="nav__sublist dropdown-menu">
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">О нас</a></li>
+                                            <li class="nav__subitem dropdown-item"><a href="#" class="nav__sublink">Отзывы наших клиентов</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav__item"><a href="#" class="nav__link">Расчет стоимости</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+                                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                                </ul>
+                                <button type="button" name="callback" class="nav__callback button_green">Заказать звонок</button>
+                            </div>
+                        </nav>
+                        <div id="mobile-menu">
+                            <ul class="mobile-menu__list">
+
+                                    <form action="#" class="mobile-menu__form top-form">
+                                        <button type="submit" name="submit" class="top-form__submit"></button>
+                                        <input type="text" name="user_search" value="" class="top-form__input" placeholder="Поиск">
+                                    </form>
+
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">Перевозки</a>
+                                    <ul class="mobile-menu__sublist">
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Международные перевозки </a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Грузоперевозки по Украине</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Перевозка стандартных грузов</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Перевозка сборных грузов</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Негабаритные перевозки</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Перевозка опасных грузов</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Перевозка скоропортящихся грузов</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Перевозка личных вещей</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">Услуги</a>
+                                    <ul class="mobile-menu__sublist">
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Таможенно-брокерские услуги</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Услуги экспорта/импорта</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Аренда Спецтехники</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Услуги Складирования</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile-menu__item">
+                                    <a href="#" class="mobile-menu__link">О компании</a>
+                                    <ul class="mobile-menu__sublist">
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">О нас</a></li>
+                                        <li class="mobile-menu__subitem"><a href="#" class="mobile-menu__sublink">Отзывы наших клиентов</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Расчет стоимости</a></li>
+                                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Новости</a></li>
+                                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
+                                <li class="phone__item"><a href="tel:+380673335833" class="phone__link header__link">+38 (067) 333 58 33</a></li>
+                                <li class="phone__item"><a href="tel:+380976266277" class="phone__link header__link">+38 (097) 626 62 77</a></li>
+                                <li class="phone__item"><a href="tel:+380933532271" class="phone__link header__link">+38 (093) 353 22 71</a></li>
+                            </ul>
+                        </div><!-- mobile-menu -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- nav-section -->
+        <section class="main-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="main">
+                                        <h1 class="main__title">Комплекс <br> логистических услуг</h1>
+                                        <p class="main__subtitle">Международные направления, грузоперевозки по Украине</p>
+                                        <button type="button" name="calculate" class="main__button">Заказать расчет стоимости</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- main-section -->
+        <section class="transport-section">
+            <div class="container px-0">
+                <div class="row mx-0">
+                    <div class="col px-0">
+                        <div class="transport">
+                            <h2 class="transport__title">По виду транспорта</h2>
+                            <div class="transport-container d-flex">
+                                <div class="transport__item d-flex">
+                                    <figure class="transport__figure">
+                                        <img src="img/img.jpg" alt="" class="transport__img">
+                                    </figure>
+                                    <div class="transport-wrapper">
+                                        <p class="transport__text">Автомобильные грузоперевозки</p>
+                                        <button type="button" name="transport-select" class="transport__button button_reverse">Подробнее <span class="transport__arrow"></span></button>
+                                    </div>
+                                </div>
+                                <div class="transport__item d-flex">
+                                    <figure class="transport__figure">
+                                        <img src="img/img2.jpg" alt="" class="transport__img">
+                                    </figure>
+                                    <div class="transport-wrapper">
+                                        <p class="transport__text">Морские грузоперевозки</p>
+                                        <button type="button" name="transport-select" class="transport__button button_reverse">Подробнее <span class="transport__arrow"></span></button>
+                                    </div>
+                                </div>
+                                <div class="transport__item d-flex">
+                                    <figure class="transport__figure">
+                                        <img src="img/img3.jpg" alt="" class="transport__img">
+                                    </figure>
+                                    <div class="transport-wrapper">
+                                        <p class="transport__text">Железнодорожные перевозки</p>
+                                        <button type="button" name="transport-select" class="transport__button button_reverse">Подробнее <span class="transport__arrow"></span></button>
+                                    </div>
+                                </div>
+                                <div class="transport__item d-flex">
+                                    <figure class="transport__figure">
+                                        <img src="img/img4.jpg" alt="" class="transport__img">
+                                    </figure>
+                                    <div class="transport-wrapper">
+                                        <p class="transport__text">Мультимодальные перевозки</p>
+                                        <button type="button" name="transport-select" class="transport__button button_reverse">Подробнее <span class="transport__arrow"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- transport-section -->
+        <section class="cargo-section">
+            <div class="container px-0">
+                <div class="row mx-0">
+                    <div class="col px-0">
+                        <h2 class="cargo__title">По виду груза</h2>
+                        <div class="cargo d-flex">
+                            <div class="cargo__item">
+                                <figure class="cargo__figure">
+                                    <img src="img/img5.jpg" alt="" class="cargo__img">
+                                </figure>
+                                <div class="cargo__overlay">
+                                    <p class="cargo__text">Перевозка стандартных грузов</p>
+                                    <button type="button" name="cargo-button" class="cargo__button"></button>
+                                </div>
+                            </div><!-- cargo__item -->
+                            <div class="cargo__item">
+                                <figure class="cargo__figure">
+                                    <img src="img/img6.jpg" alt="" class="cargo__img">
+                                </figure>
+                                <div class="cargo__overlay">
+                                    <p class="cargo__text">Перевозка сборных грузов </p>
+                                    <button type="button" name="cargo-button" class="cargo__button"></button>
+                                </div>
+                            </div><!-- cargo__item -->
+                            <div class="cargo__item">
+                                <figure class="cargo__figure">
+                                    <img src="img/img7.jpg" alt="" class="cargo__img">
+                                </figure>
+                                <div class="cargo__overlay">
+                                    <p class="cargo__text">Негабаритные перевозки</p>
+                                    <button type="button" name="cargo-button" class="cargo__button"></button>
+                                </div>
+                            </div><!-- cargo__item -->
+                            <div class="cargo__item">
+                                <figure class="cargo__figure">
+                                    <img src="img/img8.jpg" alt="" class="cargo__img">
+                                </figure>
+                                <div class="cargo__overlay">
+                                    <p class="cargo__text">Перевозка опасных грузов</p>
+                                    <button type="button" name="cargo-button" class="cargo__button"></button>
+                                </div>
+                            </div><!-- cargo__item -->
+                            <div class="cargo__item">
+                                <figure class="cargo__figure">
+                                    <img src="img/img9.jpg" alt="" class="cargo__img">
+                                </figure>
+                                <div class="cargo__overlay">
+                                    <p class="cargo__text">Перевозка личных вещей</p>
+                                    <button type="button" name="cargo-button" class="cargo__button"></button>
+                                </div>
+                            </div><!-- cargo__item -->
+                            <div class="cargo__item">
+                                <figure class="cargo__figure">
+                                    <img src="img/img10.jpg" alt="" class="cargo__img">
+                                </figure>
+                                <div class="cargo__overlay">
+                                    <p class="cargo__text">Перевозка скоропортящихся грузов</p>
+                                    <button type="button" name="cargo-button" class="cargo__button"></button>
+                                </div>
+                            </div><!-- cargo__item -->
+                        </div><!-- cargo -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- cargo-section -->
+        <section class="additional-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="additional d-flex">
+                            <h3 class="additional__title">Так же можем <br>предоставить</h3>
+                            <div class="additional__item d-flex">
+                                <figure class="additional__figure"><img src="img/img11.jpg" alt="" class="additional__img"></figure>
+                                <a href="#" class="additional__link">Таможенно-брокерские услуги</a>
+                            </div>
+                            <div class="additional__item d-flex">
+                                <figure class="additional__figure"><img src="img/img12.jpg" alt="" class="additional__img"></figure>
+                                <a href="#" class="additional__link">Услуги экспорта/импорта</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- additional-section -->
+        <section class="outsource-section">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <div class="col px-0">
+                        <div class="container px-0">
+                            <div class="row mx-0">
+                                <div class="col px-0">
+                                    <div class="outsource">
+                                        <h2 class="outsource__title">ПЕРЕДАЙТЕ ЛОГИСТИКУ НА АУТСОРСИНГ!</h2>
+                                        <p class="outsource__text outsource__text_top">Возможность сократить расходы вашей компании на содержание персонала, транспорта, складских помещений. Логистический аутсорсинг позволяет унифицировать бизнес-процессы в компании.</p>
+                                        <p class="outsource__text">«Tir- Tranzit Ukraine» является логистическим провайдером 3 уровня (3PL) — выполняем любые работы, связанные с транспортировкой груза.</p>
+                                        <table class="outsource__table compare-table">
+                                            <thead class="compare-table__head">
+                                                <tr>
+                                                    <th>Традиционный перевозчик</th>
+                                                    <th>Tir- Tranzit Ukraine</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> <p>Компания предоставляет единственную услугу — перевозку</p></td>
+                                                    <td>Предоставляем комплексные услуги в области логистики: транспортировку, складирование, таможенное оформление, страхование, консолидация</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p>Работают на местный, региональный рынок</p></td>
+                                                    <td>Осуществляем доставку «от двери до двери» по всему миру (глобальный рынок)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <p>Осуществляют разовые сделки. Зачастую завышают стоимость, так как не ориентированы на долгосрочное сотрудничество</p></td>
+                                                    <td>Ориентируемся на долгосрочное партнерство. Помогаем снизить издержки за счет оптимизации бизнес-процессов: вы экономите на создании и содержании логистического отдела компании</td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <p>Вы сами разрабатываете маршрут, подбираете склад, перевозчик осуществляет только доставку</p></td>
+                                                    <td>Осуществляем весь комплекс услуг под ключ: разрабатываем для вас оптимальный маршрут, собираем груз, транспортируем, храним</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button type="button" name="outsource-button" class="button_green outsource__button">Заказать расчет стоимости</button>
+                                    </div><!-- outsource -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!-- outsource-section -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <div class="col px-0">
+                        <div class="container px-0">
+                            <div class="row mx-0">
+                                <div class="col px-0">
+                                    <div class="footer-container footer-container_top">
+                                        <div class="footer__servise">
+                                            <h2 class="footer__title">Услуги</h2>
+                                            <div class="footer__separator"></div>
+                                            <div class="footer__wrapper">
+                                                <ul class="footer__list">
+                                                    <li class="footer__item"><a href="#" class="footer__link">Перевозка стандартных грузов</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link"> Перевозка сборных грузов</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Негабаритные перевозки</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Перевозка опасных грузов</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Перевозка скоропортящихся грузов</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Перевозка личных вещей</a></li>
+                                                </ul>
+                                                <ul class="footer__list">
+                                                    <li class="footer__item"><a href="#" class="footer__link">Автомобильные грузоперевозки</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Морские грузоперевозки</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Железнодорожные перевозки</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Мультимодальные перевозки</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">аможенно-брокерские услуги</a></li>
+                                                    <li class="footer__item"><a href="#" class="footer__link">Услуги экспорта/импорта</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- footer__servise" -->
+                                        <div class="footer__contacts">
+                                            <h2 class="footer__title">Контакы</h2>
+                                            <ul class="footer__list">
+                                                <li class="footer__item"><a href="tel:+380976266277" class="footer__link">+38 (097) 626 62 77</a></li>
+                                                <li class="footer__item"><a href="tel:+380933532271" class="footer__link">+38 (093) 353 22 71</a></li>
+                                                <li class="footer__item"><a href="tel:+380673335833" class="footer__link">+38 (067) 333 58 33</a></li>
+                                                <li class="footer__item"><a href="mailto:tir.tranzit.ua@gmail.com" class="footer__link">tir.tranzit.ua@gmail.com</a></li>
+                                            </ul>
+                                        </div><!-- footer__contacts" -->
+                                        <div class="footer__address">
+                                            <h2 class="footer__title">Адрес</h2>
+                                            <ul class="footer__list">
+                                                <li class="footer__item">Украина:</li>
+                                                <li class="footer__item">г. Киев, ул. Покотило, 1</li>
+                                                <li class="footer__item">г. Ирпень, ул. Полтавская, 45</li>
+                                                <li class="footer__item">Польша: </li>
+                                                <li class="footer__item">22-100 Chełm, ул. Chemiczna 5c</li>
+                                            </ul>
+                                        </div><!-- footer__address" -->
+                                    </div><!-- footer-container" -->
+                                </div>
+                            </div>
+                            <div class="row mx-0">
+                                <div class="col px-0">
+                                    <div class="footer-container footer-container_bottom">
+                                        <p class="footer_company"><span>Tir - Tranzit Ukraine</span> <span>2017 © Тир-Транзит Украина - Грузоперевозки, таможенные услуги</span></p>
+                                        <a href="#" class="footer__copyright">Разработка сайта -</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
