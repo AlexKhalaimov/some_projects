@@ -1,0 +1,3079 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700&subset=hebrew");
+
+@font-face {
+  font-family: 'Almoni DL AAA Light';
+  src: url("../fonts/almoni-dl-aaa-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Almoni DL AAA Regular';
+  src: url("../fonts/almoni-dl-aaa-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Almoni DL AAA Bold';
+  src: url("../fonts/almoni-dl-aaa-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Almoni DL AAA Black';
+  src: url("../fonts/almoni-dl-aaa-black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'hatama-font';
+  src: url("../fonts/hatama-font.eot?a177mx");
+  src: url("../fonts/hatama-font.eot?a177mx#iefix") format("embedded-opentype"), url("../fonts/hatama-font.ttf?a177mx") format("truetype"), url("../fonts/hatama-font.woff?a177mx") format("woff"), url("../fonts/hatama-font.svg?a177mx#hatama-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'hatama-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-help_outline:before {
+  content: "\e913";
+}
+
+.icon-help-circle:before {
+  content: "\e914";
+}
+
+.icon-question-circle-o:before {
+  content: "\e915";
+}
+
+.icon-mail:before {
+  content: "\e9a5";
+}
+
+.icon-404:before {
+  content: "\e900";
+}
+
+.icon-acces:before {
+  content: "\e901";
+}
+
+.icon-angle-arrow-pointing-to-right:before {
+  content: "\e902";
+}
+
+.icon-arrow:before {
+  content: "\e903";
+}
+
+.icon-close:before {
+  content: "\e904";
+}
+
+.icon-cv:before {
+  content: "\e905";
+}
+
+.icon-home:before {
+  content: "\e906";
+}
+
+.icon-lock:before {
+  content: "\e907";
+}
+
+.icon-map:before {
+  content: "\e909";
+}
+
+.icon-menu:before {
+  content: "\e90a";
+}
+
+.icon-money:before {
+  content: "\e90b";
+}
+
+.icon-phone:before {
+  content: "\e90c";
+}
+
+.icon-phone_b:before {
+  content: "\e90d";
+}
+
+.icon-sadface:before {
+  content: "\e90e";
+}
+
+.icon-search:before {
+  content: "\e90f";
+}
+
+.icon-search_1:before {
+  content: "\e910";
+}
+
+.icon-upload:before {
+  content: "\e911";
+}
+
+.icon-vi:before {
+  content: "\e912";
+}
+
+.icon-question:before {
+  content: "\ea09";
+}
+
+.icon-play3:before {
+  content: "\ea1c";
+}
+
+.icon-pause2:before {
+  content: "\ea1d";
+}
+
+.icon-stop2:before {
+  content: "\ea1e";
+}
+
+*:active,
+*:hover,
+*:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+body {
+  direction: rtl;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.px-0 {
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: inherit;
+  background-color: inherit;
+}
+
+/*----- HEADER -----*/
+
+header {
+  border-bottom: 2px solid #e3e3e3;
+  position: relative;
+}
+
+header .container-fluid:nth-child(2) {
+  background-color: #01253f;
+}
+
+header .container-fluid:nth-child(3) {
+  background-color: #fff;
+}
+
+header > .container > .row > .col-lg-11 {
+  background-color: #fff;
+}
+
+.header__menu {
+  margin-left: -12px;
+  text-align: left;
+}
+
+.header__list li {
+  display: inline-block;
+  font-size: 0;
+  height: 49px;
+  vertical-align: middle;
+}
+
+.header__list a {
+  color: #fff;
+  display: block;
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 49px;
+  line-height: 49px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.header__list a::after {
+  background-color: #fff;
+  content: '';
+  display: inline-block;
+  height: 35px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 1px;
+}
+
+.header__list .header__list-link_wheel-chair {
+  border: none;
+}
+
+.header__list .header__list-link_wheel-chair::after {
+  display: none;
+}
+
+.header__list a.non-visible::after {
+  display: none;
+}
+
+a.header__list-link_tahoma {
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.header__list-link_phone {
+  position: relative;
+}
+
+.icon-phone:before {
+  position: absolute;
+  right: -15px;
+  top: 13px;
+}
+
+.icon-phone:hover {
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header__list-link_search {
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 50px;
+}
+
+.header__list-link_search .icon-search {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+}
+
+.header__list-link_search .icon-search:hover {
+  left: 16px;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header__list-link_phone.p-close:after {
+  background-color: #0e3049;
+}
+
+.header__list-link_search.s-close {
+  color: #0e3049;
+  background: #fafbfc url(../img/search-open-bg.jpg) top right;
+}
+
+.header__list-link_search.s-close .icon-search:before {
+  content: "\e904";
+}
+
+header .icon-close {
+  display: none;
+  color: #000;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+}
+
+header .icon-close:hover {
+  left: 16px;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header__list-link_wheel-chair {
+  display: block;
+  height: 30px;
+  text-align: right;
+  width: 50px;
+}
+
+.icon-acces {
+  font-size: 18px;
+}
+
+.icon-acces:hover {
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header__logo {
+  right: 10px;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+.form-wrapper {
+  background: #fafbfc url(../img/search-open-bg.jpg) top right repeat;
+  display: none;
+  width: 100%;
+}
+
+#top-form {
+  background-color: transparent;
+  border-bottom: 1px solid #02528a;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 0px 0 0px;
+  width: 100%;
+}
+
+.header__submit {
+  background-color: transparent;
+  border: none;
+  height: 49px;
+  left: 0;
+  margin-top: -25px;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+}
+
+.header__submit .icon-search {
+  color: #02528a;
+  display: block !important;
+  font-size: 25px;
+}
+
+.header__input {
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  font-size: 31px;
+  padding: 15px 0 10px;
+  text-indent: 7px;
+  width: 100%;
+}
+
+#top-form input::-webkit-input-placeholder {
+  color: #02528a;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-style: italic;
+  font-size: 38px;
+}
+
+#top-form input:-moz-placeholder {
+  color: #02528a;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 38px;
+}
+
+#top-form input::-moz-placeholder {
+  color: #02528a;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 38px;
+}
+
+#top-form input:-ms-input-placeholder {
+  color: #02528a;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 38px;
+}
+
+#top-form input:-moz-placeholder,
+input::-moz-placeholder {
+  opacity: 1;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.wheel-chair_link {
+  display: none;
+  float: left;
+  height: 64px;
+  text-align: center;
+  width: 64px;
+}
+
+.wheel-chair_link .icon-acces {
+  color: #02528a;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.navbar {
+  float: none;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: inherit;
+}
+
+.nav {
+  padding: 18px 0 17px;
+  float: none;
+  text-align: center;
+}
+
+.nav li {
+  padding: 0 10px;
+  float: none;
+  display: inline-block;
+}
+
+.nav .dropdown-menu li {
+  display: list-item;
+}
+
+.nav .dropdown-menu a {
+  color: #1e6597;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  border-top: none;
+}
+
+.navbar.navbar-default .nav > li > a {
+  color: #02528a;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-right: 25px;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover,
+.nav > li.active a {
+  background-color: transparent !important;
+  color: #2aabd2 !important;
+}
+
+.nav > li:not(:first-child) {
+  position: relative;
+}
+
+.nav > li:not(:first-child)::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 19px;
+  width: 6px;
+  height: 6px;
+  background-color: #228680;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.dropdown-menu {
+  border: none;
+  border-top: 2px solid #228680;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.dropdown-menu > li {
+  position: relative;
+}
+
+.dropdown-menu > li:not(:last-child) {
+  border-bottom: 1px solid rgba(177, 177, 177, 0.27);
+  border-width: 80%;
+}
+
+.dropdown-menu > li > a {
+  color: #1e6597;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li.active-li > a {
+  color: #2aabd2;
+  background-color: transparent;
+}
+
+/*--- mobile menu ---*/
+
+.navbar-toggle {
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  height: 64px;
+  margin: 0;
+  width: 64px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #197dbe;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  width: 30px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar-toggle[aria-expanded="true"] {
+  background-color: #02528a !important;
+  position: absolute;
+  top: 0;
+  right: -64px;
+}
+
+.navbar-toggle[aria-expanded="true"] .icon-bar {
+  background-color: #fff !important;
+}
+
+.navbar-toggle[aria-expanded="true"] span:last-child {
+  -webkit-transform: rotate(45deg) translateX(2px) translateY(0px);
+  -ms-transform: rotate(45deg) translateX(2px) translateY(0px);
+  transform: rotate(45deg) translateX(2px) translateY(0px);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar-toggle[aria-expanded="true"] span:nth-child(2) {
+  -webkit-transform: rotate(-45deg) translateX(-8px) translateY(9px);
+  -ms-transform: rotate(-45deg) translateX(-8px) translateY(9px);
+  transform: rotate(-45deg) translateX(-8px) translateY(9px);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar-toggle[aria-expanded="true"] span:nth-child(3) {
+  display: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.mobile__top-item {
+  background-color: #197dbe;
+  display: none;
+  float: right;
+  width: 100%;
+  text-align: center;
+}
+
+.mobile__top-item a {
+  position: relative;
+  float: right;
+}
+
+.mobile__top-item a:not(:last-child)::after {
+  background-color: rgba(255, 255, 255, 0.76);
+  content: '';
+  display: inline-block;
+  height: 70%;
+  width: 2px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.mobile__top-link {
+  display: block;
+  color: white !important;
+  height: 64px;
+  float: left;
+  font-family: "Heebo", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 33%;
+  vertical-align: middle;
+}
+
+.submenu li a {
+  padding: 5px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+}
+
+.mobile_open header .container-fluid:nth-child(3) {
+  background-color: transparent !important;
+}
+
+.mobile_open .mobile__top-item,
+.mobile_open .overlay {
+  display: block;
+}
+
+.mobile_open .wheel-chair_link {
+  display: none;
+}
+
+/*----- TOP-SECTION -----*/
+
+.top-section {
+  height: 770px;
+  margin-top: 137px;
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.topItem {
+  height: 500px;
+  position: relative;
+}
+
+.top-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 567px;
+  background: url(../img/big.jpg) center top no-repeat;
+}
+
+.top-img img {
+  width: 100%;
+}
+
+.top-img:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* IE10+ */
+  /* Mozilla Firefox */
+  /* Opera */
+  background-image: -o-linear-gradient(right, rgba(255, 255, 255, 0.75) 0%, rgba(51, 102, 255, 0) 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(0, rgba(255, 255, 255, 0.75)), color-stop(100, rgba(51, 102, 255, 0)));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.75) 0%, rgba(51, 102, 255, 0) 100%);
+  /* W3C Markup */
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0.75)), to(rgba(51, 102, 255, 0)));
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.75) 0%, rgba(51, 102, 255, 0) 100%);
+}
+
+.top__content {
+  position: absolute;
+  right: 20%;
+  top: 160px;
+  width: 50%;
+}
+
+.top__content h1,
+.top__content p {
+  color: #02528a;
+  font-size: 46px;
+  text-shadow: 0 0 38px rgba(255, 255, 255, 0.78);
+}
+
+.top__img {
+  display: block;
+  width: 100%;
+}
+
+.top__title {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-weight: 400;
+  margin-bottom: -5px;
+}
+
+.top__subtitle {
+  font-family: "Almoni DL AAA Light", sans-serif;
+  font-weight: 300;
+}
+
+.top__link {
+  background-color: #e9e9e9;
+  border: 1.22px solid #013c62;
+  color: #173a53;
+  display: inline-block;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 13px;
+  padding: 15px 29px;
+}
+
+.top__link .icon-arrow {
+  color: #173a52;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.top__link:hover {
+  background-color: #013c62;
+  color: #e9e9e9;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.top__link:hover .icon-arrow {
+  color: #e9e9e9;
+}
+
+.right-bg-1 {
+  width: 530px;
+  height: 530px;
+  background-color: #fff;
+  position: absolute;
+  sbottom: -90px;
+  top: 298px;
+  right: -270px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+s.right-bg-1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 90px;
+  bottom: 0px;
+  width: 394px;
+  height: 433px;
+  background: url(../img/glass.png) no-repeat;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.img_glass {
+  position: absolute;
+  right: 0px;
+  bottom: 13px;
+  width: 13%;
+  min-width: 250px;
+}
+
+.shapes-right .shape-big {
+  width: 152px;
+  height: 152px;
+  background-color: #003a63;
+  border: #d9d9d9 10px solid;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+.shapes-right .shape-small {
+  width: 90px;
+  height: 90px;
+  background-color: #197dbe;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.shapes-right .shape-in {
+  width: 50px;
+  height: 50px;
+  background-color: #001c4a;
+  border-left: #156aa2 10px solid;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+.left-bg-1 {
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  sbottom: 15px;
+  top: 340px;
+  left: 10px;
+  z-index: 1;
+}
+
+.shapes-left .shape-big {
+  width: 148px;
+  height: 148px;
+  background-color: #348c86;
+  position: absolute;
+  right: 35px;
+  top: 35px;
+}
+
+.shapes-left .shape-small {
+  width: 84px;
+  height: 84px;
+  background-color: #197dbe;
+  position: absolute;
+  right: 144px;
+  top: 144px;
+}
+
+.shapes-left .shape-in {
+  width: 40px;
+  height: 40px;
+  background-color: #054564;
+  position: absolute;
+  right: 143px;
+  top: 143px;
+}
+
+/*--- top-slider ---*/
+
+.top-slider.owl-theme .owl-nav button {
+  background-color: transparent;
+  border-bottom: 10px solid #02528a;
+  border-left: 10px solid #02528a;
+  border-top: none;
+  border-right: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 0;
+  height: 34px;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: 34px;
+}
+
+.top-slider__prevArrow {
+  left: 14%;
+  position: absolute;
+  top: 47%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.top-slider__nextArrow {
+  position: absolute;
+  right: 14%;
+  top: 47%;
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.top-slider.owl-theme .owl-nav [class*=owl-] {
+  color: transparent;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  display: block;
+  cursor: pointer;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/*----- SERVICES-SECTION -----*/
+
+.services-section {
+  margin-bottom: 140px;
+  margin-top: -180px;
+  position: relative;
+}
+
+.services__img {
+  display: block;
+  width: 20%;
+  bottom: -240px;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.h2-bg-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.h2-bg {
+  display: inline-block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background-color: #194d72;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: auto 10px;
+  position: relative;
+}
+
+.h2-bg::after,
+.h2-bg::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 7px;
+  height: 7px;
+  background-color: #559e99;
+  margin-top: -4px;
+  position: absolute;
+}
+
+.h2-bg::after {
+  top: -12px;
+  left: 20px;
+}
+
+.h2-bg::before {
+  top: 25px;
+  right: 21px;
+}
+
+.services__title {
+  color: #2d5f78;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+  margin-bottom: 67px;
+  text-align: center;
+}
+
+.services-wrapper .col-md-3 {
+  padding: 0;
+}
+
+.service {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.service__title {
+  color: white;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: -18px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.93);
+  top: 50%;
+  width: 100%;
+}
+
+.service__img {
+  display: block;
+  width: 100%;
+}
+
+.service__overlay {
+  background-color: transparent;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  padding: 90px 0 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.service__overlay:hover {
+  background-color: rgba(1, 39, 67, 0.87);
+}
+
+.service-overlay__title {
+  color: white;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: -18px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.93);
+  top: 50%;
+  width: 100%;
+}
+
+.service:hover .service-overlay__title {
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  position: static;
+}
+
+.service-overlay__text {
+  visibility: hidden;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.service:hover .service-overlay__text {
+  visibility: visible;
+}
+
+.service-overlay__link {
+  visibility: hidden;
+  background-color: #fff;
+  color: #184c71;
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.service-overlay__link .icon-arrow {
+  color: #184c71;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.service:hover .service-overlay__link {
+  visibility: visible;
+}
+
+/*----- ABOUT-SECTION -----*/
+
+.about-section {
+  background: url(../img/bg_about.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 38px 0 93px;
+  position: relative;
+}
+
+.about {
+  text-align: center;
+}
+
+.about__title {
+  color: #1a5179;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.about__text {
+  color: #363636;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about__link {
+  color: #363636;
+  display: inline-block;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.about__link::after {
+  color: #363636;
+  content: '>';
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/*----- VACANCIES-SECTION -----*/
+
+.vacancies-section {
+  padding-bottom: 153px;
+  position: relative;
+}
+
+.vacancies-section > img {
+  width: 13%;
+}
+
+.vacancies-section__img_gloves {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vacancies-section__img_pen {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  width: 20%;
+}
+
+.vacancies-section__img_keyboard {
+  position: absolute;
+  right: 0;
+  top: -30%;
+}
+
+.vacancies {
+  padding-top: 37px;
+}
+
+.vacancies__title {
+  color: #1a5179;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.vacancy {
+  text-align: center;
+}
+
+.vacancy__title {
+  color: #033b62;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+}
+
+.vacancy__title:before,
+.vacancy__title:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.vacancy__title:before {
+  margin-left: 15px;
+}
+
+.vacancy__title:after {
+  margin-right: 15px;
+}
+
+.vacancy__title_blue::before,
+.vacancy__title_blue::after {
+  background-color: #194d72;
+}
+
+.vacancy__title_green::before,
+.vacancy__title_green::after {
+  background-color: #559e99;
+}
+
+.vacancy__title_light::before,
+.vacancy__title_light::after {
+  background-color: #197dbe;
+}
+
+.vacancy__subtitle {
+  color: #125a81;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.vacancy__text {
+  color: #125a81;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.vacancy__link {
+  color: #125a81;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+  background-color: #01253f;
+  padding: 29px 0 24px;
+}
+
+.footer__menu {
+  border-bottom: 1px solid #6ab9b6;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer__menu li {
+  display: inline-block;
+}
+
+.footer__menu li:not(:last-child)::after {
+  color: #fff;
+  content: '/';
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer__menulink {
+  color: #fff;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer__menulink:active,
+.footer__menulink:hover,
+.footer__menulink:focus,
+.footer__menu li.active-li .footer__menulink {
+  color: #6ab9b6;
+}
+
+.bottom-logo__figure {
+  margin-right: 55px;
+}
+
+.bottom-text {
+  color: #fdfdfd;
+  display: inline-block;
+  float: left;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 0 0 -45px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/*---------- INFO PAGE STYLES ----------*/
+
+#info .navbar.navbar-default .nav > li.active a {
+  color: #228680 !important;
+}
+
+/*----- SECTION-TITLE -----*/
+
+.section-title {
+  background: url(../img/bg_about.jpg) center no-repeat;
+  height: 219px;
+  margin-top: 135px;
+  position: relative;
+}
+
+/* shapes styles */
+
+.section-title .left-bg-1 {
+  background-color: transparent;
+  height: 192px;
+  left: 118px;
+  top: -64px;
+  width: 192px;
+}
+
+.section-title .shapes-left .shape-big {
+  background-color: transparent;
+  border: 104px solid transparent;
+  border-top: 104px solid #348c86;
+  display: block;
+  height: 0;
+  right: 43px;
+  top: 43px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 0;
+}
+
+.section-title .shapes-left .shape-in,
+.section-title .shapes-left .shape-small {
+  right: 107px;
+  top: 107px;
+}
+
+.section-title .right-bg-1 {
+  background-color: transparent;
+  height: 222px;
+  right: -117px;
+  top: 73px;
+  width: 222px;
+}
+
+/* end shapes styles */
+
+.section-title .h2-bg-wrap {
+  margin-top: 70px;
+}
+
+.section-title .h2-bg {
+  height: 19px;
+  width: 19px;
+}
+
+.section-title .h2-bg::before,
+.section-title .h2-bg::after {
+  background-color: rgba(85, 158, 153, 0.84);
+  height: 11px;
+  width: 11px;
+}
+
+.section-title .h2-bg::before {
+  top: 30px;
+  right: 26px;
+}
+
+.section-title .h2-bg::after {
+  top: -13px;
+  left: 25px;
+}
+
+.section-title .page-title {
+  color: #2d5f78;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 58px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* breadcrumbs styles*/
+
+.breadcrumbs {
+  margin: 20px 0;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__item:not(:first-child)::before {
+  content: '>';
+  color: #282828;
+  margin: 0 5px;
+  vertical-align: top;
+}
+
+.breadcrumbs__link {
+  color: #282828;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+}
+
+.breadcrumbs__link_home i {
+  color: #282828;
+}
+
+/* end breadcrumbs styles*/
+
+/*----- SECTION-INFO -----*/
+
+.section-info {
+  padding-bottom: 90px;
+}
+
+.info__text {
+  color: #282828;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.info__text_top {
+  color: #2d5f78;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 29px;
+}
+
+.info__text_bottom {
+  clear: both;
+}
+
+.info__figure {
+  float: left;
+  margin: 0 30px 30px 0;
+}
+
+.info__img {
+  max-width: 100%;
+}
+
+.info__bottom {
+  margin-top: 51px;
+}
+
+.infoList__title {
+  color: #2d5f78;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.info__item {
+  color: #282828;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.info__item::before {
+  background-color: rgba(52, 140, 134, 0.84);
+  content: '';
+  display: inline-block;
+  height: 11px;
+  margin-left: 20px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 11px;
+}
+
+.info__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/*---------- CONTACTS PAGE STYLES ----------*/
+
+#contacts .navbar.navbar-default .nav > li.active a {
+  color: #228680 !important;
+}
+
+/*----- SECTION-CONTACTS -----*/
+
+.section-contacts {
+  color: #184c71;
+  padding-bottom: 57px;
+}
+
+.section-contacts a {
+  color: #184c71;
+}
+
+.contactUs {
+  width: 49%;
+}
+
+.contacts {
+  width: 46%;
+}
+
+.contactUs {
+  float: left;
+}
+
+.contacts {
+  float: right;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+}
+
+.contactsBox {
+  border: 1px solid #348c86;
+  float: right;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding: 10px 0 15px;
+  text-align: center;
+  width: 47%;
+}
+
+.contactsBox p {
+  margin-bottom: 0;
+}
+
+.contactsBox .contactsBox__title {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.contactsBox .contactsBox__title::after,
+.contactsBox .contactsBox__title::before {
+  background-color: #348c86;
+  content: '';
+  display: inline-block;
+  height: 10px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+}
+
+.contactsBox .contactsBox__title::after {
+  margin-right: 15px;
+}
+
+.contactsBox .contactsBox__title::before {
+  margin-left: 15px;
+}
+
+.contactsBox:nth-child(odd) {
+  float: left;
+}
+
+.contactsBox_lg {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.contactsBox_lg .contactsBox__title {
+  font-size: 22px;
+}
+
+.contactsBox_lg .contactsBox__item:first-child::after {
+  content: '|';
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.contactsBottom p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contactsBottom i {
+  font-size: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.contactsBottom__item_phone {
+  margin-right: 5px;
+}
+
+.contactsBottom__phone {
+  margin-bottom: 16px;
+}
+
+.contactUs {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-weight: 700;
+}
+
+.contactForm__title {
+  font-size: 23px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.contactForm label,
+.contactForm .contactForm__label {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.contactForm dl {
+  margin-bottom: 26px;
+  width: 47%;
+}
+
+.contactForm dl:nth-child(odd) {
+  float: right;
+}
+
+.contactForm dl:nth-child(even) {
+  float: left;
+}
+
+.contactForm dl:last-of-type {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm textarea,
+.contactForm .contactForm__fileUpload {
+  background-color: #ebebeb;
+  border: none;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm .contactForm__fileUpload {
+  height: 40px;
+  width: 260px;
+}
+
+.contactForm select {
+  cursor: pointer;
+}
+
+.contactForm input {
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.contactForm__textarea {
+  text-indent: 10px;
+}
+
+.contactForm__selectWrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.contactForm__selectWrapper::after {
+  border-bottom: 1px solid rgba(45, 95, 120, 0.98);
+  border-right: 1px solid rgba(45, 95, 120, 0.98);
+  content: '';
+  display: block;
+  height: 10px;
+  margin-top: -5px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.contactForm__select {
+  -webkit-appearance: none;
+  /* for webkit browsers */
+  -moz-appearance: none;
+  /* for firefox */
+  appearance: none;
+  /* for modern browsers */
+  outline: none;
+}
+
+.contactForm__input_file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.contactForm__input_file + label {
+  background-color: #ebebeb;
+  border: none;
+  height: 40px;
+  margin-bottom: 0;
+  width: 260px;
+  -webkit-transition: background-color .5s linear;
+  -o-transition: background-color .5s linear;
+  transition: background-color .5s linear;
+}
+
+.contactForm__input_file + label span {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  text-indent: 10px;
+}
+
+.contactForm__label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.contactForm__input_file:focus + label,
+.contactForm__input_file + label:hover {
+  background-color: #d2d2d2;
+}
+
+.contactForm__input_file + label .icon-upload {
+  float: left;
+  font-size: 23px;
+  margin: 10px 0 0 10px;
+}
+
+.contactForm__input_file:focus + label,
+.contactForm__input_file.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.contactForm__input_file + label * {
+  pointer-events: none;
+}
+
+.contactForm input::-webkit-input-placeholder {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  color: #184c71;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contactForm input:-moz-placeholder {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contactForm input::-moz-placeholder {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contactForm input:-ms-input-placeholder {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contactForm input:-moz-placeholder,
+input::-moz-placeholder {
+  opacity: 1;
+}
+
+.contactForm__fileUpload {
+  position: relative;
+}
+
+input.contactForm__input_file {
+  height: 0;
+  opacity: 0;
+  width: 0;
+}
+
+.contactForm__textarea {
+  resize: none;
+  width: 100%;
+}
+
+.contactForm__captcha {
+  clear: both;
+  float: right;
+}
+
+.contactForm__submit {
+  background-color: #348c86;
+  border: 1px solid #348c86;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 12px;
+  padding: 10px 114px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.contactForm__submit:hover {
+  background-color: #fff;
+  color: #348c86;
+}
+
+/*----- section-map -----*/
+
+.section-map iframe {
+  width: 100%;
+}
+
+/*----- overlayTnx -----*/
+
+.overlayTnx {
+  background-color: rgba(1, 37, 63, 0.94);
+  border: 1px dashed black;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: -130px;
+  width: 100%;
+  z-index: 1500;
+}
+
+.overlayTnx__close {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.overlayTnx__close .icon-close {
+  color: #fff;
+  font-size: 26px;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.overlayTnx__close .icon-close:hover {
+  font-weight: 600;
+}
+
+.overlayTnx__icon {
+  background-color: #348c86;
+  display: inline-block;
+  height: 70px;
+  margin-bottom: 40px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 70px;
+}
+
+.overlayTnx__icon .icon-vi {
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  line-height: 60px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  vertical-align: middle;
+}
+
+.overlayTnx__title {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+}
+
+.overlayTnx__title_fw400 {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-weight: 400;
+}
+
+.overlayTnx__title_fw700 {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-weight: 700;
+}
+
+.overlayTnx__text {
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contactsModal .modal-dialog {
+  margin-top: 0;
+}
+
+.contactsModal .modal-header {
+  border: none;
+}
+
+.contactsModal .modal-content {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.contactsModal button.close {
+  float: right;
+  font-size: 50px;
+  color: #fff;
+  opacity: .5;
+}
+
+.contactsModal button.close:focus,
+.contactsModal button.close:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-backdrop {
+  background-color: #01253f;
+  opacity: .9;
+}
+
+.modal-backdrop.in {
+  background-color: #01253f;
+  opacity: .9;
+}
+
+/*---------- SEARCH RESULTS PAGE ----------*/
+
+/*----- SECTION-TITLE -----*/
+
+.bodySearchRes .page-title span {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-weight: 700;
+}
+
+/*SEARCHRES-SECTION*/
+
+.searchResItem {
+  border: 1px solid #348c86;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.searchResItem__figure {
+  float: right;
+}
+
+.searchResItem__container {
+  color: #125a81;
+  float: right;
+  margin-right: 30px;
+  width: 58%;
+}
+
+.searchResItem__title {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.searchResItem__text {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.searchResItem__link {
+  color: #125a81;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.searchResItem_sad {
+  border: none;
+  text-align: center;
+}
+
+.searchResItem_sad__title {
+  color: #184c71;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.searchResItem_sad__link {
+  color: #539c97;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.searchResItem_sad__link:hover,
+.searchResItem_sad__link:focus {
+  color: #539c97;
+  text-decoration: underline;
+}
+
+.searchResItem_sad i {
+  color: #539c97;
+  font-size: 66px;
+}
+
+/*---------- PERSONAL PAGE ----------*/
+
+/*----- personal-section -----*/
+
+.bodyPersonal .navbar.navbar-default .navbar-nav li.logout {
+  color: #02528a;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  float: left;
+  padding: 14px 10px 0 0;
+}
+
+.bodyPersonal .navbar.navbar-default .navbar-nav li.logout::before {
+  display: none;
+}
+
+.bodyPersonal .navbar.navbar-default .navbar-nav li.logout a {
+  color: #02528a;
+  display: inline-block;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.personal-section {
+  overflow: hidden;
+}
+
+.personal-section .container {
+  width: 1450px;
+}
+
+.personalSearch {
+  background-color: #197cbc;
+  text-align: center;
+  -webkit-transform: skew(45deg);
+  -ms-transform: skew(45deg);
+  transform: skew(45deg);
+}
+
+.personalSearchForm {
+  display: inline-block;
+  height: 90px;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+}
+
+.personalSearchForm dl {
+  margin-bottom: 0;
+}
+
+.personalSearchForm dt {
+  text-align: right;
+}
+
+.personalSearchForm .form-group {
+  margin-right: 30px;
+  padding-top: 10px;
+}
+
+.personalSearchForm__label {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.personalSearchForm__selectWrapper {
+  overflow: hidden;
+  position: relative;
+  height: 40px;
+  width: 260px;
+}
+
+.personalSearchForm__selectWrapper::after {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.98);
+  border-right: 1px solid rgba(255, 255, 255, 0.98);
+  content: '';
+  display: block;
+  height: 10px;
+  margin-top: -5px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.personalSearchForm__select {
+  color: #fff;
+  background-color: #146396;
+  border: 1px solid #fff;
+  cursor: pointer;
+  height: 40px;
+  padding-right: 10px;
+  width: 260px;
+  -webkit-appearance: none;
+  /* for webkit browsers */
+  -moz-appearance: none;
+  /* for firefox */
+  appearance: none;
+  /* for modern browsers */
+  outline: none;
+}
+
+.personalSearchForm__imageWrapper {
+  display: inline-block;
+  padding-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.personalSearchForm i.icon-money {
+  color: #fff;
+  font-size: 38px;
+}
+
+.personalSearchForm__text {
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.jobList-section {
+  padding: 50px 0;
+}
+
+.jobListItem {
+  border: 1px solid #348c86;
+  color: #125a81;
+  margin: 15px 0;
+  padding: 20px;
+}
+
+.jobListItem__title {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+
+.jobListItem__date {
+  color: #348c86;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.jobListItem__text {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.jobListItem__link {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/*----- LOGIN-SECTION -----*/
+
+.logIn-section {
+  padding: 15px 0 300px;
+}
+
+.logIn__title {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.logIn__link {
+  color: #2f2f2f;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.logIn__link:hover,
+.logIn__link:focus {
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+.logInForm {
+  margin-bottom: 35px;
+}
+
+.logInForm dt,
+.logInForm dd,
+.logInForm__submit {
+  margin: 0 auto;
+  width: 260px;
+}
+
+.logInForm dt {
+  text-align: right;
+}
+
+.logInForm__label {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.logInForm__input {
+  background-color: #ebebeb;
+  border: 0.81px solid white;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  height: 40px;
+  text-indent: 10px;
+  width: 100%;
+}
+
+.logInForm__input:focus,
+.logInForm__input:active {
+  border: 0.81px solid #02528a;
+}
+
+.logInForm__input_error {
+  border: 0.81px solid #ec4244;
+}
+
+.logInForm__text {
+  color: #ec6061;
+  display: none;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  float: left;
+}
+
+.logInForm__text_error {
+  display: inline-block;
+}
+
+.logInForm__submit {
+  background-color: #348c86;
+  border: 1px solid #348c86;
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  height: 40px;
+  -webkit-transition: background-color, color .2s linear;
+  -o-transition: background-color, color .2s linear;
+  transition: background-color, color .2s linear;
+}
+
+.logInForm__submit:hover,
+.logInForm__submit:focus {
+  background-color: #fff;
+  color: #348c86;
+}
+
+/*----- personal page Modal -----*/
+
+#loginModal .icon-lock {
+  color: #fff;
+  display: inline-block;
+  font-size: 46px;
+  line-height: 68px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  vertical-align: middle;
+}
+
+#loginModal .overlayTnx__text_fw700 {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-weight: 700;
+}
+
+#loginModal .overlayTnx__text_hidden {
+  display: none;
+  color: white;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 20px;
+}
+
+#loginModal .loginModalForm dt,
+#loginModal .loginModalForm dd,
+#loginModal .loginModalForm__submit {
+  margin: 0 auto;
+  width: 260px;
+}
+
+#loginModal .loginModalForm dt {
+  text-align: right;
+}
+
+#loginModal .loginModalForm__label {
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#loginModal .loginModalForm__input {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 0.81px solid white;
+  height: 40px;
+  text-indent: 10px;
+  width: 100%;
+}
+
+#loginModal .loginModalForm__input:focus,
+#loginModal .loginModalForm__input:active {
+  color: #fff;
+}
+
+#loginModal .loginModalForm__submit {
+  background-color: #348c86;
+  border: 1px solid #348c86;
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  height: 40px;
+  -webkit-transition: background-color, color .2s linear;
+  -o-transition: background-color, color .2s linear;
+  transition: background-color, color .2s linear;
+}
+
+#loginModal .loginModalForm__submit:hover {
+  background-color: #fff;
+  color: #348c86;
+}
+
+#loginModal.modalTextHidden .overlayTnx__text,
+#loginModal.modalTextHidden .overlayTnx__title {
+  display: none;
+}
+
+#loginModal.modalTextHidden .overlayTnx__text_hidden {
+  display: block;
+}
+
+/*---------- JOBS PAGE ----------*/
+
+/*----- JOBS-SECTION -----*/
+
+.jobs-section {
+  overflow: hidden;
+}
+
+.jobs-section .container {
+  width: 1450px;
+}
+
+.jobsSearch {
+  background-color: #184c71;
+  text-align: center;
+  -webkit-transform: skew(45deg);
+  -ms-transform: skew(45deg);
+  transform: skew(45deg);
+}
+
+.jobsSearchForm {
+  display: inline-block;
+  height: 90px;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+}
+
+.jobsSearchForm dl {
+  margin-bottom: 0;
+}
+
+.jobsSearchForm dt {
+  text-align: right;
+}
+
+.jobsSearchForm .form-group {
+  margin-right: 30px;
+  padding-top: 10px;
+}
+
+.jobsSearchForm__label {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.jobsSearchForm__selectWrapper {
+  overflow: hidden;
+  position: relative;
+  height: 40px;
+  width: 260px;
+}
+
+.jobsSearchForm__selectWrapper::after {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.98);
+  border-right: 1px solid rgba(255, 255, 255, 0.98);
+  content: '';
+  display: block;
+  height: 10px;
+  margin-top: -5px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.jobsSearchForm__select {
+  color: #fff;
+  background-color: #133d5a;
+  border: 1px solid #fff;
+  cursor: pointer;
+  height: 40px;
+  padding-right: 10px;
+  width: 260px;
+  -webkit-appearance: none;
+  /* for webkit browsers */
+  -moz-appearance: none;
+  /* for firefox */
+  appearance: none;
+  /* for modern browsers */
+  outline: none;
+}
+
+.jobsSearchForm__imageWrapper {
+  display: inline-block;
+  padding-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.jobsSearchForm i.icon-search_1 {
+  color: #fff;
+  font-size: 38px;
+}
+
+.jobsSearchForm__text {
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.jobFind-section {
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.jobFindItem {
+  border: 1px solid #348c86;
+  color: #125a81;
+  margin: 30px 0;
+  padding: 20px;
+  position: relative;
+  -webkit-transition: -webkit-transform, -webkit-box-shadow .2s linear;
+  transition: -webkit-transform, -webkit-box-shadow .2s linear;
+  -o-transition: transform, box-shadow .2s linear;
+  transition: transform, box-shadow .2s linear;
+  transition: transform, box-shadow .2s linear, -webkit-transform, -webkit-box-shadow .2s linear;
+}
+
+.jobFindItem:hover,
+.jobFindItem:focus {
+  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.18);
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.jobFindItem::before {
+  content: '';
+  display: block;
+  height: 21px;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  top: -11px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 21px;
+}
+
+.jobFindItem__title {
+  color: #125a81;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+
+.jobFindItem__date {
+  color: #3f3f3f;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.jobFindItem__name {
+  color: #033b62;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.jobFindItem__subtitle {
+  color: #348c86;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.jobFindItem__text {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 40px;
+  color: #505050;
+}
+
+.jobFindItem__link {
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.jobFindItem__button {
+  background-color: #0e3049;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  height: 34px;
+  line-height: 34px;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  -webkit-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  width: 180px;
+}
+
+.jobFindItem__button .icon-cv {
+  display: inline-block;
+  font-size: 21px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.jobFindItem__button:hover,
+.jobFindItem__button:focus {
+  color: #fff;
+  background-color: #164c74;
+}
+
+.col-md-4.col-sm-6.col-xs-12:nth-child(odd) .jobFindItem::before {
+  background-color: #348c86;
+}
+
+.col-md-4.col-sm-6.col-xs-12:nth-child(even) .jobFindItem::before {
+  background-color: #02528a;
+}
+
+.col-md-4.col-sm-6.col-xs-12:nth-child(3n) .jobFindItem::before {
+  background-color: #197dbe;
+}
+
+#jobsModal .modal-dialog {
+  margin-top: 0;
+}
+
+#jobsModal .modal-header {
+  border: none;
+}
+
+#jobsModal .modal-content {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#jobsModal button.close {
+  float: right;
+  font-size: 50px;
+  color: #fff;
+  opacity: .5;
+}
+
+#jobsModal button.close:focus,
+#jobsModal button.close:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+#jobsModal .icon-vi {
+  color: #fff;
+  display: inline-block;
+  display: none;
+  font-size: 32px;
+  line-height: 68px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  vertical-align: middle;
+}
+
+#jobsModal .overlayTnx__icon {
+  height: 24px;
+  width: 24px;
+}
+
+#jobsModal .overlayTnx__text_fw700 {
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-weight: 700;
+}
+
+#jobsModal .overlayTnx__text_hidden {
+  display: none;
+  color: white;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 20px;
+}
+
+#jobsModal .jobsModalForm dt,
+#jobsModal .jobsModalForm dd,
+#jobsModal .jobsModalForm__submit {
+  margin: 0 auto;
+  width: 260px;
+}
+
+#jobsModal .jobsModalForm__dl_btm {
+  margin: 0 auto 20px;
+  text-align: right;
+  width: 260px;
+}
+
+#jobsModal .jobsModalForm dt {
+  text-align: right;
+}
+
+#jobsModal .jobsModalForm__label {
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#jobsModal .jobsModalForm__input {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 0.81px solid white;
+  height: 40px;
+  text-indent: 10px;
+  width: 100%;
+}
+
+#jobsModal .jobsModalForm__input:focus,
+#jobsModal .jobsModalForm__input:active {
+  color: #fff;
+}
+
+#jobsModal .jobsModalForm__input_file {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+#jobsModal .jobsModalForm__input_file + label {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 0.81px solid white;
+  cursor: pointer;
+  height: 40px;
+  margin-bottom: 0;
+  width: 260px;
+  -webkit-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+#jobsModal .jobsModalForm__input_file + label span {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  text-indent: 10px;
+}
+
+#jobsModal .jobsModalForm__label {
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#jobsModal .jobsModalForm__input_file:focus + label,
+#jobsModal .jobsModalForm__input_file + label:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#jobsModal .jobsModalForm__input_file + label .icon-upload {
+  color: #fff;
+  float: left;
+  font-size: 23px;
+  margin: 10px 0 0 10px;
+}
+
+#jobsModal .jobsModalForm__input_file:focus + label,
+#jobsModal .jobsModalForm__input_file.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+#jobsModal .jobsModalForm__input_file + label * {
+  pointer-events: none;
+}
+
+#jobsModal .jobsModalForm__submit {
+  background-color: #348c86;
+  border: 1px solid #348c86;
+  color: #fff;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  height: 40px;
+  -webkit-transition: background-color, color .2s linear;
+  -o-transition: background-color, color .2s linear;
+  transition: background-color, color .2s linear;
+}
+
+#jobsModal .jobsModalForm__submit:hover {
+  background-color: #fff;
+  color: #348c86;
+}
+
+#jobsModal.modalTextHidden .overlayTnx__text,
+#jobsModal.modalTextHidden .overlayTnx__title,
+#jobsModal.modalTextHidden .jobsModal__form {
+  display: none;
+}
+
+#jobsModal.modalTextHidden .overlayTnx__text_hidden {
+  display: block;
+}
+
+#jobsModal.modalTextHidden .overlayTnx__icon {
+  height: 70px;
+  width: 70px;
+}
+
+#jobsModal.modalTextHidden .overlayTnx__icon .icon-vi {
+  display: inline-block;
+}
+
+/*---------- APPLICATION PAGE ----------*/
+
+/*----- APPLICATON SECTION -----*/
+
+.application-section {
+  margin-bottom: 145px;
+}
+
+.application {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+}
+
+.applicationForm {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+}
+
+.applicationForm__title {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.applicationForm label {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.applicationForm dl {
+  margin-bottom: 26px;
+  width: 47%;
+}
+
+.applicationForm dl:nth-child(odd) {
+  float: right;
+}
+
+.applicationForm dl:nth-child(even) {
+  float: left;
+}
+
+.applicationForm dl:last-of-type {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.applicationForm input,
+.applicationForm textarea {
+  background-color: #ebebeb;
+  border: none;
+}
+
+.applicationForm input {
+  font-size: 20px;
+  height: 40px;
+  width: 260px;
+  text-indent: 10px;
+}
+
+.applicationForm__textarea {
+  text-indent: 10px;
+}
+
+.applicationForm__textarea {
+  resize: none;
+  width: 100%;
+}
+
+.applicationForm__captcha {
+  clear: both;
+  float: right;
+}
+
+.applicationForm__submit {
+  background-color: #348c86;
+  border: 1px solid #348c86;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 12px;
+  padding: 10px 114px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.applicationForm__submit:hover {
+  background-color: #fff;
+  color: #348c86;
+}
+
+/*---------- UNSUBSCRIBE PAGE ----------*/
+
+/*----- UNSUBSCRIBE-SECTION -----*/
+
+.unsubscribe-section {
+  padding: 100px 0 250px;
+}
+
+.unsubscribe-section .col-lg-4 {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.unsubscribeForm {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+}
+
+.unsubscribeForm__title {
+  color: #184c71;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.unsubscribeForm label {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.unsubscribeForm dl {
+  margin-bottom: 30px;
+}
+
+.unsubscribeForm dt {
+  margin: 0 auto;
+  max-width: 260px;
+  text-align: right;
+}
+
+.unsubscribeForm input {
+  background-color: #ebebeb;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 260px;
+  text-indent: 10px;
+}
+
+.unsubscribeForm__submit {
+  background-color: #348c86;
+  border: 1px solid #348c86;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0 auto;
+  padding: 10px 114px;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.unsubscribeForm__submit:hover {
+  background-color: #fff;
+  color: #348c86;
+}
+
+/*---------- 404 PAGE ---------*/
+
+.bodyNoPage .section-title {
+  background: url(../img/404.svg) top center no-repeat;
+  background-position-y: -105px;
+  height: 340px;
+  overflow: hidden;
+}
+
+.bodyNoPage .section-title .left-bg-1 {
+  left: -96px;
+}
+
+.bodyNoPage .section-title .icon-404 {
+  opacity: 0.05;
+  color: #012743;
+  font-size: 360px;
+  font-weight: 700;
+  left: 50%;
+  margin-left: -25%;
+  position: absolute;
+  top: 0;
+}
+
+.noPage-section {
+  margin: -210px 0 670px;
+}
+
+.noPage-section .col-lg-4 {
+  float: none;
+  margin: 0 auto;
+}
+
+.noPage {
+  text-align: center;
+}
+
+.noPage__title {
+  color: #2a5970;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.noPage__text {
+  color: #08426d;
+  font-family: "Almoni DL AAA Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.noPage__link {
+  color: #559e99;
+  font-family: "Almoni DL AAA Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.noPage__link:hover,
+.noPage__link:focus {
+  color: #559e99;
+  text-decoration: underline;
+}

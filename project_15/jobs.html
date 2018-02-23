@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jobs</title>
+    <link rel="stylesheet" href="libs/bootstrap_3/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap_3/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="libs/bootstrap_3/bootstrap.min.js"></script>
+    <script src="libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body class="bodyJobs">
+    <div class="wrapper" id="contacts">
+        <div class="overlay"></div>
+        <header class="navbar-fixed-top">
+            <div class="form-wrapper" id="form-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="header__search" action="" method="post" id="top-form">
+                                <input type="text" name="user-search" value="" class="header__input" placeholder="חפש/י...">
+                                <button type="submit" name="submit-search" class="header__submit"><i class="icon-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="header__menu">
+                                        <ul class="header__list">
+                                            <li class="header__list-item"><a href="tel:074-7046666" class="header__list-link header__list-link_phone" id="phone-num"> <i class="icon-phone"></i><span>074-7046666</span> </a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link header__list-link_search" id="open-form"><i class="icon-search"></i></a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link header__list-link_tahoma">عربيه</a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link">Pyc</a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link">Eng</a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link header__list-link_wheel-chair "><i class="icon-acces"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="header__logo logo-main">
+                                        <figure class="header__figure"><a href="index.html" class="logo-main__link"><img src="img/main_logo.png" alt="main-logo" class="logo-main__img"></a></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0">
+                <nav class="navbar  navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a href="#" class="wheel-chair_link"><i class="icon-acces"></i></a>
+                            <div class="mobile__top-item">
+                                <a href="#" class="mobile__top-link">عربيه</a>
+                                <a href="#" class="mobile__top-link">Рус</a>
+                                <a href="#" class="mobile__top-link">Eng</a>
+                            </div>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="collapse-navbar">
+                            <ul class="nav navbar-nav">
+                                <li role="menuitem" ><a href="info.html">אודות</a></li>
+                                <li class="dropdown" role="menuitem" aria-haspopup="true">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> השירותים שלנו</a>
+                                    <ul class="submenu dropdown-menu" role="menu">
+                                        <li role="menuitem"><a href="#">ניקיון</a></li>
+                                        <li role="menuitem"><a href="#">אבטחה</a></li>
+                                        <li role="menuitem"><a href="#">מוקד מבצעי</a></li>
+                                        <li role="menuitem"><a href="#">כח אדם</a></li>
+                                    </ul>
+                                </li>
+                                <li role="menuitem"  class="active"><a href="jobs.html">דרושים</a></li>
+                                <li role="menuitem"><a href="personal.html">אזור אישי</a></li>
+                                <li role="menuitem"><a href="application.html">טופס פניות</a></li>
+                                <li role="menuitem" ><a href="contacts.html">צור קשר</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section-title">
+                <div class="right-bg-1">
+                    <div class="shapes-right">
+                        <div class="shape-big"></div>
+                        <div class="shape-small"></div>
+                        <div class="shape-in"></div>
+                    </div>
+                </div>
+                <div class="left-bg-1">
+                    <div class="shapes-left">
+                        <div class="shape-big"></div>
+                        <div class="shape-small"></div>
+                        <div class="shape-in"></div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="h2-bg-wrap">
+                                <div class="h2-bg"></div>
+                            </div>
+                            <h1 class="page-title">דרושים</h1>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- section-title -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumbs">
+                            <ul class="breadcrumbs__list">
+                                <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link breadcrumbs__link_home"><i class="icon-home"></i></a></li>
+                                <li class="breadcrumbs__item"><a href="jobs.html" class="breadcrumbs__link">דרושים</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="jobs-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="jobsSearch">
+                                            <form action="#" class="jobsSearchForm form-inline">
+                                                <div class="jobsSearchForm__imageWrapper">
+                                                    <i class="icon-search_1"></i>
+                                                    <p class="jobsSearchForm__text">חפש משרות לפי</p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <dl>
+                                                        <dt>
+                                                            <label for="" class="jobsSearchForm__label">תחום</label>
+                                                        </dt>
+                                                        <dd>
+                                                            <div class="jobsSearchForm__selectWrapper">
+                                                                <select class="jobsSearchForm__select" name="" id="">
+                                                                <option value="">בחר תחום</option>
+                                                                <option value="">Lorem ipsum dolor</option>
+                                                                <option value="">consectetur adipisicing</option>
+                                                                </select>
+                                                            </div>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="form-group">
+                                                    <dl>
+                                                        <dt>
+                                                            <label for="" class="jobsSearchForm__label">אזור</label>
+                                                        </dt>
+                                                        <dd>
+                                                            <div class="jobsSearchForm__selectWrapper">
+                                                                <select class="jobsSearchForm__select" name="" id="">
+                                                                <option value="">בחר אזור</option>
+                                                                <option value="">Lorem ipsum dolor</option>
+                                                                <option value="">consectetur adipisicing</option>
+                                                                </select>
+                                                            </div>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- personal-section -->
+            <section class="jobFind-section">
+                <div class="container">
+                    <div class="row masonryContainer">
+                        <div class="col-md-4 col-sm-6 col-xs-12 masonryItem">
+                            <div class="jobFindItem text-center">
+                                <p class="jobFindItem__date">18/10/17</p>
+                                <h2 class="jobFindItem__name">ניקיון</h2>
+                                <h3 class="jobFindItem__title">עובד/ת ניקיון</h3>
+                                <h4 class="jobFindItem__subtitle">חצי משרה | חיפה</h4>
+                                <p class="jobFindItem__text">את\ה חייל\ת, משוחרר\ת או סטודנט\ית ומחפש\ת עבודה במשמרות? שלחו קורות חיים ואנו נציע לך משרות אבטחה מעניינות בנתב"ג.</p>
+                                <a href="#" class="jobFindItem__button"><i class="icon-cv"></i><span>הגש מועמדות</span></a>
+                            </div><!-- jobFindItem -->
+                        </div><!-- col-md-4 col-sm-6 col-xs-12 masonryItem -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 masonryItem">
+                            <div class="jobFindItem text-center">
+                                <p class="jobFindItem__date">18/10/17</p>
+                                <h2 class="jobFindItem__name">אבטחה</h2>
+                                <h3 class="jobFindItem__title">עובד/ת ניקיון</h3>
+                                <h4 class="jobFindItem__subtitle">משרה מלאה | אור יהודה</h4>
+                                <p class="jobFindItem__text"> דרוש\ה מאבטח\ת עם\ללא רישיון   נשק ארגוני בתוקף</p>
+                                <a href="#" class="jobFindItem__button"><i class="icon-cv"></i><span>הגש מועמדות</span></a>
+                            </div><!-- jobFindItem -->
+                        </div><!-- col-md-4 col-sm-6 col-xs-12 masonryItem -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 masonryItem">
+                            <div class="jobFindItem text-center">
+                                <p class="jobFindItem__date">18/10/17</p>
+                                <h2 class="jobFindItem__name">כח אדם</h2>
+                                <h3 class="jobFindItem__title">נהג/ת עם רישיון עד\מעל 15 טון</h3>
+                                <h4 class="jobFindItem__subtitle">חצי משרה | ראשון לציון</h4>
+                                <p class="jobFindItem__text">נהג/ת עם רישיון עד 15 טון לעבודה  על משאית מטאטא כביש  ברחבי ראשון לציון והרצליה תנאים מעולים למתאימים!</p>
+                                <a href="#" class="jobFindItem__button"><i class="icon-cv"></i><span>הגש מועמדות</span></a>
+                            </div><!-- jobFindItem -->
+                        </div><!-- col-md-4 col-sm-6 col-xs-12 masonryItem -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 masonryItem">
+                            <div class="jobFindItem text-center">
+                                <p class="jobFindItem__date">18/10/17</p>
+                                <h2 class="jobFindItem__name">ניקיון</h2>
+                                <h3 class="jobFindItem__title">עובד/ת ניקיון</h3>
+                                <h4 class="jobFindItem__subtitle">חצי משרה | חיפה</h4>
+                                <p class="jobFindItem__text">את\ה חייל\ת, משוחרר\ת או סטודנט\ית ומחפש\ת עבודה במשמרות? שלחו קורות חיים ואנו נציע לך משרות אבטחה מעניינות בנתב"ג.</p>
+                                <a href="#" class="jobFindItem__button"><i class="icon-cv"></i><span>הגש מועמדות</span></a>
+                            </div><!-- jobFindItem -->
+                        </div><!-- col-md-4 col-sm-6 col-xs-12 masonryItem -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 masonryItem">
+                            <div class="jobFindItem text-center">
+                                <p class="jobFindItem__date">18/10/17</p>
+                                <h2 class="jobFindItem__name">כח אדם</h2>
+                                <h3 class="jobFindItem__title">נהג/ת עם רישיון עד\מעל 15 טון</h3>
+                                <h4 class="jobFindItem__subtitle">חצי משרה | ראשון לציון</h4>
+                                <p class="jobFindItem__text">נהג/ת עם רישיון עד 15 טון לעבודה  על משאית מטאטא כביש  ברחבי ראשון לציון והרצליה תנאים מעולים למתאימים!</p>
+                                <a href="#" class="jobFindItem__button"><i class="icon-cv"></i><span>הגש מועמדות</span></a>
+                            </div><!-- jobFindItem -->
+                        </div><!-- col-md-4 col-sm-6 col-xs-12 masonryItem -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 masonryItem">
+                            <div class="jobFindItem text-center">
+                                <p class="jobFindItem__date">18/10/17</p>
+                                <h2 class="jobFindItem__name">אבטחה</h2>
+                                <h3 class="jobFindItem__title">עובד/ת ניקיון</h3>
+                                <h4 class="jobFindItem__subtitle">משרה מלאה | אור יהודה</h4>
+                                <p class="jobFindItem__text"> דרוש\ה מאבטח\ת עם\ללא רישיון   נשק ארגוני בתוקף</p>
+                                <a href="#" class="jobFindItem__button"><i class="icon-cv"></i><span>הגש מועמדות</span></a>
+                            </div><!-- jobFindItem -->
+                        </div><!-- col-md-4 col-sm-6 col-xs-12 masonryItem -->
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="searchResItem searchResItem_sad">
+                                <i class="icon-sadface"></i>
+                                <h2 class="searchResItem_sad__title">לא נמצאו תוצאות</h2>
+                                <a href="#" class="searchResItem_sad__link">חפש שוב</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- jobFind-section -->
+            <div class="modal fade jobsModal" id="jobsModal" tabindex="-1" role="dialog" aria-labelledby="jobsModal" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col text-center">
+                                  <span class="overlayTnx__icon"><i class="icon-vi"></i></span>
+                                  <h2 class="overlayTnx__title"><span class="overlayTnx__title overlayTnx__title_fw700">עובד/ת ניקיון</span></h2>
+                                  <p class="overlayTnx__text">חצי משרה | חיפה</p>
+                                  <p class=" overlayTnx__text_hidden overlayTnx__text_fw700">תודה דנית פרץ</p>
+                                  <p class=" overlayTnx__text_hidden">הקורות חיים נשלחו בהצלחה <br>ניצור אתך קשר בהקדם</p>
+                                  <form action="#" class="jobsModal__form jobsModalForm">
+                                      <dl>
+                                          <dt><label for="" class="jobsModalForm__label">* שם מלא</label></dt>
+                                          <dd><input type="text" class="jobsModalForm__input" required></dd>
+                                      </dl>
+                                      <dl>
+                                          <dt><label for="" class="jobsModalForm__label">* דוא”ל</label></dt>
+                                          <dd><input type="text" class="jobsModalForm__input" required></dd>
+                                      </dl>
+                                      <dl>
+                                          <dt><label for="" class="jobsModalForm__label">* טלפון</label></dt>
+                                          <dd><input type="text" class="jobsModalForm__input" required></dd>
+                                      </dl>
+                                      <dl>
+                                          <dt><label for="" class="jobsModalForm__label">* קורות חיים</label></dt>
+                                          <dd><input type="text" class="jobsModalForm__input" required></dd>
+                                      </dl>
+                                      <dl class="jobsModalForm__dl jobsModalForm__dl_btm">
+                                          <span class="jobsModalForm__label">* קורות חיים <i class="icon-help-circle"></i></span>
+                                          <input type="file" name="jobsModalForm__file" value="" id="jobsModalForm__file" class="jobsModalForm__input jobsModalForm__input_file" data-multiple-caption="{count} files selected" multiple required>
+                                          <label for="jobsModalForm__file"><i class="icon-upload"></i><span>צרף קורות חיים</span></label>
+                                      </dl>
+                                      <button type="submit" name="button" class="jobsModalForm__submit"><i class="icon-cv"></i> הגש מועמדות</button>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div><!-- modal -->
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                        <ul class="footer__menu">
+                            <li class="footer__menuitem"><a href="info.html" class="footer__menulink">אודות</a></li>
+                            <li class="footer__menuitem"><a href="#" class="footer__menulink">השירותים שלנו</a></li>
+                            <li class="footer__menuitem"><a href="jobs.html" class="footer__menulink">דרושים</a></li>
+                            <li class="footer__menuitem"><a href="#" class="footer__menulink"> גלרייה</a></li>
+                            <li class="footer__menuitem"><a href="personal.html" class="footer__menulink">אזור אישי</a></li>
+                            <li class="footer__menuitem"><a href="contacts.html" class="footer__menulink"> צור קשר</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6 ">
+                        <p class="bottom-text">© כל הזכויות שמורות להתאמה</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 ">
+                        <div class="bottom-logo">
+                            <figure class="bottom-logo__figure"><a href="#" class="bottom-logo__link"><img src="img/tyco_logo.png" alt="tyco-logo" class="bottom-logo__img"></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

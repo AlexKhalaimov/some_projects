@@ -1,0 +1,626 @@
+@media (max-width: 1550px) {
+  img.vacancies-section__img_keyboard {
+    width: 10%;
+  }
+
+  .personal-section,
+  .jobs-section {
+    overflow: hidden;
+  }
+
+  .personal-section .container,
+  .jobs-section .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .section-title .right-bg-1 {
+    top: 10px;
+  }
+}
+
+@media (max-width: 1300px) {
+  img.vacancies-section__img_keyboard {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav {
+    float: left;
+  }
+
+  .nav > li > a {
+    font-size: 21px;
+  }
+
+  .services-section {
+    margin-bottom: 0;
+  }
+
+  .services__img {
+    display: none;
+  }
+
+  .service__overlay {
+    padding: 65px 0 0;
+  }
+
+  .contactUs {
+    width: 52%;
+  }
+
+  .contactForm dl {
+    width: 49%;
+  }
+
+  .contactForm input,
+  .contactForm select,
+  .contactForm__file {
+    width: 100%;
+  }
+
+  .contactForm__captcha {
+    width: 48%;
+  }
+
+  .contactForm__img {
+    max-width: 100%;
+  }
+
+  .contactForm__submit {
+    width: 48%;
+  }
+
+  .bodyPersonal .navbar.navbar-default .nav li a {
+    font-size: 21px;
+    padding: 15px 10px;
+  }
+
+  .bodyPersonal .navbar.navbar-default .nav li::before {
+    top: 21px;
+  }
+}
+
+@media (max-width: 992px) {
+  .bodyPersonal .navbar.navbar-default .nav {
+    margin-right: 0;
+    float: left;
+  }
+
+  .bodyPersonal .navbar.navbar-default .nav li a {
+    font-size: 18px;
+  }
+
+  .logout {
+    padding-right: 10px;
+  }
+
+  .personal-section {
+    background-color: #197cbc;
+  }
+
+  .jobs-section {
+    background-color: #184c71;
+  }
+
+  .personalSearch,
+  .jobsSearch {
+    padding: 15px;
+    -webkit-transform: skew(0);
+    -ms-transform: skew(0);
+    transform: skew(0);
+  }
+
+  .personalSearchForm,
+  .jobsSearchForm {
+    height: auto;
+    -webkit-transform: skew(0);
+    -ms-transform: skew(0);
+    transform: skew(0);
+  }
+
+  .personalSearchForm .form-group:first-child,
+  .jobsSearchForm .form-group:first-child {
+    margin-right: 0;
+  }
+
+  .personalSearchForm__buttonWrapper,
+  .jobsSearchForm__buttonWrapper {
+    float: none;
+    padding-top: 15px;
+  }
+
+  .application-section .col-md-7 {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .applicationForm input {
+    min-width: 260px;
+    width: 100%;
+  }
+
+  .bodyNoPage .section-title {
+    background-position-y: -50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    float: none;
+    margin-bottom: 0;
+  }
+
+  .nav {
+    margin-right: 100px;
+    float: none;
+  }
+
+  .nav li {
+    padding: 0;
+  }
+
+  .nav > li:not(:first-child)::before {
+    right: -5px;
+    top: 22px;
+  }
+
+  .nav > li > a {
+    font-size: 19px;
+    padding-right: 20px;
+  }
+
+  .navbar.navbar-default .nav > li > a {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .navbar.navbar-default .nav li:last-child a {
+    padding-left: 0;
+  }
+
+  .service__overlay {
+    padding: 135px 0 0;
+  }
+
+  .vacancies-section {
+    padding-bottom: 90px;
+  }
+
+  .vacancy {
+    margin-bottom: 50px;
+  }
+
+  .right-bg-1,
+  .left-bg-1,
+  .img_glass {
+    display: none;
+  }
+
+  .info__figure {
+    float: none;
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+
+  .contacts,
+  .contactUs {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .contacts {
+    margin-bottom: 50px;
+  }
+
+  .searchResItem__container {
+    width: 71%;
+  }
+}
+
+@media (max-width: 892px) {
+  .personalSearchForm .form-group,
+  .jobsSearchForm .form-group {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  header .col-md-11.pull-left {
+    padding-left: 0 !important;
+  }
+
+  .header__list li {
+    display: none;
+  }
+
+  .header__list li a::after {
+    display: none;
+  }
+
+  .header__list li:first-child {
+    display: inline-block;
+  }
+
+  .header__list li:nth-child(2) {
+    display: inline-block;
+  }
+
+  .top-section {
+    margin-top: 0;
+    background-position-y: 114px;
+    height: 570px;
+  }
+
+  .top-slider__prevArrow {
+    left: 3%;
+    top: 40%;
+  }
+
+  .top-slider__nextArrow {
+    right: 3%;
+    top: 40%;
+  }
+
+  .top-slider.owl-theme .owl-nav button {
+    border-width: 5px;
+  }
+
+  .top__content {
+    padding-right: 50px;
+    right: 0;
+    top: 220px;
+    width: 100%;
+  }
+
+  .services-section {
+    margin-top: 0;
+  }
+
+  .searchResItem__figure,
+  .searchResItem__container {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .searchResItem__figure {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .bodyNoPage .section-title {
+    background-position-y: -20px;
+  }
+
+  .noPage-section {
+    margin-bottom: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+    border: none;
+  }
+
+  .wheel-chair_link {
+    display: block;
+  }
+
+  .navbar-toggle[aria-expanded="true"] .wheel-chair_link {
+    display: none;
+  }
+
+  .navbar {
+    float: left;
+    z-index: 3;
+    width: 50%;
+  }
+
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .dropdown-toggle::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #197dbe;
+    border-top: 2px solid #197dbe;
+    margin-right: 20px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+
+  .dropdown-toggle[aria-expanded="true"]::after {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+  .nav {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-nav .open .dropdown-menu > li > a {
+    padding-right: 0;
+  }
+
+  .nav li {
+    display: list-item;
+    padding-right: 20px;
+  }
+
+  .nav > li:not(:first-child)::before {
+    top: 16px;
+  }
+
+  .nav > li:not(:first-child)::before {
+    display: none;
+  }
+
+  .dropdown-menu > li::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #707070;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .dropdown-menu > li a {
+    color: #02528a;
+    font-weight: 400;
+  }
+
+  .dropdown-toggle[aria-expanded="true"] {
+    color: #197dbe;
+    font-weight: 700;
+  }
+
+  .dropdown.open {
+    background-color: #f0f0f0;
+  }
+
+  .nav > li a {
+    color: #02528a !important;
+    font-weight: 700 !important;
+  }
+
+  .nav > li:not(:last-child) {
+    border-bottom: 1px solid rgba(177, 177, 177, 0.27);
+    border-width: 80%;
+  }
+
+  .dropdown-menu > li:not(:last-child) {
+    border: none;
+  }
+
+  .services > .row {
+    text-align: center;
+  }
+
+  .services-wrapper {
+    display: inline-block;
+    max-width: 300px;
+  }
+
+  .service__overlay {
+    padding: 100px 0 0;
+  }
+
+  .bottom-logo,
+  .bottom-text {
+    text-align: center;
+  }
+
+  .bottom-logo__figure,
+  .bottom-text {
+    margin: 0 auto;
+  }
+
+  .bottom-text {
+    display: block;
+    width: 100%;
+  }
+
+  .section-title {
+    margin-top: 113px;
+  }
+
+  .overlayTnx__close {
+    float: right;
+  }
+
+  .bodyPersonal .navbar.navbar-default .nav {
+    float: none;
+  }
+
+  .bodyPersonal .navbar.navbar-default .nav li.logout {
+    float: none;
+    padding: 15px 25px 15px 0;
+  }
+
+  .personalSearchForm .form-group,
+  .jobsSearchForm .form-group {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .jobList-section .col-xs-6 {
+    float: none;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .bodyNoPage .section-title {
+    background-position-y: 0px;
+  }
+
+  .noPage-section {
+    margin-top: -300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .applicationForm dl:nth-child(even),
+  .applicationForm dl:nth-child(odd),
+  .applicationForm__captcha,
+  .applicationForm__submit {
+    float: none;
+    margin: 0 auto 30px;
+  }
+
+  .applicationForm {
+    text-align: center;
+  }
+
+  .applicationForm dl {
+    width: 80%;
+    min-width: 270px;
+  }
+
+  .applicationForm dt {
+    text-align: right;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer__menu {
+    display: none;
+  }
+
+  .contactsBox,
+  .contactsBox:nth-child(odd),
+  .contactsBox:nth-child(even) {
+    float: none;
+    margin: 0 auto 30px auto;
+    width: 90%;
+  }
+
+  .contactForm__title {
+    margin: 0 auto 20px auto;
+    width: 90%;
+  }
+
+  .contactForm dl:nth-child(even),
+  .contactForm dl:nth-child(odd),
+  .contactForm__captcha,
+  .contactForm__submit {
+    float: none;
+    margin: 0 auto 20px auto;
+    width: 90%;
+  }
+
+  .contactForm__captcha {
+    text-align: center;
+  }
+
+  .contactForm__submit {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .bodySearchRes .page-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo-main__img {
+    width: 57%;
+  }
+
+  #top-form input::-webkit-input-placeholder {
+    font-size: 24px;
+  }
+
+  #top-form input:-moz-placeholder {
+    font-size: 24px;
+  }
+
+  #top-form input::-moz-placeholder {
+    font-size: 24px;
+  }
+
+  #top-form input:-ms-input-placeholder {
+    font-size: 24px;
+  }
+
+  .top__content {
+    padding-right: 15px;
+  }
+
+  .top__content h1,
+  .top__content p {
+    font-size: 37px;
+  }
+
+  .services-wrapper .col-md-3 {
+    padding: 0 15px;
+  }
+
+  .service {
+    margin-bottom: 15px;
+  }
+
+  .service__overlay {
+    padding: 80px 0 0;
+  }
+
+  .vacancies-section__img_pen,
+  .vacancies-section__img_gloves {
+    display: none;
+  }
+
+  .personal-section .col-md-12,
+  .jobs-section .col-md-12 {
+    padding: 0;
+  }
+
+  .personalSearchForm__selectWrapper,
+  .personalSearchForm__select,
+  .jobsSearchForm__selectWrapper,
+  .jobsSearchForm__select {
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    width: 80%;
+  }
+
+  .info__item {
+    font-size: 15px;
+  }
+
+  .bodySearchRes .page-title {
+    font-size: 35px;
+  }
+
+  #loginModal .overlayTnx__title {
+    font-size: 45px;
+  }
+
+  #loginModal .overlayTnx__text {
+    font-size: 22px;
+  }
+}

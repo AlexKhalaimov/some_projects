@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="libs/bootstrap_3/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap_3/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="libs/bootstrap_3/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper" id="contacts">
+        <div class="overlay"></div>
+            <div class="modal fade contactsModal" id="TnxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col text-center">
+                                  <span class="overlayTnx__icon"><i class="icon-vi"></i></span>
+                                  <h2 class="overlayTnx__title"><span class="overlayTnx__title overlayTnx__title_fw700">תודה משה</span><span class="overlayTnx__title overlayTnx__title_fw400"> לוי</span></h2>
+                                  <p class="overlayTnx__text">הטופס נשלח בהצלחה! <br>ניצור אתך קשר בהקדם</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div><!-- modal -->
+        <header class="navbar-fixed-top">
+            <div class="form-wrapper" id="form-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="header__search" action="" method="post" id="top-form">
+                                <input type="text" name="user-search" value="" class="header__input" placeholder="חפש/י...">
+                                <button type="submit" name="submit-search" class="header__submit"><i class="icon-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="header__menu">
+                                        <ul class="header__list">
+                                            <li class="header__list-item"><a href="tel:074-7046666" class="header__list-link header__list-link_phone" id="phone-num"> <i class="icon-phone"></i><span>074-7046666</span> </a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link header__list-link_search" id="open-form"><i class="icon-search"></i></a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link header__list-link_tahoma">عربيه</a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link">Pyc</a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link">Eng</a></li>
+                                            <li class="header__list-item"><a href="#" class="header__list-link header__list-link_wheel-chair "><i class="icon-acces"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="header__logo logo-main">
+                                        <figure class="header__figure"><a href="index.html" class="logo-main__link"><img src="img/main_logo.png" alt="main-logo" class="logo-main__img"></a></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0">
+                <nav class="navbar  navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a href="#" class="wheel-chair_link"><i class="icon-acces"></i></a>
+                            <div class="mobile__top-item">
+                                <a href="#" class="mobile__top-link">عربيه</a>
+                                <a href="#" class="mobile__top-link">Рус</a>
+                                <a href="#" class="mobile__top-link">Eng</a>
+                            </div>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="collapse-navbar">
+                            <ul class="nav navbar-nav">
+                                <li role="menuitem" ><a href="info.html">אודות</a></li>
+                                <li class="dropdown" role="menuitem" aria-haspopup="true">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> השירותים שלנו</a>
+                                    <ul class="submenu dropdown-menu" role="menu">
+                                        <li role="menuitem" class="active-li"><a href="#">ניקיון</a></li>
+                                        <li role="menuitem"><a href="#">אבטחה</a></li>
+                                        <li role="menuitem"><a href="#">מוקד מבצעי</a></li>
+                                        <li role="menuitem"><a href="#">כח אדם</a></li>
+                                    </ul>
+                                </li>
+                                <li role="menuitem"><a href="jobs.html">דרושים</a></li>
+                                <li role="menuitem"><a href="personal.html">אזור אישי</a></li>
+                                <li role="menuitem"><a href="application.html">טופס פניות</a></li>
+                                <li role="menuitem" class="active"><a href="contacts.html">צור קשר</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section-title">
+                <div class="right-bg-1">
+                    <div class="shapes-right">
+                        <div class="shape-big"></div>
+                        <div class="shape-small"></div>
+                        <div class="shape-in"></div>
+                    </div>
+                </div>
+                <div class="left-bg-1">
+                    <div class="shapes-left">
+                        <div class="shape-big"></div>
+                        <div class="shape-small"></div>
+                        <div class="shape-in"></div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="h2-bg-wrap">
+                                <div class="h2-bg"></div>
+                            </div>
+                            <h1 class="page-title">צור קשר</h1>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- section-title -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumbs">
+                            <ul class="breadcrumbs__list">
+                                <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link breadcrumbs__link_home"><i class="icon-home"></i></a></li>
+                                <li class="breadcrumbs__item"><a href="contacts.html" class="breadcrumbs__link">צור קשר</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section-contacts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="contacts-wrapper">
+                                <div class="contacts">
+                                    <div class="contactsBox contactsBox_lg">
+                                        <p class="contactsBox__title">הנהלה</p>
+                                        <p class="contactsBox__address"><span class="contactsBox__item">רח' הכרמל 7, א.ת. יוקנעם עלית</span><span class="contactsBox__item">ת.ד. 259 מיקוד 20692</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">טל: 04-8452451</span><span class="contactsBox__item">פקס: 04-8456998</span></p>
+                                    </div>
+                                    <div class="contactsBox">
+                                        <p class="contactsBox__title">צפון</p>
+                                        <p class="contactsBox__address"><span class="contactsBox__item">דרך עכו 61 ק. מוצקין </span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">טל': 04-8408616,</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">פקס: 04-8435975</span></p>
+                                    </div>
+                                    <div class="contactsBox">
+                                        <p class="contactsBox__title">השרון</p>
+                                        <p class="contactsBox__address"><span class="contactsBox__item">רח' ניצנים 11 , הרצליה</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">טל': 09-9569848 </span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">פקס: 09-9568653</span></p>
+                                    </div>
+                                    <div class="contactsBox">
+                                        <p class="contactsBox__title">ירושלים</p>
+                                        <p class="contactsBox__address"><span class="contactsBox__item">רח' אגריפס 88</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">טל': 02-5634311</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">פקס: 02-5634312</span></p>
+                                    </div>
+                                    <div class="contactsBox">
+                                        <p class="contactsBox__title">נתב”ג</p>
+                                        <p class="contactsBox__address"><span class="contactsBox__item">רח' אגריפס 88</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">טל': 02-5634311</span></p>
+                                        <p class="contactsBox__phones"><span class="contactsBox__item">פקס: 02-5634312</span></p>
+                                    </div>
+                                    <div class="contactsBottom">
+                                        <p class="contactsBottom__phone">
+                                            <span><i class="icon-phone_b"></i></span><span class="contactsBottom__item">מוקד אבטחה מיגון וסיור 24 שעות: דרך עכו 61 ק. מוצקין</span><span class="contactsBottom__item contactsBottom__item_phone"><a href="tel:1700500715" class="contactsBottom__link">1700-500-715</a></span>
+                                        </p>
+                                        <p class="contactsBottom__mail">
+                                            <span><i class="icon-mail"></i></span><span class="contactsBottom__item">מייל לשליחת קורות חיים :</span><span class="contactsBottom__item contactsBottom__item_email"><a href="mailto:asia@hatama.co.il" class="contactsBottom__link">asia@hatama.co.il</a></span>
+                                        </p>
+                                    </div>
+                                </div><!-- contacts -->
+                                <div class="contactUs">
+                                    <h2 class="contactForm__title">צרו עימנו קשר</h2>
+                                    <form action="#" class="contactForm">
+                                        <dl>
+                                            <dt><label for="contactForm__name">שם</label></dt>
+                                            <dd><input type="text" name="contactForm__name" value="" id="contactForm__name" class="contactForm__input"></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><label for="contactForm__phone">טלפון</label></dt>
+                                            <dd><input type="text" name="contactForm__phone" value="" id="contactForm__phone" class="contactForm__input"></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><label for="contactForm__link">מהות הפניה</label></dt>
+                                            <dd>
+                                                <div class="contactForm__selectWrapper">
+                                                    <select class="contactForm__select" name="contactForm__link" id="contactForm__link">
+                                                        <option value=""></option>
+                                                        <option value="">Lorem ipsum dolor</option>
+                                                        <option value="">consectetur adipisicing</option>
+                                                    </select>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><label for="contactForm__mail">אימייל</label></dt>
+                                            <dd><input type="text" name="contactForm__mail" value="" id="contactForm__mail" class="contactForm__input"></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><label for="contactForm__region">מהות הפניה</label></dt>
+                                            <dd>
+                                                <div class="contactForm__selectWrapper">
+                                                    <select class="contactForm__select" name="contactForm__region" id="contactForm__region">
+                                                    <option value=""></option>
+                                                    <option value="">Lorem ipsum dolor</option>
+                                                    <option value="">consectetur adipisicing</option>
+                                                    </select>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <span class="contactForm__label">הוספת קובץ</span>
+                                            <input type="file" name="contactForm__file" value="" id="contactForm__file" class="contactForm__input contactForm__input_file" data-multiple-caption="{count} files selected" multiple>
+                                            <label for="contactForm__file"><i class="icon-upload"></i><span>צרף קובץ</span></label>
+                                        </dl>
+                                        <dl>
+                                            <dt><label for="contactForm__textarea">הודעה</label></dt>
+                                            <dd><textarea name="contactForm__textarea" rows="5" cols="80" id="contactForm__textarea" class="contactForm__textarea"></textarea></dd>
+                                        </dl>
+                                        <div class="contactForm__captcha">
+                                            <figure class="contactForm__figure"><img src="img/contacts/captcha.png" alt="" class="contactForm__img"></figure>
+                                        </div>
+                                        <button type="submit" name="button" class="contactForm__submit">שלח</button>
+                                    </form>
+                                </div><!-- contactForm -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- section-contacts -->
+            <section class="section-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.6414263205256!2d35.08202028537835!3d32.82826458867897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151db721aa3e6695%3A0x31f7bee9ecda098c!2z15PXqNeaINei15vXlSDXl9eZ16TXlCA2MSwg16fXqNeZ16og157Xldem16fXmdef!5e0!3m2!1siw!2sil!4v1517151882296" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section><!-- section-map -->
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                        <ul class="footer__menu">
+                            <li class="footer__menuitem "><a href="info.html" class="footer__menulink">אודות</a></li>
+                            <li class="footer__menuitem"><a href="#" class="footer__menulink">השירותים שלנו</a></li>
+                            <li class="footer__menuitem"><a href="jobs.html" class="footer__menulink">דרושים</a></li>
+                            <li class="footer__menuitem"><a href="#" class="footer__menulink"> גלרייה</a></li>
+                            <li class="footer__menuitem"><a href="personal.html" class="footer__menulink">אזור אישי</a></li>
+                            <li class="footer__menuitem active-li"><a href="contacts.html" class="footer__menulink"> צור קשר</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6 ">
+                        <p class="bottom-text">© כל הזכויות שמורות להתאמה</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 ">
+                        <div class="bottom-logo">
+                            <figure class="bottom-logo__figure"><a href="#" class="bottom-logo__link"><img src="img/tyco_logo.png" alt="tyco-logo" class="bottom-logo__img"></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
