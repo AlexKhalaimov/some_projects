@@ -315,6 +315,7 @@ textarea {
 
 /* main-nav */
 #main-nav-btn {
+  cursor: pointer;
   display: table;
   position: absolute;
   top: 68px;
