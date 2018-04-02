@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Account</title>
+    <link rel="stylesheet" href="libs/bootstrap4/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css"> -->
+    <!-- <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css"> -->
+    <!-- <link rel="stylesheet" href="libs/magnific_popup/magnific-popup.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body class="bodyMyAccount">
+    <div class="wrapper">
+        <div class="wrapper__overlay"></div>
+        <header>
+            <section class="navigation">
+                <div class="nav-container">
+                    <div class="header__logo headerLogo">
+                        <figure class="headerLogo__figure"><a href="index.html" class="headerLogo__link">
+                            <object type="image/svg+xml" data="img/logo.svg" class="headerLogo__img"></object>
+                        </a></figure>
+                    </div>
+                    <nav>
+                        <div class="nav-mobile">
+                            <a id="nav-toggle" href="#!"><span></span></a>
+                        </div>
+                        <ul class="navList">
+                            <li class="navList__item"><a href="events.html" class="navList__link">events</a></li>
+                            <li class="navList__item">
+                                <a href="agenda.html" class="navList__link">agenda</a>
+                                <ul class="nav-dropdown">
+                                    <li class="nav-dropdown__item"><a href="main_plenary.html" class="nav-dropdown__link">main plenary</a></li>
+                                    <li class="nav-dropdown__item dropdown-divider"></li>
+                                    <li class="nav-dropdown__item"><a href="#" class="nav-dropdown__link">full agenda</a></li>
+                                </ul>
+                            </li>
+                            <li class=" navList__item">
+                                <a href="about.html" class="navList__link">about</a>
+                                <ul class="nav-dropdown nav-dropdown_w220">
+                                    <li class="nav-dropdown__item"><a href="speakers.html" class="nav-dropdown__link">speakers</a></li>
+                                    <li class="nav-dropdown__item dropdown-divider"></li>
+                                    <li class="nav-dropdown__item"><a href="sponsors.html" class="nav-dropdown__link">sponsors &amp; partners</a></li>
+                                    <li class="nav-dropdown__item dropdown-divider"></li>
+                                    <li class="nav-dropdown__item"><a href="past_conf.html" class="nav-dropdown__link">past conferences</a></li>
+                                </ul>
+                            </li>
+                            <li class=" navList__item"><a href="gallery.html" class="navList__link">gallery</a></li>
+                            <li class=" navList__item"><a href="#" class="navList__link">info</a></li>
+                            <li class=" navList__item"><a href="contact.html" class="navList__link">contact</a></li>
+                            <li class=" navList__item"><a href="my_account.html" class="navList__link navList__link_orange">my account</a></li>
+                        </ul><!--navList  -->
+                    </nav>
+                </div><!-- nav-container -->
+                <div class="registerButton-wrapper">
+                    <div class="registerButton"><a href="#" class="registerButton__link">log out</a></div>
+                </div>
+            </section><!-- navigation -->
+        </header>
+        <main>
+            <section class="myAccount-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="myAccountTop">
+                                <div class="myAccountTop__wrapper">
+                                    <div class="myAccountTop__header">
+                                        <div class="myAccountTop__container">
+                                            <h1 class="myAccountTop__title">my account</h1>
+                                            <div class="myAccountTop__logo">
+                                                <figure class="myAccountTop__figure"><i class="icon icon-person"></i></figure>
+                                                <p class="myAccountTop__text">Hi (firstname),</p>
+                                            </div>
+                                        </div>
+                                        <p class="myAccountTop__text myAccountTop__text_countdown"><span>xx</span> days to Cyber Week 2018</p>
+                                    </div><!-- myAccountTop__header -->
+                                    <div class="myAccountTop__nav myAccountTopNav">
+                                        <ul class="nav myAccountTopNav__list  mb-5" id="myAccount_pills-tab" role="tablist">
+                                            <li class="nav-item myAccountTopNav__listItem"><a href="#pills-main" id="pills-main-tab" data-toggle="pill" role="tab" aria-controls="pills-main" class="myAccountTopNav__link nav-link active">main</a></li>
+                                            <li class="nav-item myAccountTopNav__listItem"><a href="#pills-my_events" id="pills-my_events-tab" data-toggle="pill" role="tab" aria-controls="pills-my_events" aria-selected="false" class="myAccountTopNav__link nav-link">my events</a></li>
+                                            <li class="nav-item myAccountTopNav__listItem"><a href="#pills-my_shedule" id="pills-my_shedule-tab" data-toggle="pill" role="tab" aria-controls="pills-my_shedule" aria-selected="false" class="myAccountTopNav__link nav-link">my shedule</a></li>
+                                            <li class="nav-item myAccountTopNav__listItem"><a href="#pills-my_network" id="pills-my_network-tab" data-toggle="pill" role="tab" aria-controls="pills-my_network" aria-selected="false" class="myAccountTopNav__link nav-link">my network</a></li>
+                                            <li class="nav-item myAccountTopNav__listItem"><a href="#pills-my_profile" id="pills-my_profile-tab" data-toggle="pill" role="tab" aria-controls="pills-my_profile" aria-selected="false" class="myAccountTopNav__link nav-link">my profile</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- myAccountTop -->
+                            <div class="myAccountContent tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active myAccountMain" id="pills-main" role="tab-panel" aria-labelledby="pills-main-tab">
+                                    <div class="myAccountMainCenter">
+                                        <p class="myAccountMainCenter__text">welcome to Cyber Week community <br> this is your personal zone</p>
+                                        <div class="myAccountMainCenter__nav">
+                                            <div class="myAccountMainCenter__navItem">
+                                                <figure class="myAccountMainCenter__figure"><i class="icon icon-man"></i></figure>
+                                                <p class="myAccountMainCenter__text">Register to Cyber Week events and see the latest updates <a href="#" class="myAccountMainCenter__link">My Events &gt; &gt; &gt;</a></p>
+                                            </div><!-- myAccountMainCenter__navItem -->
+                                            <div class="myAccountMainCenter__navItem">
+                                                <figure class="myAccountMainCenter__figure"><i class="icon icon-calendar"></i></figure>
+                                                <p class="myAccountMainCenter__text">View your Cyber Week schedule and plan your week <a href="#" class="myAccountMainCenter__link">My Schedule &gt; &gt; &gt;</a></p>
+                                            </div><!-- myAccountMainCenter__navItem -->
+                                            <div class="myAccountMainCenter__navItem">
+                                                <figure class="myAccountMainCenter__figure myAccountMainCenter__figure_pt10"><i class="icon icon-hands"></i></figure>
+                                                <p class="myAccountMainCenter__text">Check who else is coming and start the networking now <a href="#" class="myAccountMainCenter__link">My Network &gt; &gt; &gt;</a></p>
+                                            </div><!-- myAccountMainCenter__navItem -->
+                                        </div><!-- myAccountMainCenter__nav -->
+                                        <div class="myAccountMainCenterEvents myAccountMainCenter__events">
+                                            <h2 class="myAccountMainCenterEvents__title">reccomended events for you</h2>
+                                            <div class="myAccountMainCenterEvents__container">
+                                                <div class="eventItem">
+                                                    <figure class="eventItem__figure">
+                                                        <img src="img/events/img5.jpg" alt="" class="eventItem__img">
+                                                        <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                    </figure>
+                                                    <div class="eventItem__content">
+                                                        <p class="eventItem__title">international simulation war game</p>
+                                                        <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                        <div class="eventItem__textBottom">
+                                                            <p class="eventItem__text">conferense</p>
+                                                            <p class="eventItem__text">closed event</p>
+                                                        </div>
+                                                        <div class="eventItem__button">read more</div>
+                                                        <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                    </div>
+                                                </div><!-- eventItem -->
+                                                <div class="eventItem">
+                                                    <figure class="eventItem__figure">
+                                                        <img src="img/events/img4.jpg" alt="" class="eventItem__img">
+                                                        <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                    </figure>
+                                                    <div class="eventItem__content">
+                                                        <p class="eventItem__title">mobility</p>
+                                                        <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                        <div class="eventItem__textBottom">
+                                                            <p class="eventItem__text">conferense</p>
+                                                            <p class="eventItem__text">closed event</p>
+                                                        </div>
+                                                        <div class="eventItem__button">read more</div>
+                                                        <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                    </div>
+                                                </div><!-- eventItem -->
+                                                <div class="eventItem">
+                                                    <figure class="eventItem__figure">
+                                                        <img src="img/events/img11.jpg" alt="" class="eventItem__img">
+                                                        <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                    </figure>
+                                                    <div class="eventItem__content">
+                                                        <p class="eventItem__title">surviving the ransomware plague</p>
+                                                        <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                        <div class="eventItem__textBottom">
+                                                            <p class="eventItem__text">conferense</p>
+                                                            <p class="eventItem__text">closed event</p>
+                                                        </div>
+                                                        <div class="eventItem__button">read more</div>
+                                                        <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                    </div>
+                                                </div><!-- eventItem -->
+                                            </div>
+                                        </div>
+                                    </div><!-- myAccountMainCenter -->
+                                    <aside class="myAccountMainAside">
+                                        <h2 class="myAccountMainAside__title">articles</h2>
+                                        <div class="myAccountMainAside__content">
+                                            <div class="myAccountMainAsideItem">
+                                                <figure class="myAccountMainAsideItem__figure">
+                                                    <img src="img/my_account/img1.jpg" alt="" class="myAccountMainAsideItem__img">
+                                                    <figcaption>
+                                                        <a href="#" class="myAccountMainAsideItem__link">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+                                                    </figcaption>
+                                                </figure>
+                                            </div><!-- myAccountMainAsideItem -->
+                                            <div class="myAccountMainAsideItem">
+                                                <figure class="myAccountMainAsideItem__figure">
+                                                    <img src="img/my_account/img2.jpg" alt="" class="myAccountMainAsideItem__img">
+                                                    <figcaption>
+                                                        <a href="#" class="myAccountMainAsideItem__link">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+                                                    </figcaption>
+                                                </figure>
+                                            </div><!-- myAccountMainAsideItem -->
+                                        </div><!-- myAccountMainAside__content -->
+                                    </aside><!-- myAccountMainAside -->
+                                </div><!-- myAccountMain -->
+                                <div class="tab-pane fade  myAccountEvents" id="pills-my_events" role="tab-panel" aria-labelledby="pills-my_events-tab">
+                                    <div class="myAccountEventsTop">
+                                        <h2 class="myAccountEvents__title">my events</h2>
+                                        <div class="myAccountEvents__container">
+                                            <div class="eventItem">
+                                                <figure class="eventItem__figure">
+                                                    <img src="img/events/img4.jpg" alt="" class="eventItem__img">
+                                                    <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                </figure>
+                                                <div class="eventItem__content">
+                                                    <p class="eventItem__title">mobility</p>
+                                                    <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                    <div class="eventItem__textBottom">
+                                                        <p class="eventItem__text">conferense</p>
+                                                        <p class="eventItem__text">closed event</p>
+                                                    </div>
+                                                    <div class="eventItem__button">read more</div>
+                                                    <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                </div>
+                                            </div><!-- eventItem -->
+                                            <div class="eventItem">
+                                                <figure class="eventItem__figure">
+                                                    <img src="img/events/img11.jpg" alt="" class="eventItem__img">
+                                                    <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                </figure>
+                                                <div class="eventItem__content">
+                                                    <p class="eventItem__title">surviving the ransomware plague</p>
+                                                    <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                    <div class="eventItem__textBottom">
+                                                        <p class="eventItem__text">conferense</p>
+                                                        <p class="eventItem__text">closed event</p>
+                                                    </div>
+                                                    <div class="eventItem__button">read more</div>
+                                                    <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                </div>
+                                            </div><!-- eventItem -->
+                                        </div><!-- myAccountEvents__container -->
+                                    </div><!-- myAccountEventsTop -->
+                                    <div class="myAccountEventsRecommended">
+                                        <h2 class="myAccountEvents__title">RECOMMENDED EVENTS FOR YOU</h2>
+                                        <div class="myAccountEvents__container">
+                                            <div class="eventItem">
+                                                <figure class="eventItem__figure">
+                                                    <img src="img/events/img5.jpg" alt="" class="eventItem__img">
+                                                    <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                </figure>
+                                                <div class="eventItem__content">
+                                                    <p class="eventItem__title">international simulation war game</p>
+                                                    <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                    <div class="eventItem__textBottom">
+                                                        <p class="eventItem__text">conferense</p>
+                                                        <p class="eventItem__text">closed event</p>
+                                                    </div>
+                                                    <div class="eventItem__button">read more</div>
+                                                    <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                </div>
+                                            </div><!-- eventItem -->
+                                            <div class="eventItem">
+                                                <figure class="eventItem__figure">
+                                                    <img src="img/events/img4.jpg" alt="" class="eventItem__img">
+                                                    <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                </figure>
+                                                <div class="eventItem__content">
+                                                    <p class="eventItem__title">mobility</p>
+                                                    <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                    <div class="eventItem__textBottom">
+                                                        <p class="eventItem__text">conferense</p>
+                                                        <p class="eventItem__text">closed event</p>
+                                                    </div>
+                                                    <div class="eventItem__button">read more</div>
+                                                    <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                </div>
+                                            </div><!-- eventItem -->
+                                            <div class="eventItem">
+                                                <figure class="eventItem__figure">
+                                                    <img src="img/events/img11.jpg" alt="" class="eventItem__img">
+                                                    <img src="img/events/trans.png" alt="" class="eventItem__img eventItem__img_layer">
+                                                </figure>
+                                                <div class="eventItem__content">
+                                                    <p class="eventItem__title">surviving the ransomware plague</p>
+                                                    <p class="eventItem__text">15 words from about 15 words from about 15 words from about</p>
+                                                    <div class="eventItem__textBottom">
+                                                        <p class="eventItem__text">conferense</p>
+                                                        <p class="eventItem__text">closed event</p>
+                                                    </div>
+                                                    <div class="eventItem__button">read more</div>
+                                                    <div class="eventItem__button eventItem__button_pink eventItem__button_register">register</div>
+                                                </div>
+                                            </div><!-- eventItem -->
+                                        </div><!-- myAccountEvents__container -->
+                                    </div><!-- myAccountEventsRecommended -->
+                                </div><!-- myAccountEvents -->
+                                <div class="tab-pane fade  myAccountShedule" id="pills-my_shedule" role="tab-panel" aria-labelledby="pills-my_shedule-tab">
+                                    <div class="myAccountSheduleTop">
+                                        <h2 class="myAccountSheduleTop__title">my shedule</h2>
+                                        <a href="#"  class="myAccountSheduleTop__link" download>Download as PDF</a>
+                                    </div>
+                                    <div class="myAccountSheduleMain">
+                                        <div class="myAccountSheduleMain__timeColumns">
+                                            <div class="myAccountSheduleMain__timeColumn">
+                                                <p class="myAccountSheduleMain__time">08:00</p>
+                                                <p class="myAccountSheduleMain__time">09:00</p>
+                                                <p class="myAccountSheduleMain__time">10:00</p>
+                                                <p class="myAccountSheduleMain__time">11:00</p>
+                                                <p class="myAccountSheduleMain__time">12:00</p>
+                                                <p class="myAccountSheduleMain__time">13:00</p>
+                                                <p class="myAccountSheduleMain__time">14:00</p>
+                                                <p class="myAccountSheduleMain__time">15:00</p>
+                                                <p class="myAccountSheduleMain__time">16:00</p>
+                                                <p class="myAccountSheduleMain__time">17:00</p>
+                                                <p class="myAccountSheduleMain__time">18:00</p>
+                                                <p class="myAccountSheduleMain__time">19:00</p>
+                                                <p class="myAccountSheduleMain__time">20:00</p>
+                                                <p class="myAccountSheduleMain__time">21:00</p>
+                                                <p class="myAccountSheduleMain__time">22:00</p>
+                                            </div><!-- myAccountSheduleMain__timeColumn -->
+                                            <div class="myAccountSheduleMain__timeColumn">
+                                                <p class="myAccountSheduleMain__time">08:00</p>
+                                                <p class="myAccountSheduleMain__time">09:00</p>
+                                                <p class="myAccountSheduleMain__time">10:00</p>
+                                                <p class="myAccountSheduleMain__time">11:00</p>
+                                                <p class="myAccountSheduleMain__time">12:00</p>
+                                                <p class="myAccountSheduleMain__time">13:00</p>
+                                                <p class="myAccountSheduleMain__time">14:00</p>
+                                                <p class="myAccountSheduleMain__time">15:00</p>
+                                                <p class="myAccountSheduleMain__time">16:00</p>
+                                                <p class="myAccountSheduleMain__time">17:00</p>
+                                                <p class="myAccountSheduleMain__time">18:00</p>
+                                                <p class="myAccountSheduleMain__time">19:00</p>
+                                                <p class="myAccountSheduleMain__time">20:00</p>
+                                                <p class="myAccountSheduleMain__time">21:00</p>
+                                                <p class="myAccountSheduleMain__time">22:00</p>
+                                            </div><!-- myAccountSheduleMain__timeColumn -->
+                                            <div class="myAccountSheduleMain__timeColumn">
+                                                <p class="myAccountSheduleMain__time">08:00</p>
+                                                <p class="myAccountSheduleMain__time">09:00</p>
+                                                <p class="myAccountSheduleMain__time">10:00</p>
+                                                <p class="myAccountSheduleMain__time">11:00</p>
+                                                <p class="myAccountSheduleMain__time">12:00</p>
+                                                <p class="myAccountSheduleMain__time">13:00</p>
+                                                <p class="myAccountSheduleMain__time">14:00</p>
+                                                <p class="myAccountSheduleMain__time">15:00</p>
+                                                <p class="myAccountSheduleMain__time">16:00</p>
+                                                <p class="myAccountSheduleMain__time">17:00</p>
+                                                <p class="myAccountSheduleMain__time">18:00</p>
+                                                <p class="myAccountSheduleMain__time">19:00</p>
+                                                <p class="myAccountSheduleMain__time">20:00</p>
+                                                <p class="myAccountSheduleMain__time">21:00</p>
+                                                <p class="myAccountSheduleMain__time">22:00</p>
+                                            </div><!-- myAccountSheduleMain__timeColumn -->
+                                            <div class="myAccountSheduleMain__timeColumn">
+                                                <p class="myAccountSheduleMain__time">08:00</p>
+                                                <p class="myAccountSheduleMain__time">09:00</p>
+                                                <p class="myAccountSheduleMain__time">10:00</p>
+                                                <p class="myAccountSheduleMain__time">11:00</p>
+                                                <p class="myAccountSheduleMain__time">12:00</p>
+                                                <p class="myAccountSheduleMain__time">13:00</p>
+                                                <p class="myAccountSheduleMain__time">14:00</p>
+                                                <p class="myAccountSheduleMain__time">15:00</p>
+                                                <p class="myAccountSheduleMain__time">16:00</p>
+                                                <p class="myAccountSheduleMain__time">17:00</p>
+                                                <p class="myAccountSheduleMain__time">18:00</p>
+                                                <p class="myAccountSheduleMain__time">19:00</p>
+                                                <p class="myAccountSheduleMain__time">20:00</p>
+                                                <p class="myAccountSheduleMain__time">21:00</p>
+                                                <p class="myAccountSheduleMain__time">22:00</p>
+                                            </div><!-- myAccountSheduleMain__timeColumn -->
+                                            <div class="myAccountSheduleMain__timeColumn">
+                                                <p class="myAccountSheduleMain__time">08:00</p>
+                                                <p class="myAccountSheduleMain__time">09:00</p>
+                                                <p class="myAccountSheduleMain__time">10:00</p>
+                                                <p class="myAccountSheduleMain__time">11:00</p>
+                                                <p class="myAccountSheduleMain__time">12:00</p>
+                                                <p class="myAccountSheduleMain__time">13:00</p>
+                                                <p class="myAccountSheduleMain__time">14:00</p>
+                                                <p class="myAccountSheduleMain__time">15:00</p>
+                                                <p class="myAccountSheduleMain__time">16:00</p>
+                                                <p class="myAccountSheduleMain__time">17:00</p>
+                                                <p class="myAccountSheduleMain__time">18:00</p>
+                                                <p class="myAccountSheduleMain__time">19:00</p>
+                                                <p class="myAccountSheduleMain__time">20:00</p>
+                                                <p class="myAccountSheduleMain__time">21:00</p>
+                                                <p class="myAccountSheduleMain__time">22:00</p>
+                                            </div><!-- myAccountSheduleMain__timeColumn -->
+                                        </div><!-- myAccountSheduleMain__timeColumns -->
+                                        <div class="myAccountSheduleMainItem-wrapper">
+                                            <div class="myAccountSheduleMainItem">
+                                                <div class="myAccountSheduleMainItem__content">
+                                                    <h3 class="myAccountSheduleMainItem__title">sunday, june 17th</h3>
+                                                    <div class="myAccountSheduleMainItem__container">
+                                                        <div class="myAccountSheduleMainItem__bg">
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                        </div><!-- myAccountSheduleMainItem__bg -->
+                                                        <div class="agendaDayItem agendaEventItem" id="my_Shed_Ju17_Jaglom_1" style="top:15px; left:2px; height:120px">
+                                                            <p class="agendaEventItem__time">08:00-12:00</p>
+                                                            <h3 class="agendaEventItem__title">YOUTH CONFERENCE: TOMORROW’S CYBER LEADERS</h3>
+                                                            <div class="agendaEventItem__textBlock">
+                                                                <p class="agendaEventItem__text">Jaglum Auditorium</p>
+                                                                <p class="agendaEventItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut... read more</p>
+                                                            </div>
+                                                            <div class="agendaEventItem__icons">
+                                                                <i class="icon icon-conference" title="conferense"></i>
+                                                                <i class="icon icon-closed" title="closed event"></i>
+                                                                <i class="icon icon-hebrew" title="event wll be held in hebrew"></i>
+                                                            </div>
+                                                            <div class="agendaEventItem__buttons">
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_orange">read more</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_pink">export to calendar</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_red">remove</button>
+                                                            </div>
+                                                        </div><!-- agendaEventItem -->
+                                                        <div class="agendaDayItem agendaEventItem" id="my_Shed_Ju17_Bar_1" style="top:75px; right:1px; height:240px">
+                                                            <p class="agendaEventItem__time">10:00-18:00</p>
+                                                            <h3 class="agendaEventItem__title">BLOCKCHAIN: THE NEW DIGITAL AGE</h3>
+                                                            <div class="agendaEventItem__textBlock">
+                                                                <p class="agendaEventItem__text">Bar Shira Auditorium</p>
+                                                                <p class="agendaEventItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut... read more</p>
+                                                            </div>
+                                                            <div class="agendaEventItem__icons">
+                                                                <i class="icon icon-conference" title="conferense"></i>
+                                                                <i class="icon icon-english" title="event wll be held in english"></i>
+                                                            </div>
+                                                            <div class="agendaEventItem__buttons">
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_orange">read more</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_pink">export to calendar</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_red">remove</button>
+                                                            </div>
+                                                        </div><!-- agendaEventItem -->
+                                                    </div><!-- myAccountSheduleMainItem__container -->
+                                                </div><!-- myAccountSheduleMainItem__content -->
+                                            </div><!-- myAccountSheduleMainItem -->
+                                            <div class="myAccountSheduleMainItem">
+                                                <div class="myAccountSheduleMainItem__content">
+                                                    <h3 class="myAccountSheduleMainItem__title">monday, june 18th</h3>
+                                                    <div class="myAccountSheduleMainItem__container">
+                                                        <div class="myAccountSheduleMainItem__bg">
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                        </div><!-- myAccountSheduleMainItem__bg -->
+                                                        <div class="agendaEventItem" id="my_Shed_Ju17_Bnei_1" style="top:15px; left:69px; height:150px;">
+                                                            <p class="agendaEventItem__time">08:00-13:00</p>
+                                                            <h3 class="agendaEventItem__title">PRIVACY, SECURITY, TRUST: THE CHALLENGES FOR DEMOCRACIES</h3>
+                                                            <div class="agendaEventItem__textBlock">
+                                                                <p class="agendaEventItem__text">Bnei Tzion Hall, Beit Hatfusot Auditorium</p>
+                                                                <p class="agendaEventItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut... read more</p>
+                                                            </div>
+                                                            <div class="agendaEventItem__icons">
+                                                                <i class="icon icon-conference" title="conferense"></i>
+                                                                <i class="icon icon-closed" title="closed event"></i>
+                                                                <i class="icon icon-hebrew" title="event wll be held in hebrew"></i>
+                                                            </div>
+                                                            <div class="agendaEventItem__buttons">
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_orange">read more</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_pink">export to calendar</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_red">remove</button>
+                                                            </div>
+                                                        </div><!-- agendaEventItem -->
+                                                    </div><!-- myAccountSheduleMainItem__container -->
+                                                </div><!-- myAccountSheduleMainItem__content -->
+                                            </div><!-- myAccountSheduleMainItem -->
+                                            <div class="myAccountSheduleMainItem">
+                                                <div class="myAccountSheduleMainItem__content">
+                                                    <h3 class="myAccountSheduleMainItem__title">tuesday, june 19th</h3>
+                                                    <div class="myAccountSheduleMainItem__container">
+                                                        <div class="myAccountSheduleMainItem__bg">
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                        </div><!-- myAccountSheduleMainItem__bg -->
+                                                    </div><!-- myAccountSheduleMainItem__container -->
+                                                </div><!-- myAccountSheduleMainItem__content -->
+                                            </div><!-- myAccountSheduleMainItem -->
+                                            <div class="myAccountSheduleMainItem">
+                                                <div class="myAccountSheduleMainItem__content">
+                                                    <h3 class="myAccountSheduleMainItem__title">wednesday, june 20th</h3>
+                                                    <div class="myAccountSheduleMainItem__container">
+                                                        <div class="myAccountSheduleMainItem__bg">
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                        </div><!-- myAccountSheduleMainItem__bg -->
+                                                        <div class="agendaEventItem" id="my_Shed_Ju17_Off_1" style="top:345px; left:65px; height:75px;">
+                                                            <p class="agendaEventItem__time">19:00-21:30</p>
+                                                            <h3 class="agendaEventItem__title">STARTUP COCKTAIL PARTY</h3>
+                                                            <div class="agendaEventItem__textBlock">
+                                                                <p class="agendaEventItem__text">Off Site Venue</p>
+                                                                <p class="agendaEventItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut... read more</p>
+                                                            </div>
+                                                            <div class="agendaEventItem__icons">
+                                                                <i class="icon icon-coctail" title="social event"></i>
+                                                                <i class="icon icon-vip" title="vip event"></i>
+                                                            </div>
+                                                            <div class="agendaEventItem__buttons">
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_orange">read more</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_pink">export to calendar</button>
+                                                                <button type="button" name="button" class="agendaEventItem__button agendaEventItem__button_red">remove</button>
+                                                            </div>
+                                                        </div><!-- agendaEventItem -->
+                                                    </div><!-- myAccountSheduleMainItem__container -->
+                                                </div><!-- myAccountSheduleMainItem__content -->
+                                            </div><!-- myAccountSheduleMainItem -->
+                                            <div class="myAccountSheduleMainItem">
+                                                <div class="myAccountSheduleMainItem__content">
+                                                    <h3 class="myAccountSheduleMainItem__title">thursday, june 21th</h3>
+                                                    <div class="myAccountSheduleMainItem__container">
+                                                        <div class="myAccountSheduleMainItem__bg">
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                            <div class="myAccountSheduleMainItem__divider"></div>
+                                                        </div><!-- myAccountSheduleMainItem__bg -->
+                                                    </div><!-- myAccountSheduleMainItem__container -->
+                                                </div><!-- myAccountSheduleMainItem__content -->
+                                            </div><!-- myAccountSheduleMainItem -->
+                                        </div><!-- myAccountSheduleMainItem-wrapper -->
+                                    </div><!-- myAccountSheduleMain -->
+                                </div><!-- myAccountShedule -->
+                                <div class="tab-pane fade  myAccountNetwork" id="pills-my_network" role="tab-panel" aria-labelledby="pills-my_network-tab">
+                                    <div class="myAccountNetworkTop">
+                                        <h2 class="myAccountNetworkTop__title">network</h2>
+                                    </div>
+                                </div><!-- myAccountNetwork -->
+                                <div class="tab-pane fade  myAccountProfile" id="pills-my_profile" role="tab-panel" aria-labelledby="pills-my_profile-tab">
+                                    <h2 class="myAccountProfile__title">settings</h2>
+                                    <form action="#" class="myAccountProfile__form profileForm">
+                                        <div class="profileForm__container profileForm__container_top clearfix">
+                                            <div class="form-group form-group_sm">
+                                                <label for="profSel1" class="profileForm__label sr-only">title</label>
+                                                <div class="profileForm__selectWrapper">
+                                                    <select class="profileForm__select" name="" id="profSel1">
+                                                        <option value="" selected>Title</option>
+                                                        <option value="">Lorem ipsum</option>
+                                                        <option value="">Dolor sit</option>
+                                                        <option value="">Amet consectetur</option>
+                                                    </select>
+                                                </div>
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">first name</label>
+                                                <input type="text" name="" value="" placeholder="First Name*" required class="profileForm__input">
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">surname</label>
+                                                <input type="text" name="" value="" placeholder="Surname*" required class="profileForm__input">
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">Organization Name</label>
+                                                <input type="text" name="" value="" placeholder="Organization Name*" required class="profileForm__input">
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg form-group_mr201">
+                                                <label class="profileForm__label sr-only">job title</label>
+                                                <input type="text" name="" value="" placeholder="Job Title*" required class="profileForm__input">
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_sm ">
+                                                <label class="profileForm__label sr-only">phone</label>
+                                                <input type="tel" name="" value="" class="profileForm__input" placeholder="Phone">
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">email</label>
+                                                <input type="email" name="" value="" class="profileForm__input" placeholder="Email*" required>
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">confirm email</label>
+                                                <input type="email" name="" value="" class="profileForm__input" placeholder="Confirm Email*" required>
+                                            </div><!-- form-group -->
+                                            <div class="form-group form-group_lg">
+                                                <input type="file" name="profileForm__file" value="" id="profileForm__file" class="profileForm__input profileForm__input_file" data-multiple-caption="{count} files selected" multiple>
+                                                <label for="profileForm__file"><i class="icon icon-upload"></i><span>Upload Image<i class="icon icon-info"></i></span></label>
+                                            </div>
+                                        </div>
+                                        <div class="profileForm__container profileForm__container_btm">
+                                            <p class="profileForm__text">Change Password</p>
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">password</label>
+                                                <input type="password" name="" value="" placeholder="Password*" required class="profileForm__input">
+                                            </div>
+                                            <div class="form-group form-group_lg">
+                                                <label class="profileForm__label sr-only">repeat password</label>
+                                                <input type="password" name="" value="" placeholder="Repeat Password*" required class="profileForm__input">
+                                            </div>
+                                        </div>
+                                        <button type="submit" name="button" class="profileForm__submit">save</button>
+                                    </form>
+                                </div><!-- myAccountProfile -->
+                            </div><!-- myAccountContent -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- myAccount-section -->
+        </main>
+        <footer>
+            <section class="sponsors-section">
+                <h2 class="sponsors-section__title">sponsors</h2>
+                <div class="footerTopSponsors">
+                    <div class="footerTopSponsors__destinguished">
+                        <h3 class="footerTopSponsors__title">DESTINGUISHED BENEFACTOR</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img1.png" alt="sponsor1" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div><!-- footerTopSponsors__destinguished -->
+                    <div class="footerTopSponsors__diamond">
+                        <h3 class="footerTopSponsors__title">DIAMOND SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img2.png" alt="sponsor2" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div><!-- footerTopSponsors__diamond -->
+                    <div class="footerTopSponsors__platinum">
+                        <h3 class="footerTopSponsors__title">ESTEEMED PLATINUM SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img3.png" alt="sponsor3" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img4.png" alt="sponsor4" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img5.png" alt="sponsor5" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img6.png" alt="sponsor6" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img7.png" alt="sponsor8" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div><!-- footerTopSponsors__platinum -->
+                    <div class="footerTopSponsors__gold">
+                        <h3 class="footerTopSponsors__title">GOLD SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img8.png" alt="sponsor8" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img9.png" alt="sponsor9" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img10.png" alt="sponsor10" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img11.png" alt="sponsor11" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div><!-- footerTopSponsors__gold -->
+                    <div class="footerTopSponsors__silver">
+                        <h3 class="footerTopSponsors__title">SILVER SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img12.png" alt="sponsor12" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img13.png" alt="sponsor13" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img14.png" alt="sponsor14" class="footerSponsor__img"></a></figure>
+                            </div>
+                    </div><!-- footerTopSponsors__gold -->
+                </div><!-- footerTopSponsors -->
+                <div class="footerBottomSponsors">
+                    <h3 class="footerBottomSponsors__title">PARTNERS</h3>
+                    <div class="footerBottomSponsors__container">
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img1.png" alt="bottomSponsor1" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img2.png" alt="bottomSponsor2" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img3.png" alt="bottomSponsor3" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img4.png" alt="bottomSponsor4" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img5.png" alt="bottomSponsor5" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img6.png" alt="bottomSponsor6" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img7.png" alt="bottomSponsor7" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img8.png" alt="bottomSponsor8" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img9.png" alt="bottomSponsor9" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img10.png" alt="bottomSponsor10" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img11.png" alt="bottomSponsor11" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img12.png" alt="bottomSponsor12" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img13.png" alt="bottomSponsor13" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img14.png" alt="bottomSponsor14" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img15.png" alt="bottomSponsor15" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img16.png" alt="bottomSponsor16" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img17.png" alt="bottomSponsor17" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img18.png" alt="bottomSponsor18" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img19.png" alt="bottomSponsor19" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img20.png" alt="bottomSponsor20" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img21.png" alt="bottomSponsor21" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img22.png" alt="bottomSponsor22" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img23.png" alt="bottomSponsor23" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img24.png" alt="bottomSponsor24" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img25.png" alt="bottomSponsor25" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img26.png" alt="bottomSponsor26" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                        <div class="footerBottomSponsor">
+                            <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img27.png" alt="bottomSponsor27" class="footerBottomSponsor__img"></a></figure>
+                        </div>
+                    </div><!-- footerBottomSponsors__container -->
+                </div><!-- footerBottomSponsors -->
+            </section><!-- sponsors-section -->
+            <section class="footerBottom-section" >
+                        <div class="container-fluid px-0">
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <div class="footerBottom">
+                                        <h2 class="footerBottom__title">Join the conversation in Tel Aviv, the cyber capital of the world!</h2>
+                                        <div class="footerBottom__content">
+                                            <div class="footerBottom__contacts footerContacts">
+                                                <a href="tel:97236406041" class="footerContacts__link">Tel: 972 3 6406041</a>
+                                                <a href="mailto:icrc@post.tau.ac.il" class="footerContacts__link">Email: icrc@post.tau.ac.il</a>
+                                            </div>
+                                            <div class="footerBottom__action footerAction">
+                                                <a href="#" class="footerAction__link">CONTACT US</a>
+                                                <a href="#" class="footerAction__link">BECOME A SPONSOR</a>
+                                            </div>
+                                            <div class="footerBottom__social footerSocial">
+                                                <p class="footerSocial__text">STAY CONNECTED</p>
+                                                <div class="footerSocial__links">
+                                                    <a href="#" class="footerSocial__link"><i class="icon-Facebook-icon"></i></a>
+                                                    <a href="#" class="footerSocial__link"><i class="icon-Twitter-icon"></i></a>
+                                                    <a href="#" class="footerSocial__link"><i class="icon-Youtube-icon"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="footerBottom__copyright footerCopyright">
+                                                <a href="#" class="footerCopyright__link">Copyright @ CyberWeek2018</a>
+                                                <a href="#" class="footerCopyright__link">Design By Sarit Arieli</a>
+                                            </div>
+                                            <div class="footerBottom__logo">
+                                                <a href="#" class="footerBottom__link"><img src="img/logo_tyco.png" alt="" class="footerBottom__img"> בניית אתרים </a>
+                                            </div>
+                                        </div><!-- footerBottom__content -->
+                                    </div><!-- footerBottom -->
+                                </div>
+                            </div>
+                        </div>
+            </section><!-- footerBottom-section -->
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <!-- <script src="libs/waipoints/jquery.waypoints.min.js" charset="utf-8"></script> -->
+    <script src="libs/scrollreveal/scrollreveal.min.js" charset="utf-8"></script>
+    <!-- <script src="libs/countup/jquery.countup.js" charset="utf-8"></script> -->
+    <!-- <script src="libs/owlcarousel/owl.carousel.min.js" charset="utf-8"></script> -->
+    <!-- <script src="libs/magnific_popup/jquery.magnific-popup.min.js" charset="utf-8"></script> -->
+    <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>

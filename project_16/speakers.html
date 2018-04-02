@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speakers</title>
+    <link rel="stylesheet" href="libs/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body class="bodySpeakers">
+    <div class="wrapper">
+        <div class="wrapper__overlay"></div>
+        <header>
+            <section class="navigation">
+                <div class="nav-container">
+                    <div class="header__logo headerLogo">
+                        <figure class="headerLogo__figure"><a href="index.html" class="headerLogo__link">
+                            <object type="image/svg+xml" data="img/logo.svg" class="headerLogo__img"></object>
+                        </a></figure>
+                    </div>
+                    <nav>
+                        <div class="nav-mobile">
+                            <a id="nav-toggle" href="#!"><span></span></a>
+                        </div>
+                        <ul class="navList">
+                            <li class="navList__item"><a href="events.html" class="navList__link">events</a></li>
+                            <li class="navList__item">
+                                <a href="agenda.html" class="navList__link">agenda</a>
+                                <ul class="nav-dropdown">
+                                    <li class="nav-dropdown__item"><a href="main_plenary.html" class="nav-dropdown__link">main plenary</a></li>
+                                    <li class="nav-dropdown__item dropdown-divider"></li>
+                                    <li class="nav-dropdown__item"><a href="#" class="nav-dropdown__link">full agenda</a></li>
+                                </ul>
+                            </li>
+                            <li class=" navList__item">
+                                <a href="about.html" class="navList__link">about</a>
+                                <ul class="nav-dropdown nav-dropdown_w220">
+                                    <li class="nav-dropdown__item"><a href="speakers.html" class="nav-dropdown__link nav-dropdown__link_selected">speakers</a></li>
+                                    <li class="nav-dropdown__item dropdown-divider"></li>
+                                    <li class="nav-dropdown__item"><a href="sponsors.html" class="nav-dropdown__link">sponsors &amp; partners</a></li>
+                                    <li class="nav-dropdown__item dropdown-divider"></li>
+                                    <li class="nav-dropdown__item"><a href="past_conf.html" class="nav-dropdown__link">past conferences</a></li>
+                                </ul>
+                            </li>
+                            <li class=" navList__item"><a href="gallery.html" class="navList__link">gallery</a></li>
+                            <li class=" navList__item"><a href="#" class="navList__link">travel</a></li>
+                            <li class=" navList__item"><a href="contact.html" class="navList__link">contact</a></li>
+                            <li class=" navList__item"><a href="my_account.html" class="navList__link navList__link_orange">my account</a></li>
+                        </ul>
+                        <!--navList  -->
+                    </nav>
+                </div>
+                <!-- nav-container -->
+                <div class="registerButton-wrapper">
+                    <div class="registerButton"><a href="#" class="registerButton__link">register</a></div>
+                </div>
+            </section>
+            <!-- navigation -->
+        </header>
+        <main>
+            <div class="pageHeader">
+                <h1 class="pageHeader__title">speakers</h1>
+            </div>
+
+            <section class="searchTop-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="searchTop-container">
+                                <div class="searchTopForm__imgWrapper">
+                                    <i class="icon-search"></i>
+                                    <p class="searchTopForm__text">speakers search</p>
+                                </div>
+                                <form class="searchTopForm" action="#" method="post">
+                                        <div class="searchTopForm__selectWrapper">
+                                            <select class="searchTopForm__select" name="" id="searchTopForm__speakers">
+                                                <option value="" selected>Search Speaker</option>
+                                                <option value="">lorem ipsum</option>
+                                                <option value="">Dolor Sit</option>
+                                                <option value="">adipisicing elit</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="searchTopForm__selectWrapper">
+                                            <select class="searchTopForm__select" name="" id="searchTopForm__events">
+                                                <option value="" selected>Select Event</option>
+                                                <option value="">lorem ipsum</option>
+                                                <option value="">Dolor Sit</option>
+                                                <option value="">adipisicing elit</option>
+                                            </select>
+                                        </div>
+
+                                    <button type="submit" name="button" class="searchTopForm__submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="speakers-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="speakers">
+                                <div class="speakers__container">
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/bibi.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Benjamin Netanyahu</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Prime Minister of Israel <br>
+                                            <span class="speaker__from">ISRAEL</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/painter.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                            <h3 class="speaker__name"><a href="" class="speaker__link">Christopher Painter</a></h3>
+                                            <p class="speaker__textBlock">
+                                                Coordinator for Cyber Issuesbr<br>
+                                                State Department<br>
+                                                <span class="speaker__from">USA</span>
+                                            </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/Schneier.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Bruce Schneier</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Internationally Renowned<br>
+                                            Security Technologist &amp; Guru<br>
+                                            <span class="speaker__from">USA</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/matania.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Dr. Eviatar Matania</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Director General<br>
+                                            National Cyber Directorate<br>
+                                            Prime Minister’s Office<br>
+                                            <span class="speaker__from">ISRAEL</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/peshin.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Esti Peshin</a></h3>
+                                        <p class="speaker__textBlock">
+                                            General Manager, Cyber Division, IAI<br>
+                                            <span class="speaker__from">ISRAEL</span></p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker speaker_mb60">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/Shwed.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Gil Shwed</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Founder and CEO<br>
+                                            CheckPoint<br>
+                                            <span class="speaker__from">ISRAEL</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker speaker_mb60">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/Inglis.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Chris Inglis</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Distinguished Visiting Prof.Cyber Studies<br>
+                                            U.S. Naval Academy Former Deputy<br>
+                                            Director, NSA<br>
+                                            <span class="speaker__from">USA</span>
+                                        <p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker speaker_mb60">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/KBA.jpg" alt="" class="speaker__img speaker__img_width">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Gen. Keith Alexander (Ret.)</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Founder &amp; CEO<br>
+                                            IronNet Cybersecurity<br>
+                                            Former Director, NSA<br>
+                                            <span class="speaker__from">USA</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker speaker_mb60">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/HP.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Ofer Schreiber</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Partner<br>
+                                            YL Ventures<br>
+                                            <span class="speaker__from">ISRAEL</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker speaker_mb60">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/image002.png" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Buky Carmeli</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Head of National Cyber Security Authority<br>
+                                            Prime Minister’s Office<br>
+                                            <span class="speaker__from">ISRAEL</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/RSA.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Rohit Ghai</a></h3>
+                                        <p class="speaker__textBlock">
+                                            President<br>
+                                            RSA<br>
+                                            <span class="speaker__from">USA</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/image001.png" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Silvino Schlickmann Junior</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Director – Cyber Crime Directorate<br>
+                                            INTERPOL<br>
+                                            <span class="speaker__from">USA</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/Lewis.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Jim Lewis</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Senior Fellow<br>
+                                            The Center for Strategic and<br>
+                                            International Studies<br>
+                                            <span class="speaker__from">USA</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/Rezai.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Nasrin Rezai</a></h3>
+                                        <p class="speaker__textBlock">
+                                            SVP, Global Chief Information & Product<br>
+                                            Cyber Security Officer, General Electric<br>
+                                            <span class="speaker__from">USA</span>
+                                        </p>
+                                    </div><!-- speaker -->
+                                    <div class="speaker">
+                                        <figure class="speaker__figure">
+                                            <img src="img/home/speakers/Daniel.jpg" alt="" class="speaker__img">
+                                            <div class="speaker__overlay">
+                                                <span class="speaker__more">view more</span>
+                                            </div>
+                                        </figure>
+                                        <h3 class="speaker__name"><a href="#" class="speaker__link">Michael Daniel</a></h3>
+                                        <p class="speaker__textBlock">
+                                            Former NY City Mayor; Chair,<br>
+                                            Greenberg Traurig Cybersecurity,<br>
+                                             Privacy, and Crisis Management<br>
+                                             Practice<br>
+                                            <span class="speaker__from">USA</span></p>
+                                    </div><!-- speaker -->
+                                </div>
+
+                                <div class="speakersPopup">
+                                    <div class="modal fade " id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                      <div class="modal-dialog  modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                              <div class="speakersPopup__content">
+                                                  <div class="speakersPopup__info">
+                                                      <figure class="speakersPopup__figure"><img src="img/home/speakers/chris_painter.jpg" alt="" class="speakersPopup__img"></figure>
+                                                      <p class="speakersPopup__textBlock">
+                                                          <h1 class="speakersPopup__name">Christopher Painter</h1><br>
+                                                          <span class="speakersPopup__position">Coordinator for Cyber Issues</span><br>
+                                                          <span class="speakersPopup__position">State Department</span><br>
+                                                          <span class="speakersPopup__from">USA</span><br>
+                                                      </p>
+                                                      <div class="speakersPopup__linksWrapper">
+                                                          <div class="speakersPopup__linkItem">
+                                                              <a href="#" class="speakersPopup__link">Main Conference</a>
+                                                          </div>
+                                                          <div class="speakersPopup__linkItem">
+                                                              <a href="#" class="speakersPopup__link speakersPopup__link_sm">Privacy,&nbsp; Security,&nbsp;Trust <br><span>conference</span></a>
+                                                          </div>
+                                                          <div class="speakersPopup__linkItem">
+                                                              <a href="#" class="speakersPopup__link">CISO Summit</a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="speakersPopup__about">
+                                                      <p class="speakersPopup__text">Christopher Painter is currently the Coordinator for Cyber Issues at the State Department where he coordinates and leads U.S. diplomatic efforts to advance an open, interoperable, secure and reliable Internet and information infrastructure, working closely with components across the USG, the private sector and civil society to implement the President’s International Strategy for Cyberspace and ensure that U.S. foreign policy positions on crosscutting cyber-issues are fully synchronized. He served in the White House as Senior Director for Cybersecurity Policy in the NSC where he was a senior member of the team that conducted the President's Cyberspace Policy Review and later served as Acting Cybersecurity Coordinator. Painter is a graduate of Stanford Law School and Cornell University.</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div><!-- speakersPopup -->
+                            </div><!-- speakers -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- speaker-section -->
+            <section class="sponsorsTop-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="sponsorsTop">
+                                <figure class="sponsorsTop__figure"><a href="#" class="sponsorsTop__link"><i class="sponsorsTop__img sponsorsTop__img_icrc"></i></a></figure>
+                                <figure class="sponsorsTop__figure"><a href="#" class="sponsorsTop__link">
+                                    <i class="sponsorsTop__img sponsorsTop__img_yuval"></i></a></figure>
+                                <figure class="sponsorsTop__figure"><a href="#" class="sponsorsTop__link">                                   <i class="sponsorsTop__img sponsorsTop__img_tlv"></i></a></figure>
+                                <figure class="sponsorsTop__figure"><a href="#" class="sponsorsTop__link"><i class="sponsorsTop__img sponsorsTop__img_pmo"></i></a></figure>
+                                <figure class="sponsorsTop__figure"><a href="#" class="sponsorsTop__link"><i class="sponsorsTop__img sponsorsTop__img_fa"></i></a></figure>
+                            </div>
+                            <!-- sponsorsTop -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sponsorsTop-section -->
+        </main>
+        <footer>
+            <section class="sponsors-section">
+                <h2 class="sponsors-section__title">sponsors</h2>
+                <div class="footerTopSponsors">
+                    <div class="footerTopSponsors__destinguished">
+                        <h3 class="footerTopSponsors__title">DESTINGUISHED BENEFACTOR</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img1.png" alt="sponsor1" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footerTopSponsors__destinguished -->
+                    <div class="footerTopSponsors__diamond">
+                        <h3 class="footerTopSponsors__title">DIAMOND SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img2.png" alt="sponsor2" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footerTopSponsors__diamond -->
+                    <div class="footerTopSponsors__platinum">
+                        <h3 class="footerTopSponsors__title">ESTEEMED PLATINUM SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img3.png" alt="sponsor3" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img4.png" alt="sponsor4" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img5.png" alt="sponsor5" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img6.png" alt="sponsor6" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img7.png" alt="sponsor8" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footerTopSponsors__platinum -->
+                    <div class="footerTopSponsors__gold">
+                        <h3 class="footerTopSponsors__title">GOLD SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img8.png" alt="sponsor8" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img9.png" alt="sponsor9" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img10.png" alt="sponsor10" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img11.png" alt="sponsor11" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footerTopSponsors__gold -->
+                    <div class="footerTopSponsors__silver">
+                        <h3 class="footerTopSponsors__title">SILVER SPONSORS</h3>
+                        <div class="footerTopSponsors__container">
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img12.png" alt="sponsor12" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img13.png" alt="sponsor13" class="footerSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerSponsor">
+                                <figure class="footerSponsor__figure"><a href="#" class="footerSponsor__link"><img src="img/home/sponsors/img14.png" alt="sponsor14" class="footerSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                        <!-- footerTopSponsors__gold -->
+                    </div>
+                    <!-- footerTopSponsors -->
+                    <div class="footerBottomSponsors">
+                        <h3 class="footerBottomSponsors__title">PARTNERS</h3>
+                        <div class="footerBottomSponsors__container">
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img1.png" alt="bottomSponsor1" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img2.png" alt="bottomSponsor2" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img3.png" alt="bottomSponsor3" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img4.png" alt="bottomSponsor4" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img5.png" alt="bottomSponsor5" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img6.png" alt="bottomSponsor6" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img7.png" alt="bottomSponsor7" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img8.png" alt="bottomSponsor8" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img9.png" alt="bottomSponsor9" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img10.png" alt="bottomSponsor10" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img11.png" alt="bottomSponsor11" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img12.png" alt="bottomSponsor12" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img13.png" alt="bottomSponsor13" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img14.png" alt="bottomSponsor14" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img15.png" alt="bottomSponsor15" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img16.png" alt="bottomSponsor16" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img17.png" alt="bottomSponsor17" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img18.png" alt="bottomSponsor18" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img19.png" alt="bottomSponsor19" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img20.png" alt="bottomSponsor20" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img21.png" alt="bottomSponsor21" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img22.png" alt="bottomSponsor22" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img23.png" alt="bottomSponsor23" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img24.png" alt="bottomSponsor24" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img25.png" alt="bottomSponsor25" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img26.png" alt="bottomSponsor26" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                            <div class="footerBottomSponsor">
+                                <figure class="footerBottomSponsor__figure"><a href="#" class="footerBottomSponsor__link"><img src="img/home/sponsors/bottom/img27.png" alt="bottomSponsor27" class="footerBottomSponsor__img"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footerBottomSponsors -->
+            </section>
+            <!-- sponsors-section -->
+            <section class="footerBottom-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="footerBottom">
+                                <h2 class="footerBottom__title">Join the conversation in Tel Aviv, the cyber capital of the world!</h2>
+                                <div class="footerBottom__content">
+                                    <div class="footerBottom__contacts footerContacts">
+                                        <a href="tel:97236406041" class="footerContacts__link">Tel: 972 3 6406041</a>
+                                        <a href="mailto:icrc@post.tau.ac.il" class="footerContacts__link">Email: icrc@post.tau.ac.il</a>
+                                    </div>
+                                    <div class="footerBottom__action footerAction">
+                                        <a href="#" class="footerAction__link">CONTACT US</a>
+                                        <a href="#" class="footerAction__link">BECOME A SPONSOR</a>
+                                    </div>
+                                    <div class="footerBottom__social footerSocial">
+                                        <p class="footerSocial__text">STAY CONNECTED</p>
+                                        <div class="footerSocial__links">
+                                            <a href="#" class="footerSocial__link"><i class="icon-Facebook-icon"></i></a>
+                                            <a href="#" class="footerSocial__link"><i class="icon-Twitter-icon"></i></a>
+                                            <a href="#" class="footerSocial__link"><i class="icon-Youtube-icon"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="footerBottom__copyright footerCopyright">
+                                        <a href="#" class="footerCopyright__link">Copyright @ CyberWeek2018</a>
+                                        <a href="#" class="footerCopyright__link">Design By Sarit Arieli</a>
+                                    </div>
+                                    <div class="footerBottom__logo">
+                                        <a href="#" class="footerBottom__link"><img src="img/logo_tyco.png" alt="" class="footerBottom__img"> בניית אתרים </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+        <script src="libs/waipoints/jquery.waypoints.min.js" charset="utf-8"></script>
+        <script src="libs/scrollreveal/scrollreveal.min.js" charset="utf-8"></script>
+        <!-- <script src="libs/countup/jquery.countup.js" charset="utf-8"></script> -->
+        <!-- <script src="libs/owlcarousel/owl.carousel.min.js" charset="utf-8"></script> -->
+        <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
