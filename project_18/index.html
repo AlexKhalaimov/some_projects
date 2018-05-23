@@ -1,217 +1,396 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test task</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlCarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <div class="overlay"></div>
+        <header class="header">
             <nav class="nav">
                 <ul class="navList">
-                    <li class="navList__item"><a href="#" class="navList__link"><i class="icon icon-home"></i> Главная</a></li>
-                    <li class="navList__item"><a href="#" class="navList__link">Каталог товаров</a></li>
-                    <li class="navList__item"><span class="navList__text">Воздушные шары</span></li>
+                    <li class="navList__item"></li>
+                    <li class="navList__item"><a href="#" class="navList__link navList__link_home"><i class="icon-home"></i><span>home</span></a></li>
+                    <li class="navList__item"><a href="#" class="navList__link">about us</a></li>
+                    <li class="navList__item">
+                        <a href="#" class="navList__link">pages</a>
+                        <ul class="nav-dropdown">
+                            <li class="navList__item"><a href="#" class="navList__link">submenu1</a></li>
+                            <li class="navList__item"><a href="#" class="navList__link">submenu2</a></li>
+                            <li class="navList__item"><a href="#" class="navList__link">submenu3</a></li>
+                        </ul>
+                    </li>
+                    <li class="navList__item"><a href="#" class="navList__link">services</a></li>
+                    <li class="navList__item"><a href="#" class="navList__link">menu</a></li>
+                    <li class="navList__item"><a href="#" class="navList__link">gallery</a></li>
+                    <li class="navList__item"><a href="#" class="navList__link">blog</a></li>
+                    <li class="navList__item"><a href="#" class="navList__link">contacts</a></li>
                 </ul>
+                <div class="nav-mobile">
+                    <a href="#" class="nav-mobile__button" id="mobileToggle"><span></span></a>
+                </div>
             </nav>
+            <div class="row">
+                <div class="header__contacts">
+                    <a href="tel:01234567890" class="header__link header__link_phone"><i class="icon-phone"></i>123-456-7890</a>
+                    <a href="mailto:info@yoursite.com" class="header__link">info@yoursite.com</a>
+                </div>
+                <div class="header__logo brand">
+                    <p class="brand__text brand__text_yellow">Royal<br>event</p>
+                    <p class="brand__text brand__text_title">catering</p>
+                </div>
+                <div class="header__cart">
+                    <p class="header__text"><i class="icon-cart"></i>your cart:</p>
+                    <p class="header__text">0 Items - $0.00</p>
+                </div>
+            </div>
         </header>
         <main class="main">
-            <h1 class="main__title">Каталог шариков</h1>
-            <div class="filtres">
-                <form action="#" class="filtresForm">
-                    <div class="filtresForm__fieldset filtresForm__fieldset_color">
-                        <p class="filtresForm__legend">Цвет:</p>
-                        <div class="filtresForm__container">
-                            <label for="red" class="filtresForm__radioContainer">
-                                <input type="radio" name="color" value="red" class="filtresForm__radio" id="red">
-                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_red"></span>
-                            </label>
-                            <label for="black" class="filtresForm__radioContainer">
-                                <input type="radio" name="color" value="black" class="filtresForm__radio" id="black">
-                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_black"></span>
-                            </label>
-                            <label for="yellow" class="filtresForm__radioContainer">
-                                <input type="radio" name="color" value="yellow" class="filtresForm__radio" id="yellow">
-                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_yellow"></span>
-                            </label>
-
+            <section class="top-section">
+                <div class="top">
+                    <div class="top__container">
+                        <h1 class="slogan">A perfect blend of <br> sensational food</h1>
+                        <a href="#" class="top__button button">order service</a>
+                    </div>
+                    <div class="slider slider_top owl-carousel owl-theme">
+                        <div class="sliderItem">
+                            <figure class="sliderItem__figure"><img src="img/image1.jpg" alt="image1" class="sliderItem__img"></figure>
+                            <div class="sliderItem__overlay"></div>
                         </div>
-                        <div class="filtresForm__container">
-                            <label for="green" class="filtresForm__radioContainer">
-                                <input type="radio" name="color" value="green" class="filtresForm__radio" id="green">
-                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_green"></span>
-                            </label>
-                            <label for="pink" class="filtresForm__radioContainer">
-                                <input type="radio" name="color" value="pink" class="filtresForm__radio" id="pink">
-                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_pink"></span>
-                            </label>
-                            <label for="orange" class="filtresForm__radioContainer">
-                                <input type="radio" name="color" value="orange" class="filtresForm__radio" id="orange">
-                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_orange"></span>
-                            </label>
+                        <div class="sliderItem">
+                            <figure class="sliderItem__figure"><img src="img/image2.jpg" alt="image2" class="sliderItem__img"></figure>
+                            <div class="sliderItem__overlay"></div>
+                        </div>
+                        <div class="sliderItem">
+                            <figure class="sliderItem__figure"><img src="img/image3.jpg" alt="image3" class="sliderItem__img"></figure>
+                            <div class="sliderItem__overlay"></div>
+                        </div>
+                        <div class="sliderItem">
+                            <figure class="sliderItem__figure"><img src="img/image4.jpg" alt="image4" class="sliderItem__img"></figure>
+                            <div class="sliderItem__overlay"></div>
                         </div>
                     </div>
-                    <div class="filtresForm__fieldset filtresForm__fieldset_checkbox">
-                        <label for="checkbox_allBall" class="filtresForm__checkboxContainer">
-                            <input type="checkbox" name="all" value="" class="filtresForm__checkbox" id="checkbox_allBall">
-
-                            <span class="filtresForm__checkboxMark"><i class="icon icon-check"></i><i class="icon icon-empty"></i></span>
-                            Все шары
-                        </label>
-                        <label for="checkbox_setBall" class="filtresForm__checkboxContainer">
-                            <input type="checkbox" name="set" value="" class="filtresForm__checkbox" id="checkbox_setBall">
-
-                            <span class="filtresForm__checkboxMark"><i class="icon icon-check"></i><i class="icon icon-empty"></i></span>
-                             Комплекты
-                        </label>
-                        <label for="checkbox_oneBall" class="filtresForm__checkboxContainer">
-                            <input type="checkbox" name="one" value="" class="filtresForm__checkbox" id="checkbox_oneBall">
-
-                            <span class="filtresForm__checkboxMark"><i class="icon icon-check"></i><i class="icon icon-empty"></i></span>
-                            По одному
-                        </label>
+                    <a href="#catering" class="top__link scrollLink"></a>
+                </div>
+            </section><!-- top-section -->
+            <section class="catering-section">
+                <div class="catering" id="catering">
+                    <div class="brand">
+                        <p class="brand__text brand__text_title">catering</p>
+                        <p class="brand__text brand__text_black">Welcome to the Best <br> Catering Company</p>
                     </div>
-                    <div class="filtresForm__fieldset filtresForm__fieldset_price">
-                        <legend class="filtresForm__legend">Сортировать по:<span>Цене</span></legend>
-                        <label for="priceUp" class="filtresForm__radioContainer priceUp">
-                            <input type="radio" name="price" value="priceUp" class="filtresForm__radio filtresForm__radio_price" id="priceUp">
-                            <span class="filtresForm__radioCheckMark"><i class="icon icon-arrow-up"></i><i class="icon icon-arrow-down"></i></span>
-                        </label>
-                        <label for="priceDown" class="filtresForm__radioContainer priceDown">
-                            <input type="radio" name="price" value="priceDown" class="filtresForm__radio filtresForm__radio_price" id="priceDown">
-                            <span class="filtresForm__radioCheckMark"><i class="icon icon-arrow-up"></i><i class="icon icon-arrow-down"></i></span>
-                        </label>
+                    <div class="row">
+                        <div class="cateringItem">
+                            <figure class="cateringItem__figure"><img src="img/catering_img1.jpg" alt="catering_img1" class="cateringItem__img"></figure>
+                            <div class="cateringItem__overlay"></div>
+                            <div class="cateringItem__container">
+                                <p class="cateringItem__text">Events</p>
+                            </div>
+                            <a href="#" class="cateringItem__link"></a>
+                        </div><!-- cateringItem -->
+                        <div class="cateringItem">
+                            <figure class="cateringItem__figure"><img src="img/catering_img2.jpg" alt="catering_img2" class="cateringItem__img"></figure>
+                            <div class="cateringItem__overlay"></div>
+                            <div class="cateringItem__container">
+                                <p class="cateringItem__text">Food & <br> Drinks</p>
+                            </div>
+                            <a href="#" class="cateringItem__link"></a>
+                        </div><!-- cateringItem -->
+                        <div class="cateringItem">
+                            <figure class="cateringItem__figure"><img src="img/catering_img3.jpg" alt="catering_img3" class="cateringItem__img"></figure>
+                            <div class="cateringItem__overlay"></div>
+                            <div class="cateringItem__container">
+                                <p class="cateringItem__text">Venues</p>
+                            </div>
+                            <a href="#" class="cateringItem__link"></a>
+                        </div><!-- cateringItem -->
+                    </div><!-- row -->
+                    <div class="row">
+                        <a href="#" class="catering__link button">more about us</a>
+                    </div><!-- row -->
+                </div><!-- catering -->
+            </section><!-- catering-section -->
+            <section class="about-section">
+                <div class="about">
+                    <div class="about__brand brand">
+                        <p class="brand__text brand__text_title">about us</p>
+                        <p class="brand__text brand__text_black">A Short Story  About<br>Our Company</p>
                     </div>
-                </form><!-- filtresForm -->
-            </div><!-- filtres -->
-            <div class="content">
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_red.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды и Кометы»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный,  средний, красный</p>
-                    <p class="contentItem__price contentItem__price_new">75 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="200 шт" class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                    <div class="row">
+                        <div class="article about__article">
+                            <figure class="article__figure"><img src="img/about_img2.jpg" alt="about_img2" class="article__img"></figure>
+                            <div class="article__container">
+                                <h3 class="article__title">A Perfect Blend of Sensational Food,  Inspiring Ideas and Professional Stuff</h3>
+                                <p class="article__text"><span>1997</span>- Lorem ipsum dolor sit amet, consecte adipiscing elit, sed. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure. dolor in hendrerit in vulputate velit.</p>
+                                <a href="#" class="article__link button">read full story</a>
+                            </div>
                         </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
                     </div>
-                </div><!-- contentItem -->
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды и Кометы»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный</p>
-                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                </div><!-- about -->
+            </section><!-- about-section -->
+            <section class="menu-section">
+                <div class="menu">
+                    <div class="menu__brand brand">
+                        <p class="brand__text brand__text_title">catering</p>
+                        <p class="brand__text brand__text_black">Our Menu</p>
+                    </div>
+                    <div class="row">
+                        <div class="menuItem">
+                            <figure class="menuItem__figure"><img src="img/menu_img1.jpg" alt="menu_img1" class="menuItem__img"></figure>
+                            <p class="menuItem__text">canapes</p>
+                            <a href="#" class="menuItem__link"></a>
+                        </div><!-- menuItem -->
+                        <div class="menuItem">
+                            <figure class="menuItem__figure"><img src="img/menu_img2.jpg" alt="menu_img2" class="menuItem__img"></figure>
+                            <p class="menuItem__text">small plates</p>
+                            <a href="#" class="menuItem__link"></a>
+                        </div><!-- menuItem -->
+                        <div class="menuItem">
+                            <figure class="menuItem__figure"><img src="img/menu_img3.jpg" alt="menu_img3" class="menuItem__img"></figure>
+                            <p class="menuItem__text">sweets</p>
+                            <a href="#" class="menuItem__link"></a>
+                        </div><!-- menuItem -->
+                        <div class="menuItem">
+                            <figure class="menuItem__figure"><img src="img/menu_img4.jpg" alt="menu_img4" class="menuItem__img"></figure>
+                            <p class="menuItem__text">drinks</p>
+                            <a href="#" class="menuItem__link"></a>
+                        </div><!-- menuItem -->
+                    </div>
+                    <p class="menu__text">& much more sensational  food & drinks...</p>
+                    <a href="#" class="menu__link button">view full menu</a>
+                </div><!-- menu -->
+            </section><!-- menu-section -->
+            <section class="services-section">
+                <div class="services">
+                    <div class="services__brand brand">
+                        <p class="brand__text brand__text_title">services</p>
+                        <p class="brand__text brand__text_black">Planning a Fabulous <br> Event?</p>
+                    </div>
+                    <div class="row row_between">
+                        <div class="servicesItem servicesItem_left">
+                            <div class="servicesItem__container">
+                                <h3 class="servicesItem__title"><a href="#">weddings</a><span>01</span></h3>
+                                <p class="servicesItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis</p>
+                            </div>
+                            <div class="servicesItem__container">
+                                <h3 class="servicesItem__title"><a href="#">corporate</a><span>02</span></h3>
+                                <p class="servicesItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis</p>
+                            </div>
+                            <div class="servicesItem__container">
+                                <h3 class="servicesItem__title"><a href="#">social</a><span>03</span></h3>
+                                <p class="servicesItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis</p>
+                            </div>
+                        </div><!-- servicesItem -->
+                        <div class="servicesItem servicesItem_center">
+                            <figure class="servicesItem__figure"><img src="img/services_img1.jpg" alt="services_img1" class="servicesItem__img"></figure>
+                        </div><!-- servicesItem -->
+                        <div class="servicesItem servicesItem_right">
+                            <div class="servicesItem__container">
+                                <h3 class="servicesItem__title"><span>04</span><a href="#">picnics</a></h3>
+                                <p class="servicesItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis</p>
+                            </div>
+                            <div class="servicesItem__container">
+                                <h3 class="servicesItem__title"><span>05</span><a href="#">festival</a></h3>
+                                <p class="servicesItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis</p>
+                            </div>
+                            <div class="servicesItem__container">
+                                <h3 class="servicesItem__title"><span>06</span><a href="#">private paties</a></h3>
+                                <p class="servicesItem__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis</p>
+                            </div>
+                        </div><!-- servicesItem -->
+                    </div>
+                    <a href="#" class="services__link button button_sm">more services</a>
+                </div><!-- services -->
+            </section><!-- services-section -->
+            <section class="booking-section">
+                <div class="booking">
+                    <div class="booking__brand brand">
+                        <p class="brand__text brand__text_title">book today!</p>
+                        <p class="brand__text brand__text_black">Book Your Tasting Session <br> or Discuss Your Project</p>
+                    </div>
+                    <a href="#" class="booking__link button ">send free request</a>
+                </div>
+            </section><!-- booking-section -->
+            <section class="testimonials-section">
+                <div class="testimonials__brand brand">
+                    <p class="brand__text brand__text_title">testimonials</p>
+                    <p class="brand__text brand__text_black">Clients About Us</p>
+                </div>
+                <div class="testimonials">
+                    <div class="slider slider_testimonials owl-carousel owl-theme">
+                        <div class="testimonialsItem">
+                            <figure class="testimonialsItem__figure"><img src="img/testimonials_img1.jpg" alt="testimonials_img1" class="testimonialsItem__img"></figure>
+                            <div class="testimonialsItem__container">
+                                <p class="testimonialsItem__text">“Having worked with a number of caterers over the years, their level of service was notably high and they were integral to making the day a success”.</p>
+                                <p class="testimonialsItem__author">laura & Adam Ashley, NY</p>
+                            </div>
+                        </div><!-- testimonialsItem -->
+                        <div class="testimonialsItem">
+                            <figure class="testimonialsItem__figure"><img src="img/testimonials_img1.jpg" alt="testimonials_img1" class="testimonialsItem__img"></figure>
+                            <div class="testimonialsItem__container">
+                                <p class="testimonialsItem__text">“Having worked with a number of caterers over the years, their level of service was notably high and they were integral to making the day a success”.</p>
+                                <p class="testimonialsItem__author">laura & Adam Ashley, NY</p>
+                            </div>
+                        </div><!-- testimonialsItem -->
+                        <div class="testimonialsItem">
+                            <figure class="testimonialsItem__figure"><img src="img/testimonials_img1.jpg" alt="testimonials_img1" class="testimonialsItem__img"></figure>
+                            <div class="testimonialsItem__container">
+                                <p class="testimonialsItem__text">“Having worked with a number of caterers over the years, their level of service was notably high and they were integral to making the day a success”.</p>
+                                <p class="testimonialsItem__author">laura & Adam Ashley, NY</p>
+                            </div>
+                        </div><!-- testimonialsItem -->
+                    </div>
+                </div>
+            </section><!-- testimonials-section -->
+            <section class="blog-section">
+                <div class="blog__brand brand">
+                    <p class="brand__text brand__text_title">blog</p>
+                    <p class="brand__text brand__text_black">Recent Articles</p>
+                </div>
+                <div class="blog">
+                    <div class="row">
+                        <div class="blogArticle">
+                            <figure class="blogArticle__figure"><img src="img/blog_img1.jpg" alt="blog_img1" class="blogArticle__img"></figure>
+                            <p class="blogArticle__date">jun 20,2016</p>
+                            <h3 class="blogArticle__title"><a href="#">We Can Help Find a Location That’s Right for You</a></h3>
+                        </div><!-- blogArticle -->
+                        <div class="blogArticle">
+                            <figure class="blogArticle__figure"><img src="img/blog_img2.jpg" alt="blog_img2" class="blogArticle__img"></figure>
+                            <p class="blogArticle__date">jun 20,2016</p>
+                            <h3 class="blogArticle__title"><a href="#">Catering Services for <br>  Fabulous Corporate Events</a></h3>
+                        </div><!-- blogArticle -->
+                        <div class="blogArticle">
+                            <figure class="blogArticle__figure"><img src="img/blog_img3.jpg" alt="blog_img3" class="blogArticle__img"></figure>
+                            <p class="blogArticle__date">jun 20,2016</p>
+                            <h3 class="blogArticle__title"><a href="#">Planning a Wedding Menu <br> Can Be Daunting</a></h3>
+                        </div><!-- blogArticle -->
+                    </div>
+                    <a href="#" class="blog__link button button_sm">more articles</a>
+                </div><!-- blog-->
+            </section><!-- blog-section -->
+            <section class="chef-section">
+                <div class="chef">
+                    <div class="chef__brand brand">
+                        <p class="brand__text brand__text_title">chef</p>
+                        <p class="brand__text brand__text_black">Who’s Behind Great <br> Service?</p>
+                    </div>
+                    <div class="row">
+                        <div class="article chef__article">
+                            <figure class="article__figure"><img src="img/chef_img1.jpg" alt="about_img1" class="article__img"></figure>
+                            <div class="article__container">
+                                <p class="article__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat  nulla facilisis at vero eros.”</p>
+                                <p class="article__author">Andrea Moreno, <span>Master Chef</span></p>
+                                <a href="#" class="article__link button button_sm">read full story</a>
+                            </div>
                         </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
                     </div>
-                </div><!-- contentItem -->
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_red.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный,  средний, красный</p>
-                    <p class="contentItem__price contentItem__price_new">75 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="200 шт" class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
-                        </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                </div>
+            </section><!-- chef-section -->
+            <section class="staff-section">
+                <div class="staff">
+                    <div class="staff__brand brand">
+                        <p class="brand__text brand__text_title">staff</p>
+                        <p class="brand__text brand__text_black">Meet the Team</p>
                     </div>
-                </div><!-- contentItem -->
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды и Кометы»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный,  средний, красный</p>
-                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
-                        </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    <div class="row">
+                        <div class="staffItem">
+                            <figure class="staffItem__figure"><img src="img/staff_img1.jpg" alt="staff_img1" class="staffItem__img"></figure>
+                            <p class="staffItem__text staffItem__text_name">Amanda Finch</p>
+                            <p class="staffItem__text staffItem__text_pos">Chef, Co-Founder</p>
+                        </div><!-- staffItem -->
+                        <div class="staffItem">
+                            <figure class="staffItem__figure"><img src="img/staff_img2.jpg" alt="staff_img2" class="staffItem__img"></figure>
+                            <p class="staffItem__text staffItem__text_name">Joseph Verder</p>
+                            <p class="staffItem__text staffItem__text_pos">Chef</p>
+                        </div><!-- staffItem -->
+                        <div class="staffItem">
+                            <figure class="staffItem__figure"><img src="img/staff_img3.jpg" alt="staff_img3" class="staffItem__img"></figure>
+                            <p class="staffItem__text staffItem__text_name">Anthony Mann</p>
+                            <p class="staffItem__text staffItem__text_pos">Waiter</p>
+                        </div><!-- staffItem -->
+                        <div class="staffItem">
+                            <figure class="staffItem__figure"><img src="img/staff_img4.jpg" alt="staff_img4" class="staffItem__img"></figure>
+                            <p class="staffItem__text staffItem__text_name">Julia Green</p>
+                            <p class="staffItem__text staffItem__text_pos">Waitress</p>
+                        </div><!-- staffItem -->
                     </div>
-                </div><!-- contentItem -->
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный</p>
-                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="2 шт" class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
-                        </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                </div><!-- staff -->
+            </section><!-- staff-section -->
+            <section class="gallery-section">
+                <div class="gallery">
+                    <div class="gallery__brand brand">
+                        <p class="brand__text brand__text_title">gallery</p>
+                        <p class="brand__text brand__text_black">Check Our Recent <br> Projects</p>
                     </div>
-                </div><!-- contentItem -->
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный</p>
-                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
-                        </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    <div class="gallery__container">
+                        <img src="img/gallery_img1.jpg" alt="gallery_img1" class="gallery__img percentSize">
+                        <img src="img/gallery_img2.jpg" alt="gallery_img2" class="gallery__img percentSize">
+                        <img src="img/gallery_img3.jpg" alt="gallery_img3" class="gallery__img gallery__img_h2">
+                        <img src="img/gallery_img4.jpg" alt="gallery_img4" class="gallery__img percentSize">
+                        <img src="img/gallery_img5.jpg" alt="gallery_img5" class="gallery__img percentSize">
                     </div>
-                </div><!-- contentItem -->
-                <div class="contentItem content__item">
-                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_red.jpg"></figure>
-                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Кометы»</a></p>
-                    <p class="contentItem__text">Фигуры, латексный</p>
-                    <p class="contentItem__price contentItem__price_new">75 Р<span>/ шт.</span></p>
-                    <p class="contentItem__price contentItem__price_old">90 Р</p>
-                    <div class="contentItem__value">
-                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
-                        <div class="contentItem__buttonsWrapper">
-                            <button type="button" name="valueUp" class="contentItem__button">+</button>
-                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
-                        </div>
-                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    <a href="#" class="gallery__link button button_sm">view more projects</a>
+                </div><!-- gallery -->
+            </section><!-- gallery-section -->
+            <section class="feedback-section">
+                <div class="feedback__brand brand">
+                    <p class="brand__text brand__text_title">contact us</p>
+                    <p class="brand__text brand__text_black">Leave a Feadback or <br> Ask a Question</p>
+                </div>
+                <div class="feedback">
+                    <div class="row row_center">
+                        <form action="#" class="feedbackForm">
+                            <input type="text" name="userName" value="" class="feedbackForm__input" placeholder="your name:">
+                            <input type="email" name="userMail" value="" class="feedbackForm__input" placeholder="e-mail address:">
+                            <textarea name="userMessage" rows="10" cols="80" class="feedbackForm__textArea" placeholder="send a message:"></textarea>
+                            <button type="submit" name="feedbackSubmit" class="feedbackForm__submit button button_sm">send message</button>
+                        </form>
                     </div>
-                </div><!-- contentItem -->
-            </div><!-- content -->
-            <div class="bottomNav">
-                <button type="button" name="buttonPrev" class="bottomNav__button bottomNav__button_prev">Назад</button>
-                <ul class="bottomNav__list bottomNavList">
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">1</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">2</a></li>
-                    <li class="bottomNavList__item bottomNavList__item_active"><a href="#" class="bottomNavList__link">3</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">4</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">...</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">5</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">6</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">7</a></li>
-                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">8</a></li>
-                </ul>
-                <button type="button" name="buttonNext" class="bottomNav__button bottomNav__button_next">Далее</button>
-            </div><!-- bottomNav -->
+                </div><!-- feedback -->
+            </section><!-- feedback-section -->
         </main>
-    </div><!-- wrapper -->
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="#" class="footer-content__link">top</a>
+                <div class="row">
+                    <div class="footer__contacts">
+                        <a href="tel:01234567890" class="footer__link">123-456-7890</a>
+                        <a href="mailto:info@yoursite.com" class="footer__link">info@yoursite.com</a>
+                    </div>
+                    <div class="footer__logo brand">
+                        <p class="brand__text brand__text_yellow">Royal<br>event</p>
+                        <p class="brand__text brand__text_title">catering</p>
+                    </div>
+                    <div class="footer__address">
+                        <p class="footer__text">123, New Lenox <br> Chicago, IL 60606</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer__social footerSocial">
+                        <a href="#" class="footerSocial__link footerSocial__link_twitter"><i class="icon-twitter"></i></a>
+                        <a href="#" class="footerSocial__link footerSocial__link_fb"><i class="icon-facebook"></i></a>
+                        <a href="#" class="footerSocial__link footerSocial__link_tmblr"><i class="icon-tumblr"></i></a>
+                        <a href="#" class="footerSocial__link footerSocial__link_inst"><i class="icon-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer__copyright footerCopyright">
+                        <p class="footerCopyright__text">Ancora © 2016 All Rights Reserved <a href="#" class="footerCopyright__link">Terms of Use</a> and <a href="#" class="footerCopyright__link">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div><!-- footer-content -->
+        </footer>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="libs/owlCarousel/owl.carousel.min.js" charset="utf-8"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
