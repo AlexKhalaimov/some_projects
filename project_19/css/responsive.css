@@ -1,0 +1,2173 @@
+@media (max-width: 1440px) {
+  .events {
+    padding: 0 15px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .events-wrapper {
+    max-width: 1000px;
+  }
+
+  .eventsItem:nth-child(3n),
+  .racesItem:nth-child(3n) {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .eventsItem:nth-child(3n+1),
+  .racesItem:nth-child(3n+1) {
+    margin-left: 0px;
+  }
+
+  .eventsItem:nth-child(4n),
+  .racesItem:nth-child(4n) {
+    margin-right: 10px;
+  }
+
+  .eventsItem:nth-child(4n+1),
+  .racesItem:nth-child(4n+1) {
+    margin-left: 10px;
+  }
+
+  .eventsItem:first-child,
+  .racesItem:first-child {
+    margin-left: 0;
+  }
+
+  .resultForm {
+    width: 100%;
+  }
+
+  .mainInfoItemTable {
+    width: auto;
+  }
+}
+
+@media (max-width: 1430px) {
+  .profileInfoItem__boxes_races {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .personalRaces .races-wrapper {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  #personalStats .profileInfoItem__boxes_row {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  #personalStats .profileInfoItem__box_table {
+    width: 655px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .minisiteAsideList__link {
+    font-size: 20px;
+    padding: 20px 0 20px 40px;
+  }
+
+  .minisiteAsideList__link::before {
+    left: 10px;
+    margin-top: -14px;
+  }
+
+  .minisiteAsideList__link::after {
+    margin-top: -2px;
+  }
+
+  .mainInfoItemTable__btmText {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .events-wrapper {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .about__figure {
+    margin-left: 0;
+  }
+
+  .about__container {
+    margin-right: 0;
+  }
+
+  .advantages {
+    padding: 95px 80px 0;
+  }
+
+  .profileInfo .racesItem {
+    margin: 0 0 20px;
+  }
+
+  .profileInfo .racesItem:nth-child(even) {
+    margin-right: 0px;
+  }
+
+  .profileInfo .racesItem:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1299px) {
+  .aboutUs {
+    background-color: #f2f2f2;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 100px 0 50px;
+  }
+
+  .aboutUs__figure {
+    position: static;
+  }
+
+  .aboutUs__container::before,
+  .aboutUs__container::after {
+    display: none;
+  }
+
+  .aboutUs__text {
+    width: 100%;
+  }
+
+  .benefits {
+    padding: 75px 110px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .eventsFilter__selectWrapper {
+    margin-bottom: 15px;
+  }
+
+  .download__container {
+    padding-top: 0;
+  }
+
+  .footerMain {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0 50px 150px;
+  }
+
+  .footerMainList:nth-child(2),
+  .footerMainList:nth-child(3),
+  .footerMainList:last-child {
+    margin-right: 0;
+  }
+
+  .footerBottom {
+    padding: 25px 50px 0;
+  }
+
+  .minisiteAsideList__link::after {
+    right: 31px;
+  }
+
+  .visibleContent {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .mainInfoItem_general {
+    padding: 49px 28px 0 15px;
+  }
+
+  .mainInfoItem__boxes {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .mainInfoItem__box {
+    margin: 0 15px 40px 0;
+  }
+
+  .mainInfoItem__box_table {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .resultForm__container_ml {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .resultForm__container_mr {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .resultForm__table td {
+    font-size: 19px;
+    padding-right: 0;
+  }
+
+  .advantages {
+    padding: 95px 15px 0;
+  }
+
+  .productItem__textWrapper {
+    margin-right: 60px;
+  }
+
+  .personalRacesFilter__selectWrapper {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .signUpFormModal .modal-lg {
+    max-width: 800px;
+  }
+
+  .profileInfo {
+    padding-right: 0px;
+  }
+
+  .profileInfo .races-wrapper {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .profileInfo .racesItem {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .profileInfo .racesItem:nth-child(odd) {
+    margin-right: 13px;
+  }
+
+  .profileInfo .racesItem:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .profileAside {
+    min-width: 280px;
+    margin-right: 10px;
+  }
+
+  .profileAsideList__link {
+    font-size: 20px;
+    padding: 20px 0 30px 70px;
+  }
+
+  .profileAsideList__link::after {
+    right: 20px;
+    margin-top: -7px;
+  }
+
+  .profileAsideList__link::before {
+    left: 20px;
+  }
+
+  #personalStats .profileInfoItem__box:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .racesItem:first-child,
+  #personalStats .profileInfoItem__box:first-child {
+    margin-right: 13px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .advantages__container {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1050px) {
+  .events-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 989px;
+  }
+
+  .eventsItem:nth-child(odd) {
+    margin: 0 10px 20px 0;
+  }
+
+  .eventsItem:nth-child(even) {
+    margin: 0 0 20px 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .resultForm__container {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .benefits-section {
+    background-repeat: repeat;
+    height: auto;
+  }
+
+  .benefits {
+    padding: 75px 15px 0;
+  }
+
+  .benefits__title {
+    text-align: center;
+  }
+
+  .benefits__container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .benefits__items:last-child .benefitsItem:last-child p {
+    border: 0;
+  }
+
+  .benefitsItem:last-child p {
+    border-left: 1px solid #fff;
+  }
+
+  .profileAsideList__link {
+    padding: 20px 0 30px 65px;
+  }
+
+  .profileAsideList__link::before {
+    left: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .miniSite .navList__item_btn {
+    background-color: transparent;
+    margin-left: 0;
+  }
+
+  .aside-wrapper {
+    display: none;
+  }
+
+  .mainInfo {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mainInfoItem,
+  .profileInfoItem {
+    padding: 49px 0 0;
+  }
+
+  .mainInfoItem__title,
+  .profileInfoItem__title {
+    padding-left: 0;
+  }
+
+  .mainInfoItem__box_table {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .mainInfoItemTable {
+    width: 100%;
+  }
+
+  .map {
+    margin: 0;
+  }
+
+  #generalInfo {
+    padding-top: 0;
+  }
+
+  .mainInfoItem_story .mainInfoItem__box,
+  .mainInfoItem_winners .mainInfoItem__box {
+    margin: 0 15px;
+  }
+
+  .mainInfoItem,
+  .profileInfoItem {
+    background-color: transparent;
+  }
+
+  .mainInfoItem_general .contentCollapse,
+  .profileInfoItem_general .contentCollapse {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .mainInfoItem_general .mainInfoItem__boxes,
+  .profileInfoItem_general .mainInfoItem__boxes {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .mainInfoItem__box,
+  .profileInfoItem__box {
+    margin: 0 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .mainInfoItem__title,
+  .profileInfoItem__title {
+    border-left: 7px solid transparent;
+    background-color: #fff;
+    color: #505659;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 60px 50px 60px;
+    position: relative;
+    text-align: center;
+  }
+
+  .mainInfoItem__title::after,
+  .profileInfoItem__title::after {
+    border: solid #505659;
+    border-width: 3px 3px 0 0;
+    content: '';
+    display: inline-block;
+    height: 9px;
+    margin-top: -5px;
+    right: 30px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform .3s linear;
+    transition: -webkit-transform .3s linear;
+    -o-transition: transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear, -webkit-transform .3s linear;
+    width: 9px;
+  }
+
+  .mainInfoItem__title::before,
+  .profileInfoItem__title::before {
+    color: #505659;
+    display: inline-block;
+    font-family: 'xRace' !important;
+    left: 37px;
+    margin-top: -19px;
+    position: absolute;
+    top: 50%;
+  }
+
+  .mainInfoItem__title_info::before,
+  .profileInfoItem__title_info::before {
+    content: '\e902';
+  }
+
+  .mainInfoItem__title_story::before,
+  .profileInfoItem__title_story::before {
+    content: '\e90f';
+  }
+
+  .mainInfoItem__title_results::before,
+  .profileInfoItem__title_results::before {
+    content: '\e90d';
+  }
+
+  .mainInfoItem__title_winners::before,
+  .profileInfoItem__title_winners::before {
+    content: '\e910';
+  }
+
+  .mainInfoItem__title_gallery::before,
+  .profileInfoItem__title_gallery::before {
+    content: '\e901';
+  }
+
+  .mainInfoItem__title_route::before,
+  .profileInfoItem__title_route::before {
+    content: '\e90e';
+  }
+
+  .mainInfoItem__title_races::before,
+  .profileInfoItem__title_races::before {
+    content: "\e919";
+  }
+
+  .mainInfoItem__title_stats::before,
+  .profileInfoItem__title_stats::before {
+    content: "\e916";
+  }
+
+  .buttonActive {
+    border-left-color: #80AD50;
+    color: #80AD50;
+    margin-bottom: 30px;
+  }
+
+  .buttonActive::before {
+    color: #80AD50;
+  }
+
+  .buttonActive::after {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+
+  .contentCollapse {
+    display: none;
+  }
+
+  .visibleContent {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .winners {
+    padding: 60px 0px 40px;
+  }
+
+  .winners__name {
+    font-size: 24px;
+  }
+
+  .winners__text {
+    font-size: 18px;
+  }
+
+  .map {
+    margin: 0;
+  }
+
+  .onePager nav ul li a {
+    color: #fff;
+  }
+
+  .productItem {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .productItem__textWrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: auto;
+  }
+
+  .productItem__title {
+    text-align: center;
+  }
+
+  .products {
+    padding-bottom: 50px;
+  }
+
+  .aboutUs {
+    padding-top: 0;
+  }
+
+  .aboutUs__container {
+    padding-top: 50px;
+  }
+
+  .team {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px 15px;
+  }
+
+  .team__container {
+    width: 100%;
+  }
+
+  .galleryBottom__title {
+    padding-top: 30px;
+  }
+
+  .galleryBottom.owl-theme {
+    padding: 30px 0 115px;
+  }
+
+  .galleryBottom.owl-theme .owl-nav.disabled + .owl-dots {
+    bottom: auto;
+    margin-left: -66px;
+    margin-top: 45px;
+  }
+
+  .galleryBottom__figure {
+    margin: 0;
+    width: auto;
+  }
+
+  .profile nav ul li ul {
+    background-color: transparent;
+  }
+
+  .profileAside {
+    display: none;
+  }
+
+  .profileInfo {
+    padding: 0;
+    width: 100%;
+  }
+
+  .profileInfo .contentCollapse {
+    margin: 0 15px;
+  }
+
+  .profileInfo .racesItem {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .profileInfo .racesItem:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .profileInfo .races-wrapper {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  #personalInfo {
+    padding-top: 0;
+  }
+
+  .personalRaces {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: right;
+  }
+
+  .personalRaces__link {
+    margin-right: 20px;
+  }
+
+  #personalStats {
+    padding-top: 60px;
+  }
+
+  #personalStats .profileInfoItem__boxes_row,
+  #personalStats .profileInfoItem__boxes_races {
+    margin: 0 auto;
+    width: 655px;
+  }
+
+  #personalStats .profileInfoItem__box {
+    -webkit-box-shadow: 0px 0px 10px 10px #ededed;
+    box-shadow: 0px 0px 10px 10px #ededed;
+    margin: 0 10px 30px 0;
+  }
+
+  #personalStats .profileInfoItem__boxes_races,
+  #personalStats .profileInfoItem__box_table {
+    margin: 0 auto;
+  }
+
+  #personalStats .profileInfoItem__box_table {
+    margin: 0 auto 30px !important;
+  }
+
+  #personalStats .profileInfoItem__box_chart {
+    margin: 0 auto 15px;
+  }
+
+  .navList__item_login {
+    float: none;
+  }
+
+  .navList__item_login::before {
+    top: 0px;
+  }
+
+  .navList__item_login .selectLang__select {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navigation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .nav-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    z-index: 2;
+  }
+
+  .headerLogo {
+    float: none;
+    position: static;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-left: 40px;
+  }
+
+  #nav-toggle {
+    top: 12px;
+  }
+
+  .nav-mobile {
+    display: block;
+    position: relative;
+  }
+
+  nav {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+  }
+
+  nav ul li {
+    float: none;
+  }
+
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+
+  nav .nav-dropdown {
+    position: static;
+  }
+
+  .navList__item_btn {
+    background-color: transparent;
+    border: 0;
+    float: none;
+    margin: 0;
+    text-align: left;
+  }
+
+  .navList__link::after {
+    background-color: #fff;
+    content: '';
+    display: block;
+    height: 1px;
+    -webkit-transition: width 0.2s linear;
+    -o-transition: width 0.2s linear;
+    transition: width 0.2s linear;
+    width: 0;
+  }
+
+  .navList__link:hover::after,
+  .navList__link:focus::after {
+    width: 100%;
+  }
+
+  .selectLang {
+    left: auto;
+    right: 40px;
+    z-index: 2;
+    top: 42px;
+  }
+
+  .eventsFilter {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .eventsFilter__figure,
+  .eventsFilter__linkWrapper {
+    display: none;
+  }
+
+  .eventsFilter__text {
+    margin-bottom: 10px;
+  }
+
+  .eventsFilter__items {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 400px;
+  }
+
+  .eventsFilter__selectWrapper:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .eventsSearch {
+    margin: 0 auto 40px;
+  }
+
+  .about__figure {
+    display: none;
+  }
+
+  .about__container {
+    width: auto;
+  }
+
+  .download {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .download__container {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .download__figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .loginModal .modal-body {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .loginModal .signUp {
+    margin: 0;
+  }
+
+  .signUpFormModal .modal-lg {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topCarousel.owl-carousel .owl-item img {
+    min-width: 600px;
+    height: auto;
+  }
+
+  .topCarousel__title {
+    font-size: 33px;
+  }
+
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    bottom: 10px;
+    margin-top: 0;
+  }
+
+  .topCarousel__figure {
+    overflow: hidden;
+  }
+
+  .events-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    width: auto;
+  }
+
+  .eventsItem {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .eventsItem:nth-child(odd) {
+    margin: 0 0 20px;
+  }
+
+  .eventsItem:nth-child(even) {
+    margin: 0 0 20px;
+  }
+
+  .topForm__input {
+    font-size: 22px;
+    padding-bottom: 7px;
+  }
+
+  .topForm__input::-webkit-input-placeholder {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .topForm__input:-moz-placeholder {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .topForm__input::-moz-placeholder {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .topForm__input:-ms-input-placeholder {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .topForm__input::-moz-placeholder {
+    opacity: 1;
+  }
+
+  .download {
+    padding: 130px 15px 96px;
+  }
+
+  .download__title {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 40px;
+    white-space: normal;
+  }
+
+  .download__title img {
+    height: 40px;
+    margin-right: 4px;
+    width: 107px;
+  }
+
+  .footerMain {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .footerMainList {
+    width: 45%;
+  }
+
+  .footerMainList:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+  .footerMain__social {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .footerMainList:first-child {
+    display: none;
+  }
+
+  .signUpFormModal .modal-lg {
+    max-width: none;
+    width: 90%;
+  }
+
+  .signUpForm > .signUpForm__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .signUpForm .signUpForm__textWrapper_name {
+    width: 98%;
+  }
+
+  .signUpForm .signUpForm__container_inputs .signUpForm__container {
+    width: 98%;
+  }
+
+  .signUpForm .signUpForm__textWrapper:last-child {
+    margin-bottom: 35px;
+  }
+
+  .signUpForm__submitWrapper {
+    background-color: transparent;
+    position: static;
+  }
+
+  .signUpForm__submitWrapper::after,
+  .signUpForm__submitWrapper::before {
+    display: none;
+  }
+
+  .signUpForm__submit {
+    background-color: #80B250;
+    border: 1px solid #80B250;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
+    width: 100px;
+  }
+
+  .signUpForm__submit:hover,
+  .signUpForm__submit:focus {
+    background-color: #fff;
+    color: #80B250;
+    outline: 0;
+  }
+
+  .mainInfoItem_story .mainInfoItem__box {
+    padding: 9px 15px;
+  }
+
+  .mainInfoItem_gallery .mainInfoItem__box {
+    margin: 0 auto;
+  }
+
+  .gallery {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: auto;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .gallery__figure {
+    margin: 5px;
+  }
+
+  .productsCarousel.owl-carousel .owl-item img {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .advantages__text br {
+    display: none;
+  }
+
+  .profile header {
+    background: url(../img/profile/bg_top_mobile.jpg) top center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 100px 0;
+  }
+
+  .personalForm__container_inputs {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .personalForm__container_inputs .personalForm__container {
+    width: 100%;
+  }
+
+  .personalRacesFilter {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .personalSearch {
+    margin: 0 auto 40px;
+  }
+
+  .personalForm__container_w50 {
+    width: 100%;
+  }
+
+  .personalForm {
+    padding: 46px 15px 145px 15px;
+  }
+
+  .personalForm__textWrapper {
+    margin-bottom: 35px;
+  }
+
+  .personalForm__top {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .personalForm__top .personalForm__container {
+    width: auto;
+  }
+
+  .personalForm__submitWrapper.banner {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .personalForm__submitWrapper.banner::before,
+  .personalForm__submitWrapper.banner::after {
+    display: none;
+  }
+
+  .personalRacesFilter__items {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 310px;
+  }
+
+  .personalRacesFilter__selectWrapper:not(:last-child) {
+    margin-right: 0;
+  }
+
+  #personalStats .profileInfoItem__content {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  #personalStats .profileInfoItem__box_table {
+    width: auto;
+  }
+
+  .profileInfo .races-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .profileInfo .racesItem {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .profileInfo .racesItem:not(:last-child),
+  .profileInfo .racesItem:last-child {
+    margin-right: 0;
+  }
+
+  .racesItem:first-child,
+  #personalStats .profileInfoItem__box:first-child {
+    margin-right: 0;
+  }
+
+  #personalStats .profileInfoItem__boxes_row,
+  #personalStats .profileInfoItem__boxes_races {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .profileInfoItemTable {
+    width: auto;
+  }
+
+  .profileInfoItemTable__btmText {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #personalStats .profileInfoItem__box {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .signUpFormModal .modal-body {
+    padding: 30px 20px 80px;
+  }
+
+  .signUpFormModal .modal-header {
+    padding: 30px 20px 20px;
+  }
+
+  .signUpFormModal .modal-header .modal-title {
+    font-size: 30px;
+  }
+
+  .signUpForm__container_end {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .signUpForm__radioContainer:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .signUpFormModal .modal-lg {
+    width: 95%;
+  }
+
+  .mainInfoItem__box {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .mainInfoItem__boxes {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .mainInfoItem__boxes .mainInfoItem__box {
+    margin-bottom: 40px;
+  }
+
+  .mainInfoItem__text_os {
+    font-size: 18px;
+  }
+
+  .winners {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .winners__figure:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .mainInfoItem__box_table {
+    margin: 0 15px;
+    padding-bottom: 80px;
+  }
+
+  .resultForm__filter {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .resultForm__filter .resultForm__container_col {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .resultForm__filter .resultForm__container_col .resultForm__container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .resultForm__selectWrapper {
+    width: 100%;
+  }
+
+  .resultForm__selectWrapper:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigation {
+    padding: 10px 15px;
+  }
+
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    height: 3px;
+    width: 30px;
+  }
+
+  .selectLang {
+    top: 18px;
+  }
+
+  .topCarousel__title {
+    font-size: 25px;
+    margin-top: 40px;
+    padding-top: 0;
+  }
+
+  .topForm {
+    min-width: auto;
+    width: 80%;
+  }
+
+  .topForm__input {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .topForm__input::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .topForm__input:-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .topForm__input::-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .topForm__input:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .topForm__input::-moz-placeholder {
+    opacity: 1;
+  }
+
+  .topForm__inputWrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .events-section {
+    padding: 35px 10px 95px;
+  }
+
+  .footerMain {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 15px 50px;
+  }
+
+  .footerMainList {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 90%;
+  }
+
+  .footerBottom {
+    padding: 25px 15px 0;
+  }
+
+  .loginModalForm {
+    height: auto;
+    padding: 30px 15px 50px;
+    width: auto;
+  }
+
+  .signUp {
+    height: auto;
+    padding: 30px 15px 50px;
+    width: auto;
+  }
+
+  .signUp .signUp__text {
+    margin: 0 auto 30px;
+    width: 80%;
+  }
+
+  .miniSite .topCarousel__buttons {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .miniSite .topCarousel__button_green {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .mainInfoItem__box_table {
+    padding: 35px 0px 80px;
+  }
+
+  .mainInfoItem__title,
+  .profileInfoItem__title {
+    font-size: 28px;
+  }
+
+  .mainInfoItem__title::before,
+  .profileInfoItem__title::before {
+    left: 20px;
+  }
+
+  .mainInfoItem__title::after,
+  .profileInfoItem__title::after {
+    right: 45px;
+  }
+
+  .resultForm__container_ml {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .navList__item_login {
+    padding-left: 30px;
+  }
+
+  .navList__item_login::before {
+    left: -3px;
+  }
+
+  .navList__item_login .nice-select::after {
+    right: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  .team__shapes {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .team__shape {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+  }
+
+  .team__shape:nth-child(even) {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .team__shape:nth-child(odd) {
+    margin-right: 0px;
+  }
+
+  .team__shape_reverse .team__imgWrapper {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .team__shape_reverse .team__textWrapper {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .team__imgWrapper {
+    -webkit-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+    width: 100%;
+  }
+
+  .team__textWrapper {
+    -webkit-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+    position: static;
+    width: 100%;
+  }
+
+  .team__text {
+    -webkit-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    transform: skewX(0deg);
+  }
+
+  .team__img {
+    -webkit-transform: skewX(0deg) scale3d(1, 1, 1);
+    transform: skewX(0deg) scale3d(1, 1, 1);
+  }
+
+  .team__figure {
+    width: 100%;
+  }
+
+  .personalRacesFilter__figure {
+    display: none;
+  }
+
+  .personalSearch__inputWrapper {
+    padding-right: 0;
+    width: 315px;
+  }
+
+  .personalForm__top {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .personalForm__container_inputs {
+    padding: 0;
+  }
+
+  .personalForm__container_end {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .personalForm__radioContainer:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #personalStats .profileInfoItem__box_chart {
+    padding: 30px 15px;
+    height: auto;
+  }
+
+  .ct-chart span.ct-label.ct-horizontal,
+  .ct-chart span.ct-label.ct-vertical {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .eventsFilter__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .eventsItem {
+    margin-right: 0;
+  }
+
+  .about {
+    padding: 80px 15px 100px;
+  }
+
+  .signUpForm__top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .signUpForm__container_end {
+    padding-left: 45px;
+    padding-top: 20px;
+  }
+
+  .signUpForm__text {
+    text-align: left;
+  }
+
+  .mainInfoItem__boxes .mainInfoItem__box {
+    padding: 30px 10px 35px;
+    width: 90%;
+  }
+
+  .mainInfoItem__title::before {
+    left: 10px;
+  }
+
+  .mainInfoItem__title::after {
+    right: 15px;
+  }
+
+  .resultForm__tableFilters span {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .pagination .page-link {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .top {
+    padding: 0 30px;
+  }
+
+  .top__title {
+    font-size: 36px;
+    padding-top: 80px;
+  }
+
+  .top__title img {
+    height: 40px;
+    margin-bottom: 10px;
+    width: 110px;
+  }
+
+  .sectionTitle {
+    font-size: 28px;
+  }
+
+  .advantages__text {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .advantagesItem__title {
+    font-size: 22px;
+  }
+
+  .advantagesItem__title br {
+    display: none;
+  }
+
+  .productItem__title {
+    font-size: 22px;
+  }
+
+  .aboutUs__container {
+    padding: 50px 15px;
+  }
+
+  .aboutUs__text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .aboutUs__text:first-of-type {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+
+  .profileInfoItem__title {
+    width: 100%;
+    left: auto;
+    max-width: none;
+    position: relative;
+  }
+
+  .personalForm,
+  .racesItem,
+  #personalStats .profileInfoItem__box {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+
+  .personalForm__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .personalForm__top .personalForm__container {
+    margin-bottom: 20px;
+  }
+
+  .personalForm__container_end {
+    padding-left: 50px;
+  }
+
+  .personalForm__container_w50 {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .personalForm__text_green {
+    width: 100%;
+  }
+
+  .profileInfoItem__box_table {
+    padding: 10px;
+  }
+
+  .profileInfoItemTable__topText,
+  .profileInfoItemTable__btmText {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .profileInfoItemTable td {
+    height: auto;
+  }
+
+  .personalRacesFilter__items {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .personalRacesFilter__text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .personalRacesFilter__selectWrapper {
+    width: 100%;
+  }
+
+  .profileInfoItem__title {
+    font-size: 22px;
+  }
+
+  .profileInfoItem__title::before {
+    margin-top: -13px;
+    left: 10px;
+  }
+
+  .profileInfoItem__title::after {
+    right: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerLogo {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    height: 36px;
+  }
+
+  .headerLogo__figure {
+    width: 70px;
+  }
+
+  .topCarousel__title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .topCarousel__prevArrow,
+  .topCarousel__nextArrow {
+    margin-top: -18px;
+  }
+
+  .eventsSearch__input {
+    font-size: 19px;
+  }
+
+  .eventsSearch__input::-webkit-input-placeholder {
+    font-size: 19px;
+  }
+
+  .eventsSearch__input:-moz-placeholder {
+    font-size: 19px;
+  }
+
+  .eventsSearch__input::-moz-placeholder {
+    font-size: 19px;
+  }
+
+  .eventsSearch__input:-ms-input-placeholder {
+    font-size: 19px;
+  }
+
+  .eventsSearch__input::-moz-placeholder {
+    opacity: 1;
+  }
+
+  .events {
+    padding: 0;
+  }
+
+  .eventsItem {
+    width: 100%;
+  }
+
+  .download__title {
+    font-size: 36px;
+  }
+
+  .download__title img {
+    height: 36px;
+  }
+
+  .loginModal .loginModalForm__input {
+    width: 255px;
+  }
+
+  .mainInfoItem__title {
+    font-size: 25px;
+  }
+
+  .mainInfoItem__title::after {
+    margin-top: -2px;
+  }
+
+  .mainInfoItem__title::before {
+    left: 10px;
+    margin-top: -12px;
+  }
+
+  .mainInfoItemTable td,
+  .profileInfoItemTable td {
+    height: auto;
+    width: auto;
+  }
+
+  .mainInfoItemTable__btmText {
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .mainInfoItemTable__topText,
+  .profileInfoItemTable__topText {
+    line-height: 19px;
+  }
+
+  .irs {
+    width: 280px;
+  }
+
+  .profileInfoItem__box,
+  .racesItem,
+  .personalSearch__inputWrapper,
+  .personalRacesFilter__items {
+    width: 270px;
+  }
+
+  .personalRacesFilter__container_column {
+    padding: 0;
+  }
+
+  .personalRacesFilter__container_column {
+    padding: 0 10px;
+  }
+}
