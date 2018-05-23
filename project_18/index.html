@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test task</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav">
+                <ul class="navList">
+                    <li class="navList__item"><a href="#" class="navList__link"><i class="icon icon-home"></i> Главная</a></li>
+                    <li class="navList__item"><a href="#" class="navList__link">Каталог товаров</a></li>
+                    <li class="navList__item"><span class="navList__text">Воздушные шары</span></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <h1 class="main__title">Каталог шариков</h1>
+            <div class="filtres">
+                <form action="#" class="filtresForm">
+                    <div class="filtresForm__fieldset filtresForm__fieldset_color">
+                        <p class="filtresForm__legend">Цвет:</p>
+                        <div class="filtresForm__container">
+                            <label for="red" class="filtresForm__radioContainer">
+                                <input type="radio" name="color" value="red" class="filtresForm__radio" id="red">
+                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_red"></span>
+                            </label>
+                            <label for="black" class="filtresForm__radioContainer">
+                                <input type="radio" name="color" value="black" class="filtresForm__radio" id="black">
+                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_black"></span>
+                            </label>
+                            <label for="yellow" class="filtresForm__radioContainer">
+                                <input type="radio" name="color" value="yellow" class="filtresForm__radio" id="yellow">
+                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_yellow"></span>
+                            </label>
+
+                        </div>
+                        <div class="filtresForm__container">
+                            <label for="green" class="filtresForm__radioContainer">
+                                <input type="radio" name="color" value="green" class="filtresForm__radio" id="green">
+                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_green"></span>
+                            </label>
+                            <label for="pink" class="filtresForm__radioContainer">
+                                <input type="radio" name="color" value="pink" class="filtresForm__radio" id="pink">
+                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_pink"></span>
+                            </label>
+                            <label for="orange" class="filtresForm__radioContainer">
+                                <input type="radio" name="color" value="orange" class="filtresForm__radio" id="orange">
+                                <span class="filtresForm__radioCheckMark filtresForm__radioCheckMark_orange"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filtresForm__fieldset filtresForm__fieldset_checkbox">
+                        <label for="checkbox_allBall" class="filtresForm__checkboxContainer">
+                            <input type="checkbox" name="all" value="" class="filtresForm__checkbox" id="checkbox_allBall">
+
+                            <span class="filtresForm__checkboxMark"><i class="icon icon-check"></i><i class="icon icon-empty"></i></span>
+                            Все шары
+                        </label>
+                        <label for="checkbox_setBall" class="filtresForm__checkboxContainer">
+                            <input type="checkbox" name="set" value="" class="filtresForm__checkbox" id="checkbox_setBall">
+
+                            <span class="filtresForm__checkboxMark"><i class="icon icon-check"></i><i class="icon icon-empty"></i></span>
+                             Комплекты
+                        </label>
+                        <label for="checkbox_oneBall" class="filtresForm__checkboxContainer">
+                            <input type="checkbox" name="one" value="" class="filtresForm__checkbox" id="checkbox_oneBall">
+
+                            <span class="filtresForm__checkboxMark"><i class="icon icon-check"></i><i class="icon icon-empty"></i></span>
+                            По одному
+                        </label>
+                    </div>
+                    <div class="filtresForm__fieldset filtresForm__fieldset_price">
+                        <legend class="filtresForm__legend">Сортировать по:<span>Цене</span></legend>
+                        <label for="priceUp" class="filtresForm__radioContainer priceUp">
+                            <input type="radio" name="price" value="priceUp" class="filtresForm__radio filtresForm__radio_price" id="priceUp">
+                            <span class="filtresForm__radioCheckMark"><i class="icon icon-arrow-up"></i><i class="icon icon-arrow-down"></i></span>
+                        </label>
+                        <label for="priceDown" class="filtresForm__radioContainer priceDown">
+                            <input type="radio" name="price" value="priceDown" class="filtresForm__radio filtresForm__radio_price" id="priceDown">
+                            <span class="filtresForm__radioCheckMark"><i class="icon icon-arrow-up"></i><i class="icon icon-arrow-down"></i></span>
+                        </label>
+                    </div>
+                </form><!-- filtresForm -->
+            </div><!-- filtres -->
+            <div class="content">
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_red.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды и Кометы»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный,  средний, красный</p>
+                    <p class="contentItem__price contentItem__price_new">75 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="200 шт" class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды и Кометы»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный</p>
+                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_red.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный,  средний, красный</p>
+                    <p class="contentItem__price contentItem__price_new">75 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="200 шт" class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды и Кометы»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный,  средний, красный</p>
+                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный</p>
+                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="2 шт" class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_yellow.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Звезды»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный, полупрозрачный</p>
+                    <p class="contentItem__price contentItem__price_new">15 075 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+                <div class="contentItem content__item">
+                    <figure class="contentItem__figure"><img  alt="balloon_red" class="contentItem__img" src="img/balloon_red.jpg"></figure>
+                    <p class="contentItem__title"><a href="#" class="contentItem__link">Шары «Кометы»</a></p>
+                    <p class="contentItem__text">Фигуры, латексный</p>
+                    <p class="contentItem__price contentItem__price_new">75 Р<span>/ шт.</span></p>
+                    <p class="contentItem__price contentItem__price_old">90 Р</p>
+                    <div class="contentItem__value">
+                        <input type="text" name="itemValue" value="2 шт"  class="contentItem__input">
+                        <div class="contentItem__buttonsWrapper">
+                            <button type="button" name="valueUp" class="contentItem__button">+</button>
+                            <button type="button" name="valueDown" class="contentItem__button contentItem__button_minus">-</button>
+                        </div>
+                        <a href="#" class="contentItem__cart"><i class="icon icon-cart"></i></a>
+                    </div>
+                </div><!-- contentItem -->
+            </div><!-- content -->
+            <div class="bottomNav">
+                <button type="button" name="buttonPrev" class="bottomNav__button bottomNav__button_prev">Назад</button>
+                <ul class="bottomNav__list bottomNavList">
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">1</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">2</a></li>
+                    <li class="bottomNavList__item bottomNavList__item_active"><a href="#" class="bottomNavList__link">3</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">4</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">...</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">5</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">6</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">7</a></li>
+                    <li class="bottomNavList__item"><a href="#" class="bottomNavList__link">8</a></li>
+                </ul>
+                <button type="button" name="buttonNext" class="bottomNav__button bottomNav__button_next">Далее</button>
+            </div><!-- bottomNav -->
+        </main>
+    </div><!-- wrapper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
