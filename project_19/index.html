@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="libs/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/nice-select/nice-select.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="home">
+    <div class="wrapper">
+        <header>
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <section class="navigation">
+                            <div class="navigation__overlay"></div>
+                            <div class="nav-container">
+                                <div class="headerLogo">
+                                    <figure class="headerLogo__figure"><a href="#" class="headerLogo__link"><img src="img/logo_white.svg" alt="" class="headerLogo__img"></a></figure>
+                                </div>
+                                <nav role="navigation">
+                                    <div class="nav-mobile">
+                                        <a id="nav-toggle" href="#!"><span></span></a>
+                                    </div>
+                                    <ul class="navList">
+                                        <li class="navList__item">
+                                            <a href="#" class="navList__link">sport events</a>
+                                            <ul class="nav-dropdown">
+                                                <li class="navList__item"><a href="#">SubMenu1</a></li>
+                                                <li class="navList__item"><a href="#">SubMenu2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navList__item">
+                                            <a href="#" class="navList__link">for organizers</a>
+                                            <ul class="nav-dropdown">
+                                                <li class="navList__item"><a href="#">SubMenu1</a></li>
+                                                <li class="navList__item"><a href="#">SubMenu2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navList__item navList__item_selected navList__item_btn"><a href="#" class="navList__link" data-toggle="modal" data-target="#signUpFormModal">sign up</a></li>
+                                        <li class="navList__item  navList__item_btn"><a href="#" class="navList__link"  data-toggle="modal" data-target="#loginModal">log in</a></li>
+                                    </ul>
+                                </nav>
+                            </div><!-- nav-container -->
+                            <div class="selectLang">
+                                <div class="selectLang__selectWrapper">
+                                    <select name="selectLang" id="langSelect" class="selectLang__select select" aria-label="select language">
+                                        <option value="en">English</option>
+                                        <option value="he">Hebrew</option>
+                                    </select>
+                                </div>
+                            </div><!-- selectLang -->
+                        </section><!-- navigation -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="topCarousel-section topCarousel-section ">
+                <div class="topCarousel-wrapper ">
+                    <div class="topCarousel__content">
+                        <h1 class="topCarousel__title">Come Be a Part of Something <br> <span>Bigger</span> then Yourself</h1>
+                        <form action="#" role="search" class="topCarousel__form topForm">
+                            <div class="form-row no-gutters">
+                                <div class="col">
+                                    <div class="topForm__inputWrapper">
+                                        <input type="search" placeholder="Search for Athletes" class="topForm__input" aria-label="search for athletes">
+                                        <button type="submit" name="topFormSubmit" class="topForm__submit"><i class="icon-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- topCarousel__content -->
+                    <div class="topCarousel owl-carousel owl-theme carouselCommon " id="topCarousel">
+                        <figure class="carouselCommon__figure topCarousel__figure"><img src="img/home/img1.jpg" alt="" class="carouselCommon__img"></figure>
+                        <figure class="carouselCommon__figure topCarousel__figure"><img src="img/home/img1.jpg" alt="" class="carouselCommon__img"></figure>
+                        <figure class="carouselCommon__figure topCarousel__figure "><img src="img/home/img1.jpg" alt="" class="carouselCommon__img"></figure>
+                    </div><!-- topCarousel -->
+                </div><!-- topCarousel-wrapper -->
+            </section><!-- topCarousel-section -->
+            <section class="events-section">
+                <div class="section-wrapper">
+                    <div class="container-fluid px-0">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <div class="events">
+                                    <form action="#" class="events__search eventsSearch">
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <div class="eventsSearch__inputWrapper">
+                                                    <input type="search" placeholder="Search Sport Events" class="eventsSearch__input" aria-label="search for athletes">
+                                                    <button type="submit" name="eventsSearchSubmit" class="eventsSearch__submit"><i class="icon-search"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="events__filter eventsFilter">
+                                        <div class="eventsFilter__container">
+                                            <figure class="eventsFilter__figure"><i class="icon-filter"></i></figure>
+                                            <div class="eventsFilter__container eventsFilter__container_column">
+                                                <p class="eventsFilter__text">filter search results</p>
+                                                <div class="eventsFilter__items">
+                                                    <div class="eventsFilter__selectWrapper">
+                                                        <select name="selectCountry" id="selectCountry" class="eventsFilter__select select" aria-label="select country">
+                                                            <option value="" disabled selected hidden>Country</option>
+                                                            <option value="en">England</option>
+                                                            <option value="fr">France</option>
+                                                            <option value="ge">Germany</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="eventsFilter__selectWrapper">
+                                                        <select name="selectSportType" id="selectSportType" class="eventsFilter__select select" aria-label="select sport type">
+                                                            <option value="" disabled selected hidden>Sport Type</option>
+                                                            <option value="swim">Swimming</option>
+                                                            <option value="run">Running</option>
+                                                            <option value="race">Race</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="eventsFilter__selectWrapper">
+                                                        <select name="selectDuration" id="selectDuration" class="eventsFilter__select select" aria-label="select duration">
+                                                            <option value="" disabled selected hidden>Duration</option>
+                                                            <option value="100m">100m</option>
+                                                            <option value="1000m">1000m</option>
+                                                            <option value="10km">10km</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="eventsFilter__selectWrapper">
+                                                        <select name="selectMonth" id="selectMonth" class="eventsFilter__select select" aria-label="select month">
+                                                            <option value="" disabled selected hidden>Month</option>
+                                                            <option value="jan">January</option>
+                                                            <option value="feb">February</option>
+                                                            <option value="mar">March</option>
+                                                        </select>
+                                                    </div>
+                                                </div><!-- eventsFilter__items -->
+                                            </div><!-- eventsFilter__container_column -->
+                                        </div><!-- eventsFilter__container -->
+                                        <div class="eventsFilter__container">
+                                            <div class="eventsFilter__linkWrapper">
+                                                <div class="eventsFilter__circles">
+                                                    <div class="eventsFilter__circle"></div>
+                                                    <div class="eventsFilter__circle"></div>
+                                                    <div class="eventsFilter__circle"></div>
+                                                    <div class="eventsFilter__circle"></div>
+                                                </div>
+                                                <a href="#" class="eventsFilter__link">most popular events</a>
+                                            </div>
+                                        </div>
+                                    </div><!-- eventsFilter -->
+                                    <div class="events-wrapper">
+                                        <div class="events__item eventsItem eventsItem_begin">
+                                            <p class="eventsItem__h2"><i class="icon-calendar"></i>02</p>
+                                            <h2 class="eventsItem__title">February 2018 <br> Events</h2>
+                                        </div><!-- eventsItem -->
+                                        <div class="eventsItem">
+                                            <figure class="eventsItem__figure"><i class="icon-swim"></i></figure>
+                                            <h2 class="eventsItem__title">kineret swimming <br>race</h2>
+                                            <p class="eventsItem__text">february 2nd, 2018</p>
+                                            <a href="#" class="eventsItem__link">registration</a>
+                                        </div><!-- eventsItem -->
+                                        <div class="eventsItem">
+                                            <figure class="eventsItem__figure"><i class="icon-run"></i></figure>
+                                            <h2 class="eventsItem__title">berlin running <br>race</h2>
+                                            <p class="eventsItem__text">february 10th, 2018</p>
+                                            <a href="#" class="eventsItem__link">registration</a>
+                                        </div><!-- eventsItem -->
+                                        <div class="eventsItem eventsItem_pt19">
+                                            <figure class="eventsItem__figure"><i class="icon-ride"></i></figure>
+                                            <h2 class="eventsItem__title">tour de france <br>race</h2>
+                                            <p class="eventsItem__text">february 12th, 2018</p>
+                                            <a href="#" class="eventsItem__link">registration</a>
+                                        </div><!-- eventsItem -->
+                                        <div class="eventsItem">
+                                            <figure class="eventsItem__figure"><i class="icon-run"></i></figure>
+                                            <h2 class="eventsItem__title">berlin running <br>race</h2>
+                                            <p class="eventsItem__text">february 10th, 2018</p>
+                                            <a href="#" class="eventsItem__link">registration</a>
+                                        </div><!-- eventsItem -->
+                                        <div class="events__item eventsItem eventsItem_begin">
+                                            <p class="eventsItem__h2"><i class="icon-calendar"></i>03</p>
+                                            <h2 class="eventsItem__title">March 2018 <br> Events</h2>
+                                        </div><!-- eventsItem -->
+                                        <div class="eventsItem">
+                                            <figure class="eventsItem__figure"><i class="icon-run"></i></figure>
+                                            <h2 class="eventsItem__title">berlin running <br>race</h2>
+                                            <p class="eventsItem__text">february 10th, 2018</p>
+                                            <a href="#" class="eventsItem__link">registration</a>
+                                        </div><!-- eventsItem -->
+                                        <div class="eventsItem eventsItem_pt19">
+                                            <figure class="eventsItem__figure"><i class="icon-ride"></i></figure>
+                                            <h2 class="eventsItem__title">tour de france <br>race</h2>
+                                            <p class="eventsItem__text">february 12th, 2018</p>
+                                            <a href="#" class="eventsItem__link">registration</a>
+                                        </div><!-- eventsItem -->
+                                    </div>
+                                    <a href="#" class="eventsItem__link eventsItem__link_black">more events</a>
+                                </div><!-- events -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- events-section -->
+            <section class="about-section ">
+                <div class="section-wrapper">
+                    <div class="container-fluid px-0">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <div class="about">
+                                    <figure class="about__figure parallax-for"><img src="img/home/img3.png" alt="img3" class="about__img "></figure>
+                                    <div class="about__container">
+                                        <h2 class="about__title">Nemo Enim Ipsam <br> Voluptatem.</h2>
+                                        <p class="about__subtitle">Excepteur sint occaecat</p>
+                                        <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div><!-- about -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- about-section -->
+            <section class="download-section">
+                <div class="section-wrapper">
+                    <div class="container-fluid px-0">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <div class="download">
+                                    <div class="download__container">
+                                        <h2 class="download__title">download <img src="img/home/logo_sm2.svg" alt="logo"> events app</h2>
+                                        <p class="download__text">Hurry up so you could catch the next big race! Available now on Google Play and the Appstore.</p>
+                                        <div class="download__buttons">
+                                            <figure class="download__button"><a href="#" class="download__link"><img src="img/home/apple_button.svg" alt="apple button" class="download__img"></a></figure>
+                                            <figure class="download__button"><a href="#" class="download__link"><img src="img/home/google_button.svg" alt="google button" class="download__img"></a></figure>
+                                        </div>
+                                    </div>
+                                    <figure class="download__figure"><img src="img/home/app_photo.png" alt="img4" class="download__img img-fluid"></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="loginModal">
+                <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                          <div class="modal-header">
+
+                          </div>
+                          <div class="modal-body">
+                                <form action="#" class="loginModalForm">
+                                    <h5 class="loginModalForm__title" id="loginlModalLabel">Login</h5>
+                                    <div class="loginModalForm__inputWrapper"><input type="text" class="loginModalForm__input" placeholder="User Name"></div>
+                                    <div class="loginModalForm__inputWrapper loginModalForm__inputWrapper_pass"><input type="password" class="loginModalForm__input" placeholder="******"></div>
+                                    <div class="loginModalForm__container">
+                                        <a href="#" class="loginModalForm__link">forgot password?</a>
+                                        <div class="loginModalForm__buttonWrapper">
+                                            <button type="submit" name="loginModalSubmit" class="loginModalForm__submit">Login</button>
+                                             <a href="#" class="loginModal__link" id="loginLink">Or Sign Up</a>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="signUp">
+                                    <h5 class="signUp__title">Sign Up</h5>
+                                    <p class="signUp__text">Register to our site so you could be a part of the next bi race. Its for free!</p>
+                                     <button type="button" name="signUpButton" class="signUp__button" id="signUpButton">Sign Up</button>
+                                </div>
+                          </div><!-- modal-body -->
+                          <div class="modal-footer">
+
+                          </div>
+                      </div><!-- modal-content -->
+                  </div><!-- modal-dialog -->
+                </div><!-- modal -->
+            </div><!-- loginModal -->
+            <div class="signUpFormModal">
+                <div class="modal fade" id="signUpFormModal" tabindex="-1" role="dialog" aria-labelledby="signUpFormLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                          <div class="modal-header">
+                                <h5 class="modal-title" id="signUpFormLabel">Sign Up Form</h5>
+                          </div>
+                          <div class="modal-body">
+                              <form action="#" class="signUpForm">
+                                  <div class="signUpForm__container signUpForm__container_jstart">
+                                      <div class="signUpForm__textWrapper signUpForm__textWrapper_name">
+                                          <input type="text" name="" value="" class="signUpForm__input" placeholder="Surname" aria-label="user surname">
+                                      </div>
+                                      <div class="signUpForm__textWrapper signUpForm__textWrapper_name">
+                                          <input type="text" name="" value="" class="signUpForm__input" placeholder="First Name" aria-label="user firstname">
+                                      </div>
+                                  </div>
+                                  <div class="signUpForm__top">
+                                      <div class="signUpForm__container">
+                                          <figure class="signUpForm__figure"><i class="icon-avatar"></i></figure>
+                                          <div class="signUpForm__container signUpForm__container_column signUpForm__container_start">
+                                              <p class="signUpForm__text">edit your personal information</p>
+                                              <a href="#" class="signUpForm__link">set profile picture</a>
+                                          </div>
+                                      </div>
+                                      <div class="signUpForm__container signUpForm__container_end">
+                                          <label class="signUpForm__label signUpForm__radioContainer" for="male">
+                                              <input type="radio" name="gender" id="male" value="" checked>
+                                              <span class="signUpForm__radioCheckmark"></span>Male
+                                          </label>
+                                          <label class="signUpForm__label signUpForm__radioContainer" for="female">
+                                              <input type="radio" name="gender" id="female" value="">
+                                              <span class="signUpForm__radioCheckmark"></span>
+                                                  Female
+                                          </label>
+                                      </div>
+                                  </div><!-- signUpForm__top -->
+                                  <div class="signUpForm__container signUpForm__container_inputs">
+                                      <div class="signUpForm__container  signUpForm__container_column">
+                                          <div class="signUpForm__selectWrapper">
+                                              <select name="country"  class="signUpForm__select select" aria-label="select country ">
+                                                  <option value="is">Israel</option>
+                                                  <option value="en">England</option>
+                                                  <option value="fr">France</option>
+                                              </select>
+                                          </div>
+                                          <div class="signUpForm__selectWrapper">
+                                              <select name="city"  class="signUpForm__select select" aria-label="select city ">
+                                                  <option value="ta">Tel Aviv</option>
+                                                  <option value="ln">London</option>
+                                                  <option value="pa">Paris</option>
+                                              </select>
+                                          </div>
+                                          <div class="signUpForm__textWrapper">
+                                              <input type="text" name="" value="" class="signUpForm__input" placeholder="Nachmani 65" aria-label="user street">
+                                          </div>
+                                          <div class="signUpForm__textWrapper">
+                                              <input type="text" name="" value="" class="signUpForm__input" placeholder="6435578" aria-label="user post code">
+                                          </div>
+                                      </div>
+                                      <div class="signUpForm__container  signUpForm__container_column">
+                                          <div class="signUpForm__textWrapper">
+                                              <input type="email" name="" value="" class="signUpForm__input" placeholder="Jovi2019@gmail.com" aria-label="user email">
+                                          </div>
+                                          <div class="signUpForm__textWrapper">
+                                              <input type="text" name="" value="" class="signUpForm__input" placeholder="+937" aria-label="user country phone code">
+                                          </div>
+                                          <div class="signUpForm__textWrapper">
+                                              <input type="text" name="" value="" class="signUpForm__input" placeholder="547123" aria-label="user phone">
+                                          </div>
+                                          <div class="signUpForm__textWrapper">
+                                              <input type="password" name="" value="" class="signUpForm__input" placeholder="******" aria-label="user password">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="signUpForm__submitWrapper banner">
+                                      <button type="submit" name="signUpFormSubmit" class="signUpForm__submit">Submit</button>
+                                  </div>
+                              </form>
+                          </div><!-- modal-body -->
+                          <div class="modal-footer">
+                          </div>
+                      </div><!-- modal-content -->
+                  </div><!-- modal-dialog -->
+                </div><!-- modal -->
+            </div><!-- signUpFormModal -->
+        </main>
+        <footer class="footer">
+            <div class="footerMain">
+                <ul class="footerMain__list footerMainList">
+                    <h3 class="footerMainList__title">sport events</h3>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu one</a></li>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu two</a></li>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu three</a></li>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu four</a></li>
+                </ul>
+                <ul class="footerMain__list footerMainList">
+                    <h3 class="footerMainList__title">for organizers</h3>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">team</a></li>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">history</a></li>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">data protection</a></li>
+                    <li class="footerMainList__item"><a href="#" class="footerMainList__link">location</a></li>
+                </ul>
+                <ul class="footerMain__list footerMainList">
+                    <h3 class="footerMainList__title">about us</h3>
+                    <li class="footerMainList__item"><a href="mailto:yourname@yoursite.com" class="footerMainList__link">yourname@yoursite.com</a></li>
+                    <li class="footerMainList__item">123 Street Name, Apt. 5 <br> City, State, Country</li>
+                    <li class="footerMainList__item"><a href="tel:+000000000000" class="footerMainList__link">+00 000 000 0000</a></li>
+                </ul>
+                <ul class="footerMain__list footerMainList">
+                    <h3 class="footerMainList__title footerMainList__title_mb30">follow us</h3>
+                    <li class="footerMainList__item">
+                        <ul class="footerMain__social footerMainSocial">
+                            <li class="footerMainList__item"><a href="#" class="footerMainList__link"><i class="icon-facebook"></i></a></li>
+                            <li class="footerMainList__item"><a href="#" class="footerMainList__link"><i class="icon-instagram"></i></a></li>
+                            <li class="footerMainList__item"><a href="#" class="footerMainList__link"><i class="icon-twitter"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- footerMain -->
+            <div class="footerBottom">
+                <figure class="footerBottom__figure"><a href="#" class="footerBottom__link"><img src="img/logo_white.svg" alt="logo" class="footerBottom__img"></a></figure>
+                <p class="footerBottom__text">&copy; 2017 X-race</p>
+            </div><!-- footerBottom -->
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <script src="libs/owlcarousel/owl.carousel.min.js" charset="utf-8"></script>
+    <script src="libs/nice-select/jquery.nice-select.min.js" charset="utf-8"></script>
+    <script src="libs/paroller/jquery.paroller.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
