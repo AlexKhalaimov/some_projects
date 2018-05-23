@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="libs/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/scroll_plugin/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="libs/ion-range_slider/ion.rangeSlider.css">
+    <link rel="stylesheet" href="libs/ion-range_slider/ion.rangeSlider.skinHTML5.css">
+    <link rel="stylesheet" href="libs/chartlist/chartist.min.css">
+    <link rel="stylesheet" href="libs/nice-select/nice-select.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="profile">
+    <div class="wrapper">
+        <header>
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <section class="navigation">
+                            <div class="navigation__overlay"></div>
+                            <div class="nav-container">
+                                <div class="headerLogo">
+                                    <figure class="headerLogo__figure"><a href="#" class="headerLogo__link"><img src="img/logo_white.svg" alt="" class="headerLogo__img"></a></figure>
+                                </div>
+                                <nav role="navigation">
+                                    <div class="nav-mobile">
+                                        <a id="nav-toggle" href="#!"><span></span></a>
+                                    </div>
+                                    <ul class="navList">
+                                        <li class="navList__item">
+                                            <a href="#" class="navList__link">sport events</a>
+                                            <ul class="nav-dropdown">
+                                                <li class="navList__item"><a href="#">SubMenu1</a></li>
+                                                <li class="navList__item"><a href="#">SubMenu2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navList__item">
+                                            <a href="#" class="navList__link">for organizers</a>
+                                            <ul class="nav-dropdown">
+                                                <li class="navList__item"><a href="#">SubMenu1</a></li>
+                                                <li class="navList__item"><a href="#">SubMenu2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navList__item navList__item_login">
+                                            <div class="selectLang__selectWrapper">
+                                                <select name="login"  class="selectLang__select select" aria-label="login or logout">
+                                                    <option value="some_name">Yoav Shahaf</option>
+                                                    <option value="logout">Log Out</option>
+                                                </select>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                            </div><!-- nav-container -->
+                            <div class="selectLang">
+                                <div class="selectLang__selectWrapper">
+                                    <select name="selectLang" id="langSelect" class="selectLang__select select" aria-label="select language">
+                                        <option value="en">English</option>
+                                        <option value="he">Hebrew</option>
+                                    </select>
+                                </div>
+                            </div><!-- selectLang -->
+                        </section><!-- navigation -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="profileInfo-section">
+                <div class="section-wrapper">
+                    <aside class="profileAside">
+                        <h2 class="profileAside__title">menu</h2>
+                        <ul class="profileAside__list profileAsideList">
+                            <li class="profileAsideList__item active-item"><a href="#personalInfo" class="profileAsideList__link profileAsideList__link_info scroll-link">personal information</a></li>
+                            <li class="profileAsideList__item"><a href="#personalRaces" class="profileAsideList__link profileAsideList__link_races scroll-link">my races</a></li>
+                            <li class="profileAsideList__item"><a href="#personalStats" class="profileAsideList__link profileAsideList__link_stats scroll-link">personal stats</a></li>
+                        </ul>
+                    </aside>
+                    <div class="profileInfo" id="profileInfo">
+                            <div class="profileInfoItem" id="personalInfo">
+                                <h2 class="profileInfoItem__title profileInfoItem__title_info" role="button" id="buttonCollapse1">personal information</h2>
+                                <div class="profileInfoItem__content visibleContent contentCollapse" id="contentCollapse1">
+                                    <form action="#" class="profileInfoItem__form personalForm">
+                                        <div class="personalForm__container personalForm__container_w50">
+                                            <p class="personalForm__text personalForm__text_green">Shahaf</p>
+                                            <p class="personalForm__text personalForm__text_green">Yoav</p>
+                                        </div>
+                                        <div class="personalForm__top">
+                                            <div class="personalForm__container">
+                                                <figure class="personalForm__figure"><i class="icon-avatar"></i></figure>
+                                                <div class="personalForm__container personalForm__container_column personalForm__container_start">
+                                                    <p class="personalForm__text">edit your personal information</p>
+                                                    <a href="#" class="personalForm__link">set profile picture</a>
+                                                </div>
+                                            </div>
+                                            <div class="personalForm__container personalForm__container_end">
+                                                <label class="personalForm__label personalForm__radioContainer" for="male">
+                                                    <input type="radio" name="gender" id="male" value="" checked>
+                                                    <span class="personalForm__radioCheckmark"></span>Male
+                                                </label>
+                                                <label class="personalForm__label personalForm__radioContainer" for="female">
+                                                    <input type="radio" name="gender" id="female" value="">
+                                                    <span class="personalForm__radioCheckmark"></span>
+                                                        Female
+                                                </label>
+                                            </div>
+                                        </div><!-- personalForm__top -->
+                                        <div class="personalForm__container personalForm__container_inputs">
+                                            <div class="personalForm__container  personalForm__container_column">
+                                                <div class="personalForm__selectWrapper">
+                                                    <select name="country"  class="personalForm__select select" aria-label="select country ">
+                                                        <option value="is">Israel</option>
+                                                        <option value="en">England</option>
+                                                        <option value="fr">France</option>
+                                                    </select>
+                                                </div>
+                                                <div class="personalForm__selectWrapper">
+                                                    <select name="city"  class="personalForm__select select" aria-label="select city ">
+                                                        <option value="ta">Tel Aviv</option>
+                                                        <option value="ln">London</option>
+                                                        <option value="pa">Paris</option>
+                                                    </select>
+                                                </div>
+                                                <div class="personalForm__textWrapper">
+                                                    <input type="text" name="" value="" class="personalForm__input" placeholder="Nachmani 65" aria-label="user street">
+                                                </div>
+                                                <div class="personalForm__textWrapper">
+                                                    <input type="text" name="" value="" class="personalForm__input" placeholder="6435578" aria-label="user post code">
+                                                </div>
+                                            </div>
+                                            <div class="personalForm__container  personalForm__container_column">
+                                                <div class="personalForm__textWrapper">
+                                                    <input type="email" name="" value="" class="personalForm__input" placeholder="Jovi2019@gmail.com" aria-label="user email">
+                                                </div>
+                                                <div class="personalForm__textWrapper">
+                                                    <input type="text" name="" value="" class="personalForm__input" placeholder="+937" aria-label="user country phone code">
+                                                </div>
+                                                <div class="personalForm__textWrapper">
+                                                    <input type="text" name="" value="" class="personalForm__input" placeholder="547123" aria-label="user phone">
+                                                </div>
+                                                <div class="personalForm__textWrapper">
+                                                    <input type="password" name="" value="" class="personalForm__input" placeholder="******" aria-label="user password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="personalForm__submitWrapper banner"><button type="submit" name="personalFormSubmit" class="personalForm__submit">Save</button></div>
+                                    </form>
+                                </div>
+                            </div><!-- profileInfoItem -->
+                            <div class="profileInfoItem" id="personalRaces">
+                                <h2 class="profileInfoItem__title profileInfoItem__title_races" role="button" id="buttonCollapse2">my races</h2>
+                                <div class="profileInfoItem__content contentCollapse personalRaces" id="contentCollapse2">
+                                    <form action="#" class="personalRaces__search personalSearch">
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <div class="personalSearch__inputWrapper">
+                                                    <input type="search" placeholder="Search Sport Events" class="personalSearch__input" aria-label="search for athletes">
+                                                    <button type="submit" name="personalSearchSubmit" class="personalSearch__submit"><i class="icon-search"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form><!-- personalSearch -->
+                                    <div class="personalRaces__filter personalRacesFilter">
+                                        <div class="personalRacesFilter__container">
+                                            <figure class="personalRacesFilter__figure"><i class="icon-filter"></i></figure>
+                                            <div class="personalRacesFilter__container personalRacesFilter__container_column">
+                                                <p class="personalRacesFilter__text">filter search results</p>
+                                                <div class="personalRacesFilter__items">
+                                                    <div class="personalRacesFilter__selectWrapper">
+                                                        <select name="selectCountry" id="selectCountry" class="personalRacesFilter__select select" aria-label="select country">
+                                                            <option value="" disabled selected hidden>Country</option>
+                                                            <option value="en">England</option>
+                                                            <option value="fr">France</option>
+                                                            <option value="ge">Germany</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="personalRacesFilter__selectWrapper">
+                                                        <select name="selectSportType" id="selectSportType" class="personalRacesFilter__select select" aria-label="select sport type">
+                                                            <option value="" disabled selected hidden>Sport Type</option>
+                                                            <option value="swim">Swimming</option>
+                                                            <option value="run">Running</option>
+                                                            <option value="race">Race</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="personalRacesFilter__selectWrapper">
+                                                        <select name="selectDuration" id="selectDuration" class="personalRacesFilter__select select" aria-label="select duration">
+                                                            <option value="" disabled selected hidden>Duration</option>
+                                                            <option value="100m">100m</option>
+                                                            <option value="1000m">1000m</option>
+                                                            <option value="10km">10km</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="personalRacesFilter__selectWrapper">
+                                                        <select name="selectMonth" id="selectMonth" class="personalRacesFilter__select select" aria-label="select month">
+                                                            <option value="" disabled selected hidden>Month</option>
+                                                            <option value="jan">January</option>
+                                                            <option value="feb">February</option>
+                                                            <option value="mar">March</option>
+                                                        </select>
+                                                    </div>
+                                                </div><!-- personalRacesFilter__items -->
+                                            </div><!-- personalRacesFilter__container_column -->
+                                        </div><!-- personalRacesFilter__container -->
+                                    </div><!-- personalRacesFilter -->
+                                    <div class="races-wrapper">
+                                                <div class="racesItem">
+                                                    <figure class="racesItem__figure"><i class="icon-swim"></i></figure>
+                                                    <h2 class="racesItem__title">kineret swimming <br>race</h2>
+                                                    <p class="racesItem__text">february 2nd, 2018</p>
+                                                    <a href="#" class="racesItem__link">details</a>
+                                                </div><!-- racesItem -->
+                                                <div class="racesItem">
+                                                    <figure class="racesItem__figure"><i class="icon-run"></i></figure>
+                                                    <h2 class="racesItem__title">berlin running <br>race</h2>
+                                                    <p class="racesItem__text">february 10th, 2018</p>
+                                                    <a href="#" class="racesItem__link">details</a>
+                                                </div><!-- racesItem -->
+                                                <div class="racesItem racesItem_pt19">
+                                                    <figure class="racesItem__figure"><i class="icon-ride"></i></figure>
+                                                    <h2 class="racesItem__title">tour de france <br>race</h2>
+                                                    <p class="racesItem__text">february 12th, 2018</p>
+                                                    <a href="#" class="racesItem__link">details</a>
+                                                </div><!-- racesItem -->
+
+
+
+
+                                    </div><!-- races-wrapper -->
+                                    <a href="#" class="personalRaces__link">more events</a>
+                                </div><!-- personalRaces -->
+                            </div><!-- profileInfoItem -->
+                            <div class="profileInfoItem" id="personalStats">
+                                <h2 class="profileInfoItem__title profileInfoItem__title_stats" role="button" id="buttonCollapse3">personal stats</h2>
+                                <div class="profileInfoItem__content contentCollapse" id="contentCollapse3">
+                                    <div class="profileInfoItem__boxes profileInfoItem__boxes_row">
+                                        <div class="profileInfoItem__box profileInfoItem__box_amount">
+                                            <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">Amount of Races</h3>
+                                            <p class="profileInfoItem__text profileInfoItem__text_grey">
+                                                Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
+                                            </p>
+                                            <i class="icon-screw"></i>
+                                        </div><!-- profileInfoItem__box -->
+                                        <div class="profileInfoItem__box profileInfoItem__box_best" id="barCharts">
+                                            <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">Percentages in best races</h3>
+                                            <div class="profileInfoItem__percentWrapper">
+                                                <span class="profileInfoItem__percentName">Berlin Marathon</span>
+                                                <span class="profileInfoItem__percentAmount countUp counter">56</span>
+                                                <div class="ct-chart3 barChart"></div>
+                                            </div>
+                                            <div class="profileInfoItem__percentWrapper">
+                                                <span class="profileInfoItem__percentName">Tel Aviv Night Run</span>
+                                                <span class="profileInfoItem__percentAmount countUp counter">78</span>
+                                                <div class="ct-chart4 barChart"></div>
+                                            </div>
+                                            <div class="profileInfoItem__percentWrapper">
+                                                <span class="profileInfoItem__percentName">Iraq Triathelon</span>
+                                                <p class="profileInfoItem__percentAmount countUp counter">32</p>
+                                                <div class="ct-chart5 barChart"></div>
+                                            </div>
+                                        </div><!-- profileInfoItem__box -->
+                                        <div class="profileInfoItem__box profileInfoItem__box_average" id="donutChart">
+                                            <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">Average Percentage</h3>
+                                            <div class="circle-wrapper">
+                                                <div class="ct-chart2"></div>
+                                                <span class="counter">25</span>
+                                                <span>Basic Model</span>
+                                            </div>
+
+                                        </div>
+                                    </div><!-- profileInfoItem__boxes -->
+                                    <div class="profileInfoItem__boxes profileInfoItem__boxes_row">
+                                        <div class="profileInfoItem__boxes profileInfoItem__boxes_races">
+                                            <div class="profileInfoItem__box profileInfoItem__box_mb40">
+                                                <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">best race</h3>
+                                                <p class="profileInfoItem__text  profileInfoItem__text_green">berlin marathon</p>
+                                                <p class="profileInfoItem__text  profileInfoItem__text_black">Rank: 1st Place</p>
+                                            </div>
+                                            <div class="profileInfoItem__box">
+                                                <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">worst race</h3>
+                                                <p class="profileInfoItem__text  profileInfoItem__text_green">kenia</p>
+                                                <p class="profileInfoItem__text  profileInfoItem__text_black">Rank: 45th place</p>
+                                            </div>
+                                        </div><!-- profileInfoItem__boxes -->
+                                        <div class="profileInfoItem__box profileInfoItem__box_table">
+                                            <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">additional stats</h3>
+                                            <table class="profileInfoItem__table profileInfoItemTable">
+                                                <thead>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">First Race</p>
+                                                            <p class="profileInfoItemTable__btmText">January 1 st, 2017</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Last Race</p>
+                                                            <p class="profileInfoItemTable__btmText">August 10th, 2017</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">number of races</p>
+                                                            <p class="profileInfoItemTable__btmText">11</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">popular Race Type</p>
+                                                            <p class="profileInfoItemTable__btmText">Running</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Longest Distance</p>
+                                                            <p class="profileInfoItemTable__btmText">42km</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Shortest Distance</p>
+                                                            <p class="profileInfoItemTable__btmText">10km</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Best Result</p>
+                                                            <p class="profileInfoItemTable__btmText">3:06hr, 42km</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Best rank</p>
+                                                            <p class="profileInfoItemTable__btmText">1st Place</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">main distance</p>
+                                                            <p class="profileInfoItemTable__btmText">42km</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">shortest distance</p>
+                                                            <p class="profileInfoItemTable__btmText">10km</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Main country</p>
+                                                            <p class="profileInfoItemTable__btmText">Israel</p>
+                                                        </td>
+                                                        <td class="profileInfoItemTable__td">
+                                                            <p class="profileInfoItemTable__topText">Worst Rank</p>
+                                                            <p class="profileInfoItemTable__btmText">45th Place</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- profileInfoItem__box -->
+                                    </div>
+
+                                    <div class="profileInfoItem__box profileInfoItem__box_chart" id="lineChart">
+                                        <h3 class="profileInfoItem__boxTitle profileInfoItem__boxTitle_black">improvement curve</h3>
+                                        <div class="profileInfoItem__chart ct-chart" id="profileChart"></div>
+                                    </div>
+                                </div><!-- profileInfoItem__content -->
+                            </div><!-- profileInfoItem -->
+                    </div><!-- profileInfo -->
+                </div>
+            </section><!-- profileInfo-section -->
+        </main>
+        <footer class="footer">
+            <div class="section-wrapper">
+                <div class="footerMain">
+                    <ul class="footerMain__list footerMainList">
+                        <li class="footerMainList__title">sport personalRaces</li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu one</a></li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu two</a></li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu three</a></li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">menu four</a></li>
+                    </ul>
+                    <ul class="footerMain__list footerMainList">
+                        <li class="footerMainList__title">for organizers</li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">team</a></li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">history</a></li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">data protection</a></li>
+                        <li class="footerMainList__item"><a href="#" class="footerMainList__link">location</a></li>
+                    </ul>
+                    <ul class="footerMain__list footerMainList">
+                        <li class="footerMainList__title">about us</li>
+                        <li class="footerMainList__item"><a href="mailto:yourname@yoursite.com" class="footerMainList__link">yourname@yoursite.com</a></li>
+                        <li class="footerMainList__item">123 Street Name, Apt. 5 <br> City, State, Country</li>
+                        <li class="footerMainList__item"><a href="tel:+000000000000" class="footerMainList__link">+00 000 000 0000</a></li>
+                    </ul>
+                    <ul class="footerMain__list footerMainList">
+                        <li class="footerMainList__title footerMainList__title_mb30">follow us</li>
+                        <li class="footerMainList__item">
+                            <ul class="footerMain__social footerMainSocial">
+                                <li class="footerMainList__item"><a href="#" class="footerMainList__link"><i class="icon-facebook"></i></a></li>
+                                <li class="footerMainList__item"><a href="#" class="footerMainList__link"><i class="icon-instagram"></i></a></li>
+                                <li class="footerMainList__item"><a href="#" class="footerMainList__link"><i class="icon-twitter"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- footerMain -->
+                <div class="footerBottom">
+                    <figure class="footerBottom__figure"><a href="#" class="footerBottom__link"><img src="img/logo_white.svg" alt="logo" class="footerBottom__img"></a></figure>
+                    <p class="footerBottom__text">&copy; 2017 X-race</p>
+                </div><!-- footerBottom -->
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <script src="libs/waipoints/jquery.waypoints.min.js" charset="utf-8"></script>
+    <script src="libs/scrollreveal/scrollreveal.min.js" charset="utf-8"></script>
+    <script src="libs/countup/jquery.countup.js" charset="utf-8"></script>
+    <script src="libs/owlcarousel/owl.carousel.min.js" charset="utf-8"></script>
+    <script src="libs/scroll_plugin/jquery.mCustomScrollbar.js" charset="utf-8"></script>
+    <script src="libs/ion-range_slider/ion.rangeSlider.min.js" charset="utf-8"></script>
+    <script src="libs/chartlist/chartist.min.js" charset="utf-8"></script>
+    <script src="libs/nice-select/jquery.nice-select.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
